@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Pro neuer Analyse: einen <item>-Block OBEN einfügen, lastBuildDate anpassen. Datumsformat: Fri, 28 Aug 2026 09:00:00 +0200 -->
+<rss version="2.0">
+<channel>
+  <title>a schley, dissected (en)</title>
+  <link>https://DEINE-DOMAIN/en/</link>
+  <description>Analyses of football, education, economics and politics. Independent, ad-free.</description>
+  <language>en</language>
+  <lastBuildDate>Fri, 28 Aug 2026 09:00:00 +0200</lastBuildDate>
+
+  <item>
+    <title>no. 01 · The Case (and Fall) of Infantino</title>
+    <link>https://DEINE-DOMAIN/en/analyses/001-the-case-and-fall-of-infantino.html</link>
+    <guid>https://DEINE-DOMAIN/en/analyses/001-the-case-and-fall-of-infantino.html</guid>
+    <pubDate>Fri, 28 Aug 2026 09:00:00 +0200</pubDate>
+    <description>Why the most powerful man in world football does not fall – FIFA on the mafia scale: 85 out of 100.</description>
+  </item>
+
+</channel>
+</rss>
