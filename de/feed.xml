@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Pro neuer Analyse: einen <item>-Block OBEN einfügen, lastBuildDate anpassen. Datumsformat: Wed, 27 Aug 2026 09:00:00 +0200 -->
+<rss version="2.0">
+<channel>
+  <title>a schley, dissected (de)</title>
+  <link>https://DEINE-DOMAIN/de/</link>
+  <description>Analysen zu Fußball, Bildung, Ökonomie und Politik. Unabhängig, ohne Werbung.</description>
+  <language>de</language>
+  <lastBuildDate>Fri, 28 Aug 2026 09:00:00 +0200</lastBuildDate>
+
+  <item>
+    <title>№ 02 · Reparieren unter Beschuss</title>
+    <link>https://DEINE-DOMAIN/de/analysen/002-reparieren-unter-beschuss.html</link>
+    <guid>https://DEINE-DOMAIN/de/analysen/002-reparieren-unter-beschuss.html</guid>
+    <pubDate>Fri, 28 Aug 2026 09:00:00 +0200</pubDate>
+    <description>Warum Russlands Wirtschaft gleichzeitig einen Haushaltsüberschuss meldet und um Benzin ansteht – eine Vermessung des nachhaltigen Schadens durch ukrainische Drohnen.</description>
+  </item>
+
+  <item>
+    <title>№ 01 · Der Fall (des) Infantino</title>
+    <link>https://DEINE-DOMAIN/de/analysen/001-der-fall-des-infantino.html</link>
+    <guid>https://DEINE-DOMAIN/de/analysen/001-der-fall-des-infantino.html</guid>
+    <pubDate>Fri, 28 Aug 2026 09:00:00 +0200</pubDate>
+    <description>Die Hypothese in einem Satz – was gezeigt wird und warum es überrascht.</description>
+  </item>
+
+</channel>
+</rss>
