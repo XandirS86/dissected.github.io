@@ -1,0 +1,269 @@
+/* ============================================================
+   alwy schley — analysen · Designsystem v0.1
+   Eine Schrift. Vier Farben. Ein Raster. Drei Formen.
+   ============================================================ */
+
+/* --- Schrift: Jost, lokal (kein Google-Fonts-Aufruf) ------- */
+@font-face{font-family:'Jost';font-weight:400;font-style:normal;font-display:swap;src:url('fonts/jost-latin-400-normal.woff2') format('woff2')}
+@font-face{font-family:'Jost';font-weight:500;font-style:normal;font-display:swap;src:url('fonts/jost-latin-500-normal.woff2') format('woff2')}
+@font-face{font-family:'Jost';font-weight:700;font-style:normal;font-display:swap;src:url('fonts/jost-latin-700-normal.woff2') format('woff2')}
+
+:root{
+  --weiss:#ffffff;
+  --schwarz:#111111;
+  --rot:#d7261e;
+  --gelb:#f2c200;
+  --blau:#1b4fa0;
+  --grau:#5c5c5c;
+  --grau-hell:#9a9a9a;
+  --linie:#111111;
+
+  --schrift:'Jost',system-ui,sans-serif;
+  --mass:64ch;          /* Zeilenmaß Lesetext */
+  --raster:40px;        /* Grundmodul */
+  --rand:40px;
+  --breite:1120px;
+
+  --akzent:var(--rot);  /* wird pro Analyse überschrieben */
+}
+
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;
+  background:var(--weiss);
+  color:var(--schwarz);
+  font-family:var(--schrift);
+  font-size:17px;
+  line-height:1.7;
+  font-variant-numeric:tabular-nums;
+}
+a{color:inherit;text-decoration:none}
+a:hover{color:var(--akzent)}
+a:focus-visible{outline:3px solid var(--blau);outline-offset:3px}
+img,svg{max-width:100%;height:auto;display:block}
+
+/* --- Seitenrahmen ------------------------------------------- */
+.seite{max-width:var(--breite);margin:0 auto;padding:0 var(--rand)}
+
+/* --- Kopfzeile ---------------------------------------------- */
+.kopfzeile{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:22px 0;border-bottom:3px solid var(--linie);
+  font-size:13px;letter-spacing:.25em;text-transform:lowercase;
+}
+.kopfzeile .marke{font-weight:700}
+.kopfzeile .marke__verb{font-weight:400;color:var(--grau)}
+.kopfzeile nav a{margin-left:28px}
+.kopfzeile nav a[aria-current]{border-bottom:2px solid var(--akzent)}
+
+/* --- Eyebrow / Meta ----------------------------------------- */
+.meta{
+  font-size:12px;letter-spacing:.2em;text-transform:lowercase;
+  color:var(--akzent);font-weight:700;
+}
+.meta .neutral{color:var(--grau-hell);font-weight:400}
+
+/* --- Titel -------------------------------------------------- */
+.titel{
+  font-weight:700;text-transform:uppercase;line-height:.95;
+  letter-spacing:-.01em;margin:0;
+}
+.titel--plakat{font-size:clamp(40px,6.2vw,68px);max-width:14ch}
+.titel--artikel{font-size:clamp(34px,5vw,54px);max-width:14ch}
+.untertitel{font-size:17px;color:var(--grau);max-width:40ch;line-height:1.45;margin:18px 0 0}
+
+/* --- Plakatkopf (Signatur) ---------------------------------- */
+/* Zwei Spalten: links Text, rechts die Komposition.
+   Die Komposition ist pro Analyse frei: beliebig viele .form-Elemente,
+   absolut positioniert, in den vier Farben. */
+.plakat{
+  display:grid;grid-template-columns:3fr 2fr;
+  border-bottom:3px solid var(--linie);
+  min-height:360px;
+}
+.plakat__text{padding:44px var(--rand) 44px 0;display:flex;flex-direction:column;justify-content:center}
+.plakat__text .meta{margin-bottom:16px}
+.komposition{position:relative;overflow:hidden;background:var(--akzent)}
+.form{position:absolute}
+.form--kreis{border-radius:50%}
+.form--quadrat{border-radius:0}
+.form--dreieck{width:0;height:0;background:none!important;border-style:solid;border-color:transparent}
+.form--balken{border-radius:0}
+.rot{background:var(--rot)}
+.gelb{background:var(--gelb)}
+.blau{background:var(--blau)}
+.schwarz{background:var(--schwarz)}
+.weiss{background:var(--weiss)}
+
+/* --- Vorgänger-Leiste (Startseite) -------------------------- */
+.vorgaenger{display:grid;grid-template-columns:repeat(3,1fr)}
+.vorgaenger a{
+  padding:20px var(--rand) 22px 0;border-right:1px solid var(--linie);
+  margin-right:var(--rand);font-size:14px;line-height:1.4;display:block;
+}
+.vorgaenger a:last-child{border-right:0;margin-right:0}
+.vorgaenger .meta{display:block;margin-bottom:6px}
+.vorgaenger .zeichen{
+  display:inline-block;vertical-align:-1px;margin-right:8px;
+  width:10px;height:10px;
+}
+.zeichen--kreis{border-radius:50%}
+.zeichen--dreieck{
+  width:0;height:0;background:none!important;
+  border-left:6px solid transparent;border-right:6px solid transparent;
+  border-bottom:11px solid var(--rot);
+}
+.vorgaenger .thema{display:block;color:var(--grau)}
+.vorgaenger .archiv-link{padding-top:22px;font-size:12px;letter-spacing:.2em;text-transform:lowercase}
+
+/* --- Artikel: Analysekopf ----------------------------------- */
+.analysekopf{
+  display:grid;grid-template-columns:1fr 1fr;
+  border-bottom:1px solid var(--linie);
+}
+.analysekopf__farbe{
+  background:var(--akzent);color:var(--weiss);
+  padding:36px var(--rand) 36px 0;position:relative;overflow:hidden;
+  padding-left:var(--rand);margin-left:calc(-1 * var(--rand));
+}
+.analysekopf__farbe .meta{color:var(--weiss);opacity:.85;font-weight:400}
+.analysekopf__farbe .titel{position:relative;z-index:1}
+.analysekopf__daten{
+  padding:36px 0 36px var(--rand);
+  display:grid;grid-template-columns:1fr 1fr;gap:20px var(--rand);
+  font-size:13px;line-height:1.55;letter-spacing:.04em;color:var(--grau);
+}
+.analysekopf__daten dt{font-weight:500;color:var(--schwarz);text-transform:lowercase;letter-spacing:.15em;font-size:11px}
+.analysekopf__daten dd{margin:2px 0 0}
+.konfidenz{color:var(--akzent);font-weight:500}
+
+/* --- Artikel: Lesekörper ------------------------------------ */
+.artikel{
+  display:grid;grid-template-columns:minmax(0,3fr) minmax(0,1fr);
+  column-gap:var(--rand);padding:48px 0 80px;
+}
+.artikel__text{max-width:var(--mass)}
+.artikel__text > p{margin:0 0 1.4em}
+.artikel__text h2{
+  font-size:13px;letter-spacing:.25em;text-transform:lowercase;font-weight:700;
+  margin:3em 0 1em;padding-top:1em;border-top:1px solid var(--linie);
+}
+.artikel__text h2 .nr{color:var(--akzent);margin-right:12px}
+.hypothese{
+  border-left:3px solid var(--akzent);padding-left:18px;
+  font-size:19px;line-height:1.5;margin:0 0 2em;color:var(--schwarz);
+}
+.artikel__text figure{margin:2.4em 0}
+figcaption{font-size:13px;color:var(--grau);line-height:1.5;margin-top:10px;letter-spacing:.02em}
+figcaption b{color:var(--schwarz);font-weight:500}
+
+/* Marginalien: rechte Spalte, per marginalien.js an sup.ref ausgerichtet */
+.artikel{position:relative}
+.artikel__rand{position:relative}
+.marginalie{
+  position:absolute;left:0;width:100%;
+  font-size:12.5px;line-height:1.5;color:var(--grau);
+  border-top:1px solid var(--linie);padding-top:8px;margin:0 0 2em;
+}
+.marginalie .nr{color:var(--akzent);font-weight:700;margin-right:6px}
+sup.ref{color:var(--akzent);font-weight:700;font-size:.7em;vertical-align:super;margin-left:2px}
+
+/* Tabellen: Linien nur horizontal, Zahlen rechtsbündig */
+table{border-collapse:collapse;width:100%;font-size:14px;margin:0}
+th,td{padding:8px 12px 8px 0;text-align:left;border-bottom:1px solid #ddd;vertical-align:top}
+th{font-weight:500;font-size:11px;letter-spacing:.15em;text-transform:lowercase;color:var(--grau);border-bottom:1px solid var(--linie)}
+td.zahl,th.zahl{text-align:right;font-variant-numeric:tabular-nums}
+tr.hervor td{font-weight:500}
+
+/* --- Archiv ------------------------------------------------- */
+.archiv{display:grid;grid-template-columns:1fr 3fr;column-gap:var(--rand);padding:48px 0 80px}
+.archiv__filter{font-size:13px;letter-spacing:.2em;text-transform:lowercase;line-height:2.2}
+.archiv__filter a{display:block}
+.archiv__filter .zeichen{display:inline-block;width:10px;height:10px;margin-right:10px;vertical-align:-1px}
+.liste{list-style:none;margin:0;padding:0}
+.liste li{
+  display:grid;grid-template-columns:56px 1fr 96px;align-items:baseline;
+  padding:16px 0;border-bottom:1px solid #ddd;font-size:17px;line-height:1.35;
+}
+.liste li:first-child{border-top:1px solid var(--linie)}
+.liste .nr{color:var(--grau-hell);font-weight:500}
+.liste .datum{font-size:12px;color:var(--grau-hell);text-align:right;letter-spacing:.05em}
+.liste .thema{display:block;font-size:13px;color:var(--grau);margin-top:4px;letter-spacing:.04em}
+.liste .zeichen{display:inline-block;width:8px;height:8px;margin-right:10px;vertical-align:1px}
+
+/* --- Fußzeile ----------------------------------------------- */
+.fusszeile{
+  border-top:3px solid var(--linie);padding:24px 0 40px;
+  display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px 40px;
+  font-size:12px;letter-spacing:.2em;text-transform:lowercase;color:var(--grau);
+}
+.fusszeile a{margin-right:24px}
+.fusszeile .motto{text-align:right;max-width:46ch;line-height:1.7}
+@media (max-width:760px){.fusszeile .motto{text-align:left}}
+
+/* --- Mobil -------------------------------------------------- */
+@media (max-width:760px){
+  :root{--rand:20px}
+  .kopfzeile{flex-direction:column;align-items:flex-start;gap:10px}
+  .kopfzeile nav a{margin:0 20px 0 0}
+  .plakat{grid-template-columns:1fr;min-height:0}
+  .plakat__text{padding:32px 0}
+  .komposition{min-height:220px;margin:0 calc(-1 * var(--rand))}
+  .vorgaenger{grid-template-columns:1fr}
+  .vorgaenger a{border-right:0;margin-right:0;border-bottom:1px solid #ddd}
+  .analysekopf{grid-template-columns:1fr}
+  .analysekopf__farbe{margin-right:calc(-1 * var(--rand))}
+  .analysekopf__daten{padding:24px 0}
+  .artikel,.archiv{grid-template-columns:1fr}
+  .artikel__rand{position:static}
+  .marginalie{position:static;width:auto;border-top:0;border-left:2px solid #ddd;padding:0 0 0 12px;margin:0 0 1.4em}
+  .liste li{grid-template-columns:40px 1fr;row-gap:2px}
+  .liste .datum{grid-column:2;text-align:left}
+}
+@media (prefers-reduced-motion:no-preference){
+  .form{transition:transform .5s cubic-bezier(.2,.8,.2,1)}
+  .plakat:hover .form{transform:translate(0,-4px)}
+}
+
+/* --- Erstausgabe: statt Vorgänger-Leiste ---------------------- */
+.folgt{padding:26px 0 40px;font-size:12px;letter-spacing:.2em;text-transform:lowercase;color:var(--grau-hell)}
+.folgt b{color:var(--schwarz);font-weight:500}
+/* --- Textseiten (über, impressum, datenschutz) ---------------- */
+.textseite{padding:48px 0 80px;max-width:var(--mass)}
+.textseite h1{font-size:13px;letter-spacing:.25em;text-transform:lowercase;font-weight:700;margin:0 0 1.5em}
+.textseite h2{font-size:12px;letter-spacing:.2em;text-transform:lowercase;font-weight:500;margin:2.5em 0 .6em;color:var(--grau)}
+.textseite p{margin:0 0 1.2em}
+.luecke{background:#fff3c4;padding:0 4px}
+/* --- Sprachwechsel in der Kopfzeile ---------------------------- */
+.kopfzeile .sprache{margin-left:36px;padding-left:20px;border-left:1px solid var(--linie);color:var(--grau-hell)}
+.kopfzeile .sprache a{margin:0;color:var(--grau)}
+.kopfzeile .sprache span[aria-current]{color:var(--schwarz);font-weight:700}
+@media (max-width:760px){.kopfzeile .sprache{margin-left:0;padding-left:0;border-left:0}}
+
+/* --- Einspruch / Objections (der Seziertisch) ------------------ */
+.einspruch{border-top:3px solid var(--linie);padding:40px 0 64px;display:grid;grid-template-columns:minmax(0,3fr) minmax(0,1fr);column-gap:var(--rand);row-gap:32px}
+.einspruch__kopf{grid-column:1;max-width:var(--mass)}
+.einspruch__kopf h2{font-size:13px;letter-spacing:.25em;text-transform:lowercase;font-weight:700;margin:0 0 14px;color:var(--akzent)}
+.einspruch__kopf p{margin:0 0 10px;font-size:15px;line-height:1.6;color:var(--grau)}
+.einspruch__regel{color:var(--schwarz)!important;border-left:3px solid var(--schwarz);padding-left:16px}
+.einspruch__liste{grid-column:1;max-width:var(--mass)}
+.einspruch__leer{font-size:14px;color:var(--grau-hell);margin:0 0 24px;letter-spacing:.02em}
+.einspruch__paar{display:grid;grid-template-columns:1fr 1fr;column-gap:var(--rand);border-top:1px solid var(--linie);padding:18px 0 22px;font-size:15px;line-height:1.6}
+.einspruch__paar p{margin:0}
+.einspruch__paar .meta{margin-bottom:8px}
+.einspruch__replik{border-left:3px solid var(--akzent);padding-left:16px}
+.einspruch__tag{display:inline-block;margin-left:8px;padding:1px 7px;background:var(--akzent);color:var(--weiss);font-size:11px;letter-spacing:.15em;font-weight:500}
+.einspruch__form{grid-column:2;grid-row:1 / span 2;align-self:start;border-top:1px solid var(--linie);padding-top:14px}
+.einspruch__form dl{margin:0 0 20px}
+.einspruch__form dt{font-size:11px;letter-spacing:.2em;text-transform:lowercase;font-weight:700;margin-top:12px}
+.einspruch__form dd{margin:2px 0 0;font-size:13px;color:var(--grau);line-height:1.5}
+.einspruch__btn{display:inline-block;background:var(--schwarz);color:var(--weiss);padding:12px 18px;font-size:13px;letter-spacing:.2em;text-transform:lowercase;font-weight:700;margin-bottom:10px}
+.einspruch__btn:hover{background:var(--akzent);color:var(--weiss)}
+.einspruch__hint{display:block;font-size:12px;color:var(--grau-hell);line-height:1.5}
+@media (max-width:760px){
+  .einspruch{grid-template-columns:1fr}
+  .einspruch__form{grid-column:1;grid-row:auto}
+  .einspruch__paar{grid-template-columns:1fr;row-gap:12px}
+  .einspruch__replik{border-left:0;border-top:1px solid #ddd;padding:12px 0 0}
+}

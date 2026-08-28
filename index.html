@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>a schley, dissected</title>
+<link rel="alternate" hreflang="de" href="de/index.html">
+<link rel="alternate" hreflang="en" href="en/index.html">
+<link rel="alternate" hreflang="x-default" href="en/index.html">
+<link rel="stylesheet" href="styles.css">
+<script>
+  // Sprachweiche: Browser-Sprache entscheidet, Standard ist Englisch.
+  // Weitere Sprachen: Kürzel in die Liste aufnehmen und Ordner anlegen.
+  var sprachen = ["de","en"], std = "en";
+  var b = (navigator.language || std).slice(0,2).toLowerCase();
+  location.replace((sprachen.indexOf(b) > -1 ? b : std) + "/index.html");
+</script>
+</head>
+<body>
+<div class="seite">
+<header class="kopfzeile"><span class="marke">a schley<span class="marke__verb">, dissected</span></span></header>
+<section class="textseite" style="font-size:13px;letter-spacing:.25em;text-transform:lowercase;line-height:2.6">
+  <a href="de/index.html">deutsch →</a><br>
+  <a href="en/index.html">english →</a>
+</section>
+</div>
+</body>
+</html>
