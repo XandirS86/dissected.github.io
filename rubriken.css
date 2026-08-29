@@ -1,9 +1,25 @@
-/* Rubriken-Stylesheet v4 — Systemfamilie: alle Koepfe identisches Raster,
+/* Rubriken-Stylesheet v5 — Systemfamilie: alle Koepfe identisches Raster,
    nur Form und Farbe wechseln. sport = gelber kreis auf blau,
    gesellschaft = rotes dreieck auf gelb, welt = blaues quadrat auf rot.
    Konstante: schwarze Grundlinie, Form oben rechts angeschnitten.
    v4: Hover — Titel faerben sich in der Grundfarbe der Rubrik,
-   "alle" steht in der Grundfarbe und kippt beim Hover in die Formfarbe. */
+   "alle" steht in der Grundfarbe und kippt beim Hover in die Formfarbe.
+   v5: Plakat-Kaskade — die drei neuesten Analysen gestaffelt:
+   Stufe 1 voll, Stufe 2 zwei Drittel, Stufe 3 zwei Drittel davon. */
+
+/* --- Plakat-Kaskade (Startseite) --- */
+.plakat--s2 { min-height: 240px; }
+.plakat--s2 .plakat__text { padding-top: 28px; padding-bottom: 28px; }
+.plakat--s2 .titel--plakat { font-size: clamp(28px, 4.2vw, 44px); }
+.plakat--s2 .untertitel { font-size: 15px; margin-top: 12px; max-width: 48ch; }
+.plakat--s3 { min-height: 160px; }
+.plakat--s3 .plakat__text { padding-top: 20px; padding-bottom: 20px; }
+.plakat--s3 .titel--plakat { font-size: clamp(22px, 3vw, 30px); }
+.plakat--s3 .untertitel { display: none; }
+@media (max-width: 760px) {
+  .plakat--s2 .komposition { min-height: 150px; }
+  .plakat--s3 .komposition { min-height: 110px; }
+}
 
 .rubrik--sport        { --rubrik: var(--blau); --rubrik-form: var(--gelb); --rubrik-kopf-text: #fff; --rubrik-akzent: var(--blau); }
 .rubrik--gesellschaft { --rubrik: var(--gelb); --rubrik-form: var(--rot);  --rubrik-kopf-text: #fff; --rubrik-akzent: #111; }
