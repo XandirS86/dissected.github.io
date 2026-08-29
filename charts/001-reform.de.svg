@@ -633,10 +633,10 @@ C -6.482237 -3.764714 -7.245688 -1.921579 -7.245688 0
 C -7.245688 1.921579 -6.482237 3.764714 -5.123475 5.123475 
 C -3.764714 6.482237 -1.921579 7.245688 0 7.245688 
 z
-" style="stroke: #d7261e"/>
+" style="stroke: #1b4fa0"/>
     </defs>
     <g clip-path="url(#pe63952c890)">
-     <use xlink:href="#m10058b5957" x="246.528" y="117.936" style="fill: #d7261e; stroke: #d7261e"/>
+     <use xlink:href="#m10058b5957" x="246.528" y="117.936" style="fill: #1b4fa0; stroke: #1b4fa0"/>
     </g>
    </g>
    <g id="PathCollection_3">
@@ -657,16 +657,16 @@ z
    <g id="patch_5">
     <path d="M 172.361506 117.936 
 Q 208.446602 117.936 243.190056 117.936 
-" style="fill: none; stroke-dasharray: 3.6,3.6; stroke-dashoffset: 0; stroke: #d7261e; stroke-width: 1.2; stroke-linecap: round"/>
+" style="fill: none; stroke-dasharray: 3.6,3.6; stroke-dashoffset: 0; stroke: #1b4fa0; stroke-width: 1.2; stroke-linecap: round"/>
     <path d="M 238.990056 115.836 
 L 243.190056 117.936 
 L 238.990056 120.036 
 z
-" style="fill: #d7261e; stroke-dasharray: 3.6,3.6; stroke-dashoffset: 0; stroke: #d7261e; stroke-width: 1.2; stroke-linecap: round"/>
+" style="fill: #1b4fa0; stroke-dasharray: 3.6,3.6; stroke-dashoffset: 0; stroke: #1b4fa0; stroke-width: 1.2; stroke-linecap: round"/>
    </g>
    <g id="text_9">
     <!-- aug. 2026: 30 auf 50 -->
-    <g style="fill: #d7261e" transform="translate(160.45172 112.347648) scale(0.095 -0.095)">
+    <g style="fill: #1b4fa0" transform="translate(160.45172 112.347648) scale(0.095 -0.095)">
      <defs>
       <path id="Jost-Medium-61" d="M 659 2176 
 L 378 2662 
@@ -1223,7 +1223,7 @@ z
    </g>
    <g id="text_11">
     <!-- B verbändekoalition -->
-    <g style="fill: #d7261e" transform="translate(270.58176 107.9568) scale(0.105 -0.105)">
+    <g style="fill: #1b4fa0" transform="translate(270.58176 107.9568) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Medium-42" d="M 3539 1293 
 Q 3539 845 3334 560 

@@ -81,7 +81,7 @@ z
    <g id="line2d_1">
     <path d="M 231.448265 100.8 
 L 231.448265 28.8 
-" clip-path="url(#p97bed5324e)" style="fill: none; stroke-dasharray: 3.6,3.6; stroke-dashoffset: 0; stroke: #d7261e; stroke-width: 1.2"/>
+" clip-path="url(#p97bed5324e)" style="fill: none; stroke-dasharray: 3.6,3.6; stroke-dashoffset: 0; stroke: #1b4fa0; stroke-width: 1.2"/>
    </g>
    <g id="text_1">
     <!-- CAF -->
@@ -621,7 +621,7 @@ z
    </g>
    <g id="text_7">
     <!-- mehrheit: 106 -->
-    <g style="fill: #d7261e" transform="translate(160.496001 94.2) scale(0.1 -0.1)">
+    <g style="fill: #1b4fa0" transform="translate(160.496001 94.2) scale(0.1 -0.1)">
      <defs>
       <path id="Jost-Bold-6d" d="M 4870 1894 
 L 4870 0 

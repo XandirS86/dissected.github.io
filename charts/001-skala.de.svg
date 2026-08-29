@@ -45,7 +45,7 @@ L 378.786462 40.266209
 L 378.786462 27.216 
 L 73.728 27.216 
 z
-" clip-path="url(#pbd687eb6f3)" style="fill: #d7261e"/>
+" clip-path="url(#pbd687eb6f3)" style="fill: #1b4fa0"/>
    </g>
    <g id="patch_4">
     <path d="M 73.728 61.314933 
@@ -424,7 +424,7 @@ z
    <g id="line2d_1">
     <path d="M 324.952615 217.728 
 L 324.952615 18.144 
-" clip-path="url(#pbd687eb6f3)" style="fill: none; stroke-dasharray: 3,3; stroke-dashoffset: 0; stroke: #d7261e"/>
+" clip-path="url(#pbd687eb6f3)" style="fill: none; stroke-dasharray: 3,3; stroke-dashoffset: 0; stroke: #1b4fa0"/>
    </g>
    <g id="patch_12">
     <path d="M 73.728 217.728 
@@ -433,7 +433,7 @@ L 73.728 18.144
    </g>
    <g id="text_10">
     <!-- 85 -->
-    <g style="fill: #d7261e" transform="translate(384.169846 36.681104) scale(0.105 -0.105)">
+    <g style="fill: #1b4fa0" transform="translate(384.169846 36.681104) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Bold-38" d="M 333 1216 
 Q 333 1664 579 1949 

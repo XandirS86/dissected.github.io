@@ -793,12 +793,12 @@ z
    <g id="line2d_1">
     <path d="M 386.805048 34.272 
 L 386.805048 22.176 
-" clip-path="url(#p5ea7171d09)" style="fill: none; stroke-dasharray: 3,3; stroke-dashoffset: 0; stroke: #d7261e"/>
+" clip-path="url(#p5ea7171d09)" style="fill: none; stroke-dasharray: 3,3; stroke-dashoffset: 0; stroke: #1b4fa0"/>
    </g>
    <g id="line2d_2">
     <path d="M 222.362695 22.176 
 L 386.805048 22.176 
-" clip-path="url(#p5ea7171d09)" style="fill: none; stroke-dasharray: 3,3; stroke-dashoffset: 0; stroke: #d7261e"/>
+" clip-path="url(#p5ea7171d09)" style="fill: none; stroke-dasharray: 3,3; stroke-dashoffset: 0; stroke: #1b4fa0"/>
    </g>
    <g id="patch_6">
     <path d="M 27.648 181.44 
@@ -985,7 +985,7 @@ z
    </g>
    <g id="text_7">
     <!-- + $20 m “emergency grant” per federation, -->
-    <g style="fill: #d7261e" transform="translate(14.989189 18.660219) scale(0.1 -0.1)">
+    <g style="fill: #1b4fa0" transform="translate(14.989189 18.660219) scale(0.1 -0.1)">
      <defs>
       <path id="Jost-Medium-2b" d="M 416 1331 
 L 416 2010 
@@ -1423,7 +1423,7 @@ z
      <use xlink:href="#Jost-Medium-2c" transform="translate(1922.699615 0)"/>
     </g>
     <!-- only upon approval (aug. 2026) -->
-    <g style="fill: #d7261e" transform="translate(68.898564 31.530844) scale(0.1 -0.1)">
+    <g style="fill: #1b4fa0" transform="translate(68.898564 31.530844) scale(0.1 -0.1)">
      <defs>
       <path id="Jost-Medium-6c" d="M 442 4992 
 L 1139 4992 

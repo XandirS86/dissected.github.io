@@ -53,7 +53,7 @@ L 360.841846 65.88
 L 360.841846 49.68 
 L 73.728 49.68 
 z
-" clip-path="url(#pc7ec086eba)" style="fill: #d7261e"/>
+" clip-path="url(#pc7ec086eba)" style="fill: #1b4fa0"/>
    </g>
    <g id="patch_5">
     <path d="M 73.728 92.88 
@@ -444,7 +444,7 @@ z
    </g>
    <g id="text_8">
     <!-- 80 -->
-    <g style="fill: #d7261e" transform="translate(366.225231 60.72) scale(0.105 -0.105)">
+    <g style="fill: #1b4fa0" transform="translate(366.225231 60.72) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Bold-38" d="M 333 1216 
 Q 333 1664 579 1949 

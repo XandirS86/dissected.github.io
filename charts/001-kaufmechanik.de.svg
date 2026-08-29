@@ -764,12 +764,12 @@ z
    <g id="line2d_1">
     <path d="M 386.805048 34.272 
 L 386.805048 22.176 
-" clip-path="url(#p8962deda59)" style="fill: none; stroke-dasharray: 3,3; stroke-dashoffset: 0; stroke: #d7261e"/>
+" clip-path="url(#p8962deda59)" style="fill: none; stroke-dasharray: 3,3; stroke-dashoffset: 0; stroke: #1b4fa0"/>
    </g>
    <g id="line2d_2">
     <path d="M 222.362695 22.176 
 L 386.805048 22.176 
-" clip-path="url(#p8962deda59)" style="fill: none; stroke-dasharray: 3,3; stroke-dashoffset: 0; stroke: #d7261e"/>
+" clip-path="url(#p8962deda59)" style="fill: none; stroke-dasharray: 3,3; stroke-dashoffset: 0; stroke: #1b4fa0"/>
    </g>
    <g id="patch_6">
     <path d="M 27.648 181.44 
@@ -1001,7 +1001,7 @@ z
    </g>
    <g id="text_7">
     <!-- + 20 mio. $ „soforthilfe“ je verband, -->
-    <g style="fill: #d7261e" transform="translate(46.875126 18.695375) scale(0.1 -0.1)">
+    <g style="fill: #1b4fa0" transform="translate(46.875126 18.695375) scale(0.1 -0.1)">
      <defs>
       <path id="Jost-Medium-2b" d="M 416 1331 
 L 416 2010 
@@ -1397,7 +1397,7 @@ z
      <use xlink:href="#Jost-Medium-2c" transform="translate(1603.799667 0)"/>
     </g>
     <!-- nur bei zustimmung (aug. 2026) -->
-    <g style="fill: #d7261e" transform="translate(66.872001 31.495687) scale(0.1 -0.1)">
+    <g style="fill: #1b4fa0" transform="translate(66.872001 31.495687) scale(0.1 -0.1)">
      <defs>
       <path id="Jost-Medium-75" d="M 1152 1152 
 Q 1152 838 1286 665 
