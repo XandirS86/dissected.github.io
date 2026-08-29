@@ -4,21 +4,22 @@
    Konstante: schwarze Grundlinie, Form oben rechts angeschnitten.
    v4: Hover — Titel faerben sich in der Grundfarbe der Rubrik,
    "alle" steht in der Grundfarbe und kippt beim Hover in die Formfarbe.
-   v5: Plakat-Kaskade — die drei neuesten Analysen gestaffelt:
-   Stufe 1 voll, Stufe 2 zwei Drittel, Stufe 3 zwei Drittel davon. */
+   v6: Plakat-Kaskade im Quart-Mass 4:3 — jede Stufe ist drei Viertel
+   der vorherigen (360/270/202), Schrift skaliert im selben Verhaeltnis.
+   Alle Stufen tragen dieselben Bauelemente: Meta, Titel, Untertitel, Komposition. */
 
 /* --- Plakat-Kaskade (Startseite) --- */
-.plakat--s2 { min-height: 240px; }
-.plakat--s2 .plakat__text { padding-top: 28px; padding-bottom: 28px; }
-.plakat--s2 .titel--plakat { font-size: clamp(28px, 4.2vw, 44px); }
-.plakat--s2 .untertitel { font-size: 15px; margin-top: 12px; max-width: 48ch; }
-.plakat--s3 { min-height: 160px; }
-.plakat--s3 .plakat__text { padding-top: 20px; padding-bottom: 20px; }
-.plakat--s3 .titel--plakat { font-size: clamp(22px, 3vw, 30px); }
-.plakat--s3 .untertitel { display: none; }
+.plakat--s2 { min-height: 270px; }
+.plakat--s2 .plakat__text { padding-top: 32px; padding-bottom: 32px; }
+.plakat--s2 .titel--plakat { font-size: clamp(30px, 4.6vw, 51px); }
+.plakat--s2 .untertitel { font-size: 15px; margin-top: 13px; max-width: 44ch; }
+.plakat--s3 { min-height: 202px; }
+.plakat--s3 .plakat__text { padding-top: 24px; padding-bottom: 24px; }
+.plakat--s3 .titel--plakat { font-size: clamp(24px, 3.5vw, 38px); }
+.plakat--s3 .untertitel { font-size: 13.5px; margin-top: 10px; max-width: 40ch; }
 @media (max-width: 760px) {
-  .plakat--s2 .komposition { min-height: 150px; }
-  .plakat--s3 .komposition { min-height: 110px; }
+  .plakat--s2 .komposition { min-height: 165px; }
+  .plakat--s3 .komposition { min-height: 124px; }
 }
 
 .rubrik--sport        { --rubrik: var(--blau); --rubrik-form: var(--gelb); --rubrik-kopf-text: #fff; --rubrik-akzent: var(--blau); }
