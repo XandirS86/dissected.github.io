@@ -9,10 +9,13 @@
    Titel laufen ueber die volle Spalte, Untertitel bis zur festen
    460px-Kante — die Umbrueche fallen auf allen Stufen gleich.
    v9: Mobil steht die Komposition zwischen Meta-Zeile und Titel.
-   v10: 18px Weissraum zwischen den Stufen — jedes Plakat ein eigenes Blatt. */
+   v10: 18px Weissraum zwischen den Stufen — jedes Plakat ein eigenes Blatt.
+   v12: Rubrikkoepfe 34px (nochmals -30%), Formen auf 40px mitskaliert,
+   Name mittig; Stufe-1-Bild mit 18px Weissraum zur Oberkante. */
 
 /* --- Plakat-Kaskade (Startseite) --- */
 .plakat + .plakat { margin-top: 18px; }
+.plakat:first-of-type .komposition { margin-top: 18px; }
 .plakat { min-height: 176px; }
 .plakat .plakat__text { padding-top: 21px; padding-bottom: 21px; }
 .plakat .titel--plakat { font-size: clamp(22px, 3.2vw, 34px); max-width: none; }
@@ -61,13 +64,14 @@
   background: var(--rubrik);
   color: var(--rubrik-kopf-text);
   text-decoration: none;
-  height: 49px;
+  height: 34px;
 }
 .rubrik__name {
   z-index: 3;
   position: absolute;
   left: 1rem;
-  bottom: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
   font-size: 0.8rem;
   letter-spacing: 0.22em;
   font-weight: 700;
