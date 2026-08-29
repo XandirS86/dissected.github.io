@@ -1,0 +1,84 @@
+/* Rubriken-Stylesheet — liegt neben styles.css, wird von index + archiv geladen */
+   Bei gelb ist die Typo schwarz (Lesbarkeit auf Weiss).
+   ============================================================ */
+
+.rubrik--sport        { --rubrik: var(--blau); --rubrik-kopf-text: #fff; --rubrik-akzent: var(--blau); }
+.rubrik--gesellschaft { --rubrik: var(--gelb); --rubrik-kopf-text: #111; --rubrik-akzent: #111; }
+.rubrik--welt         { --rubrik: var(--rot);  --rubrik-kopf-text: #fff; --rubrik-akzent: var(--rot); }
+
+/* --- Startseite: dreispaltige Rubrikleiste (ersetzt die Vorgaenger-Leiste) --- */
+.rubriken {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 2px solid #111;
+}
+.rubrik { border-right: 1px solid #111; display: flex; flex-direction: column; }
+.rubrik:last-child { border-right: 0; }
+
+.rubrik__kopf {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  background: var(--rubrik);
+  color: var(--rubrik-kopf-text);
+  text-decoration: none;
+  padding: 0.7rem 1rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.18em;
+  font-weight: 500;
+}
+.rubrik__kopf .form { position: absolute; }
+
+.rubrik__eintrag {
+  display: block;
+  text-decoration: none;
+  color: #111;
+  padding: 0.8rem 1rem 0.6rem;
+  border-bottom: 1px solid rgba(0,0,0,0.12);
+  line-height: 1.35;
+}
+.rubrik__eintrag:hover { background: rgba(0,0,0,0.03); }
+.rubrik__eintrag .meta { display: block; font-size: 0.7rem; letter-spacing: 0.12em; color: var(--rubrik-akzent); margin-bottom: 0.15rem; }
+.rubrik__eintrag .meta .neutral { color: #8a8a8a; }
+.rubrik__eintrag .thema { display: block; font-size: 0.78rem; color: #555; margin-top: 0.15rem; }
+
+.rubrik__folgt {
+  padding: 0.9rem 1rem;
+  font-size: 0.82rem;
+  color: #8a8a8a;
+  font-style: italic;
+  border-bottom: 1px solid rgba(0,0,0,0.12);
+  margin: 0;
+}
+.rubrik__alle {
+  margin-top: auto;
+  display: block;
+  padding: 0.6rem 1rem 0.8rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  color: var(--rubrik-akzent);
+  text-decoration: none;
+}
+.rubrik__alle:hover { text-decoration: underline; }
+
+@media (max-width: 720px) {
+  .rubriken { grid-template-columns: 1fr; }
+  .rubrik { border-right: 0; border-bottom: 1px solid #111; }
+  .rubrik:last-child { border-bottom: 0; }
+}
+
+/* --- Archiv: Rubrik-Abschnitte mit Ankern --- */
+.archiv-zaehler { font-size: 0.8rem; letter-spacing: 0.12em; color: #8a8a8a; margin: 2rem 0 1rem; }
+.rubrik-archiv { margin: 0 0 2.2rem; }
+.rubrik-archiv__titel {
+  display: inline-block;
+  background: var(--rubrik);
+  color: var(--rubrik-kopf-text);
+  font-size: 0.8rem;
+  letter-spacing: 0.18em;
+  font-weight: 500;
+  padding: 0.35rem 0.8rem;
+  margin: 0 0 0.6rem;
+}
+.rubrik-archiv .rubrik__eintrag { border-bottom: 1px solid rgba(0,0,0,0.12); padding-left: 0; padding-right: 0; }
+.rubrik-archiv .rubrik__folgt { padding-left: 0; border-bottom: 1px solid rgba(0,0,0,0.12); }
