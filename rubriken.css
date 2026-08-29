@@ -8,9 +8,11 @@
    Hoehen 176/132/99, Titel 34/25/19. Einheitliche Textfeldbreite:
    Titel laufen ueber die volle Spalte, Untertitel bis zur festen
    460px-Kante — die Umbrueche fallen auf allen Stufen gleich.
-   v9: Mobil steht die Komposition zwischen Meta-Zeile und Titel. */
+   v9: Mobil steht die Komposition zwischen Meta-Zeile und Titel.
+   v10: 18px Weissraum zwischen den Stufen — jedes Plakat ein eigenes Blatt. */
 
 /* --- Plakat-Kaskade (Startseite) --- */
+.plakat + .plakat { margin-top: 18px; }
 .plakat { min-height: 176px; }
 .plakat .plakat__text { padding-top: 21px; padding-bottom: 21px; }
 .plakat .titel--plakat { font-size: clamp(22px, 3.2vw, 34px); max-width: none; }
