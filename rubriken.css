@@ -1,11 +1,13 @@
-/* Rubriken-Stylesheet v3 — Systemfamilie: alle Koepfe identisches Raster,
+/* Rubriken-Stylesheet v4 — Systemfamilie: alle Koepfe identisches Raster,
    nur Form und Farbe wechseln. sport = gelber kreis auf blau,
    gesellschaft = rotes dreieck auf gelb, welt = blaues quadrat auf rot.
-   Konstante: schwarze Grundlinie, Form oben rechts angeschnitten. */
+   Konstante: schwarze Grundlinie, Form oben rechts angeschnitten.
+   v4: Hover — Titel faerben sich in der Grundfarbe der Rubrik,
+   "alle" steht in der Grundfarbe und kippt beim Hover in die Formfarbe. */
 
-.rubrik--sport        { --rubrik: var(--blau); --rubrik-kopf-text: #fff; --rubrik-akzent: var(--blau); }
-.rubrik--gesellschaft { --rubrik: var(--gelb); --rubrik-kopf-text: #fff; --rubrik-akzent: #111; }
-.rubrik--welt         { --rubrik: var(--rot);  --rubrik-kopf-text: #fff; --rubrik-akzent: var(--rot); }
+.rubrik--sport        { --rubrik: var(--blau); --rubrik-form: var(--gelb); --rubrik-kopf-text: #fff; --rubrik-akzent: var(--blau); }
+.rubrik--gesellschaft { --rubrik: var(--gelb); --rubrik-form: var(--rot);  --rubrik-kopf-text: #fff; --rubrik-akzent: #111; }
+.rubrik--welt         { --rubrik: var(--rot);  --rubrik-form: var(--blau); --rubrik-kopf-text: #fff; --rubrik-akzent: var(--rot); }
 
 /* --- Startseite: dreispaltige Rubrikleiste --- */
 .rubriken {
@@ -49,7 +51,8 @@
   border-bottom: 1px solid rgba(0,0,0,0.12);
   line-height: 1.35;
 }
-.rubrik__eintrag:hover { background: rgba(0,0,0,0.03); }
+.rubrik__eintrag { transition: color 0.15s ease; }
+.rubrik__eintrag:hover { background: rgba(0,0,0,0.03); color: var(--rubrik); }
 .rubrik__eintrag .meta { display: block; font-size: 0.7rem; letter-spacing: 0.12em; color: var(--rubrik-akzent); margin-bottom: 0.15rem; }
 .rubrik__eintrag .meta .neutral { color: #8a8a8a; }
 .rubrik__eintrag .thema { display: block; font-size: 0.78rem; color: #555; margin-top: 0.15rem; }
@@ -68,10 +71,12 @@
   padding: 0.6rem 1rem 0.8rem;
   font-size: 0.78rem;
   letter-spacing: 0.1em;
-  color: var(--rubrik-akzent);
+  font-weight: 700;
+  color: var(--rubrik);
   text-decoration: none;
+  transition: color 0.15s ease;
 }
-.rubrik__alle:hover { text-decoration: underline; }
+.rubrik__alle:hover { color: var(--rubrik-form); text-decoration: underline; }
 
 @media (max-width: 720px) {
   .rubriken { grid-template-columns: 1fr; }
