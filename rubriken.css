@@ -11,7 +11,9 @@
    v9: Mobil steht die Komposition zwischen Meta-Zeile und Titel.
    v10: 18px Weissraum zwischen den Stufen — jedes Plakat ein eigenes Blatt.
    v12: Rubrikkoepfe 34px (nochmals -30%), Formen auf 40px mitskaliert,
-   Name mittig; Stufe-1-Bild mit 18px Weissraum zur Oberkante. */
+   Name mittig; Stufe-1-Bild mit 18px Weissraum zur Oberkante.
+   v13: 18px Weissraum auch zwischen Stufe 3 und Rubrikleiste —
+   dasselbe Blattmass an allen vier Fugen. */
 
 /* --- Plakat-Kaskade (Startseite) --- */
 .plakat + .plakat { margin-top: 18px; }
@@ -53,6 +55,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   border-top: 2px solid #111;
+  margin-top: 18px;
 }
 .rubrik { border-right: 1px solid #111; display: flex; flex-direction: column; }
 .rubrik:last-child { border-right: 0; }
