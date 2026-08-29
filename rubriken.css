@@ -1,6 +1,7 @@
-/* Rubriken-Stylesheet v1.1 — liegt neben styles.css auf Root-Ebene.
-   Fix: kaputter Kommentarblock am Dateianfang entfernt (er hat die
-   .rubrik--sport-Regel geschluckt). Alle Rubriknamen jetzt in Weiss. */
+/* Rubriken-Stylesheet v2 — liegt neben styles.css auf Root-Ebene.
+   Komponierte Rubrikkoepfe: sport = gelber kreis auf blau,
+   gesellschaft = rotes dreieck auf gelb, welt = blaues quadrat auf rot.
+   Schwarze Linienkomponenten je Rubrik. Namen in Weiss. */
 
 .rubrik--sport        { --rubrik: var(--blau); --rubrik-kopf-text: #fff; --rubrik-akzent: var(--blau); }
 .rubrik--gesellschaft { --rubrik: var(--gelb); --rubrik-kopf-text: #fff; --rubrik-akzent: #111; }
@@ -22,12 +23,23 @@
   background: var(--rubrik);
   color: var(--rubrik-kopf-text);
   text-decoration: none;
-  padding: 0.7rem 1rem;
+  height: 74px;
+}
+.rubrik__name {
+  position: absolute;
+  left: 1rem;
+  bottom: 0.5rem;
   font-size: 0.8rem;
   letter-spacing: 0.22em;
   font-weight: 700;
+  color: var(--rubrik-kopf-text);
 }
-.rubrik__kopf .form { position: absolute; }
+/* Formen- und Linienbausteine der Koepfe */
+.rk { position: absolute; display: block; }
+.rk--kreis { border-radius: 50%; }
+.rk--dreieck { width: 0; height: 0; background: transparent !important; }
+.rk--linie-h { left: 0; right: 0; height: 2px; background: #111; }
+.rk--linie-v { top: 0; bottom: 0; width: 2px; background: #111; }
 
 .rubrik__eintrag {
   display: block;
@@ -70,15 +82,8 @@
 /* --- Archiv: Rubrik-Abschnitte mit Ankern --- */
 .archiv-zaehler { font-size: 0.8rem; letter-spacing: 0.12em; color: #8a8a8a; margin: 2rem 0 1rem; }
 .rubrik-archiv { margin: 0 0 2.2rem; }
-.rubrik-archiv__titel {
-  display: inline-block;
-  background: var(--rubrik);
-  color: var(--rubrik-kopf-text);
-  font-size: 0.8rem;
-  letter-spacing: 0.22em;
-  font-weight: 700;
-  padding: 0.35rem 0.8rem;
-  margin: 0 0 0.6rem;
-}
+.rubrik-archiv .rubrik__kopf { display: block; margin: 0 0 0.6rem; }
+.rubrik-archiv span.rubrik__kopf { cursor: default; }
+h2.rubrik-archiv__titel { margin: 0; }
 .rubrik-archiv .rubrik__eintrag { border-bottom: 1px solid rgba(0,0,0,0.12); padding-left: 0; padding-right: 0; }
 .rubrik-archiv .rubrik__folgt { padding-left: 0; border-bottom: 1px solid rgba(0,0,0,0.12); }
