@@ -4,27 +4,39 @@
    Konstante: schwarze Grundlinie, Form oben rechts angeschnitten.
    v4: Hover — Titel faerben sich in der Grundfarbe der Rubrik,
    "alle" steht in der Grundfarbe und kippt beim Hover in die Formfarbe.
-   v7: Plakat-Kaskade im Quart-Mass 4:3, Gesamtmodul um 30% verkleinert —
-   Hoehen 252/189/141, Titel 48/36/27, Innenabstaende mitskaliert.
-   Alle Stufen tragen dieselben Bauelemente: Meta, Titel, Untertitel, Komposition. */
+   v8: Plakat-Kaskade im Quart-Mass 4:3, nochmals 30% kompakter —
+   Hoehen 176/132/99, Titel 34/25/19. Einheitliche Textfeldbreite:
+   Titel laufen ueber die volle Spalte, Untertitel bis zur festen
+   460px-Kante — die Umbrueche fallen auf allen Stufen gleich.
+   v9: Mobil steht die Komposition zwischen Meta-Zeile und Titel. */
 
 /* --- Plakat-Kaskade (Startseite) --- */
-.plakat { min-height: 252px; }
-.plakat .plakat__text { padding-top: 30px; padding-bottom: 30px; }
-.plakat .titel--plakat { font-size: clamp(28px, 4.4vw, 48px); }
-.plakat .untertitel { font-size: 15px; margin-top: 13px; max-width: 44ch; }
-.plakat--s2 { min-height: 189px; }
-.plakat--s2 .plakat__text { padding-top: 22px; padding-bottom: 22px; }
-.plakat--s2 .titel--plakat { font-size: clamp(22px, 3.3vw, 36px); }
-.plakat--s2 .untertitel { font-size: 13.5px; margin-top: 10px; max-width: 40ch; }
-.plakat--s3 { min-height: 141px; }
-.plakat--s3 .plakat__text { padding-top: 17px; padding-bottom: 17px; }
-.plakat--s3 .titel--plakat { font-size: clamp(18px, 2.5vw, 27px); }
-.plakat--s3 .untertitel { font-size: 12.5px; margin-top: 8px; max-width: 38ch; }
+.plakat { min-height: 176px; }
+.plakat .plakat__text { padding-top: 21px; padding-bottom: 21px; }
+.plakat .titel--plakat { font-size: clamp(22px, 3.2vw, 34px); max-width: none; }
+.plakat .untertitel { font-size: 13px; margin-top: 10px; max-width: 460px; }
+.plakat--s2 { min-height: 132px; }
+.plakat--s2 .plakat__text { padding-top: 15px; padding-bottom: 15px; }
+.plakat--s2 .titel--plakat { font-size: clamp(17px, 2.4vw, 25px); }
+.plakat--s2 .untertitel { font-size: 12px; margin-top: 8px; }
+.plakat--s3 { min-height: 99px; }
+.plakat--s3 .plakat__text { padding-top: 11px; padding-bottom: 11px; }
+.plakat--s3 .titel--plakat { font-size: clamp(14px, 1.8vw, 19px); }
+.plakat--s3 .untertitel { font-size: 11px; margin-top: 6px; }
 @media (max-width: 760px) {
-  .plakat .komposition { min-height: 154px; }
-  .plakat--s2 .komposition { min-height: 116px; }
-  .plakat--s3 .komposition { min-height: 88px; }
+  /* Mobile Reihenfolge je Stufe: Meta -> Komposition -> Titel -> Untertitel.
+     display:contents loest die Textbox auf, damit die Komposition
+     zwischen Meta und Ueberschrift ruecken kann. */
+  .plakat { display: grid; grid-template-columns: 1fr; }
+  .plakat .plakat__text { display: contents; }
+  .plakat .meta { order: 1; margin: 18px 0 10px; }
+  .plakat .komposition { order: 2; min-height: 108px; }
+  .plakat .titel--plakat { order: 3; margin-top: 12px; }
+  .plakat .untertitel { order: 4; margin: 8px 0 20px; }
+  .plakat--s2 .komposition { min-height: 81px; }
+  .plakat--s2 .meta { margin-top: 14px; }
+  .plakat--s3 .komposition { min-height: 62px; }
+  .plakat--s3 .meta { margin-top: 12px; }
 }
 
 .rubrik--sport        { --rubrik: var(--blau); --rubrik-form: var(--gelb); --rubrik-kopf-text: #fff; --rubrik-akzent: var(--blau); }
