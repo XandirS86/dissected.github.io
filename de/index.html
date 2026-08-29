@@ -22,8 +22,12 @@
     <span class="sprache"><span aria-current="true">de</span> · <a href="../en/index.html" lang="en">en</a></span>
   </nav>
 </header>
-<!-- ===== PLAKAT: die aktuelle Analyse, in ihrer Rubrikfarbe.
-     Pro Artikel anpassen: Nummer, Rubrik, Stichwort, Datum, Titel, Untertitel, Links, --akzent, Formen. -->
+<!-- ===== PLAKAT-KASKADE: die drei neuesten Analysen, gestaffelt.
+     Pro neuem Artikel: neue Stufe 1 einsetzen, bisherige 1 wird 2 (plakat--s2, Untertitel kuerzen),
+     bisherige 2 wird 3 (plakat--s3, Untertitel entfaellt), bisherige 3 fliegt raus.
+     Komposition je Artikel individuell, aber in der Grammatik der Rubrik:
+     Grundfarbe + Signaturform (sport: gelber kreis, gesellschaft: rotes dreieck,
+     welt: blaues quadrat) + freie schwarze Elemente. -->
 <section class="plakat" style="--akzent:var(--blau)">
   <div class="plakat__text">
     <p class="meta">№ 03 <span class="neutral">· sport · fußball · 29.08.2026</span></p>
@@ -31,9 +35,32 @@
     <p class="untertitel">Der DFB-Präsident verdient rund eine halbe Million Euro im Jahr, zur Hälfte aus Zürich. Was er dafür liefert, lässt sich messen – dreizehn Episoden, drei Ebenen, null Gegenstimmen.</p>
   </div>
   <a class="komposition" href="/de/analysen/003-eine-halbe-million-fuer-was.html" aria-label="№ 03">
+    <span class="form form--balken schwarz" style="width:100%;height:14px;top:0;left:0"></span>
     <span class="form form--quadrat schwarz" style="width:280px;height:280px;top:30px;right:-80px"></span>
     <span class="form form--kreis gelb" style="width:70px;height:70px;top:44px;left:36px"></span>
-    <span class="form form--balken schwarz" style="width:100%;height:14px;top:0;left:0"></span>
+  </a>
+</section>
+<section class="plakat plakat--s2" style="--akzent:var(--rot)">
+  <div class="plakat__text">
+    <p class="meta">№ 02 <span class="neutral">· welt · geoökonomie · 28.08.2026</span></p>
+    <h2 class="titel titel--plakat"><a href="/de/analysen/002-reparieren-unter-beschuss.html">Reparieren unter Beschuss</a></h2>
+    <p class="untertitel">Warum Russlands Wirtschaft Überschuss meldet und um Benzin ansteht – der nachhaltige Schaden der Drohnenangriffe, vermessen.</p>
+  </div>
+  <a class="komposition" href="/de/analysen/002-reparieren-unter-beschuss.html" aria-label="№ 02">
+    <span class="form form--quadrat blau" style="width:110px;height:110px;top:24px;left:-36px"></span>
+    <span class="form form--balken schwarz" style="width:100%;height:8px;top:64px;left:0"></span>
+    <span class="form form--quadrat blau" style="width:56px;height:56px;bottom:-18px;right:44px"></span>
+  </a>
+</section>
+<section class="plakat plakat--s3" style="--akzent:var(--blau)">
+  <div class="plakat__text">
+    <p class="meta">№ 01 <span class="neutral">· sport · fußball · 28.08.2026</span></p>
+    <h2 class="titel titel--plakat"><a href="/de/analysen/001-der-fall-des-infantino.html">Der Fall (des) Infantino</a></h2>
+  </div>
+  <a class="komposition" href="/de/analysen/001-der-fall-des-infantino.html" aria-label="№ 01">
+    <span class="form form--kreis gelb" style="width:110px;height:110px;top:-46px;right:40px"></span>
+    <span class="form form--balken schwarz" style="width:100%;height:2px;bottom:30px;left:0"></span>
+    <span class="form form--balken schwarz" style="width:2px;height:100%;top:0;left:36px"></span>
   </a>
 </section>
 <!-- ===== RUBRIKLEISTE: drei Cluster nebeneinander, je letzte Analysen (neueste zuerst).
