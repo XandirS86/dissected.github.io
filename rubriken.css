@@ -1,12 +1,12 @@
-/* Rubriken-Stylesheet — liegt neben styles.css, wird von index + archiv geladen */
-   Bei gelb ist die Typo schwarz (Lesbarkeit auf Weiss).
-   ============================================================ */
+/* Rubriken-Stylesheet v1.1 — liegt neben styles.css auf Root-Ebene.
+   Fix: kaputter Kommentarblock am Dateianfang entfernt (er hat die
+   .rubrik--sport-Regel geschluckt). Alle Rubriknamen jetzt in Weiss. */
 
 .rubrik--sport        { --rubrik: var(--blau); --rubrik-kopf-text: #fff; --rubrik-akzent: var(--blau); }
-.rubrik--gesellschaft { --rubrik: var(--gelb); --rubrik-kopf-text: #111; --rubrik-akzent: #111; }
+.rubrik--gesellschaft { --rubrik: var(--gelb); --rubrik-kopf-text: #fff; --rubrik-akzent: #111; }
 .rubrik--welt         { --rubrik: var(--rot);  --rubrik-kopf-text: #fff; --rubrik-akzent: var(--rot); }
 
-/* --- Startseite: dreispaltige Rubrikleiste (ersetzt die Vorgaenger-Leiste) --- */
+/* --- Startseite: dreispaltige Rubrikleiste --- */
 .rubriken {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -24,8 +24,8 @@
   text-decoration: none;
   padding: 0.7rem 1rem;
   font-size: 0.8rem;
-  letter-spacing: 0.18em;
-  font-weight: 500;
+  letter-spacing: 0.22em;
+  font-weight: 700;
 }
 .rubrik__kopf .form { position: absolute; }
 
@@ -75,8 +75,8 @@
   background: var(--rubrik);
   color: var(--rubrik-kopf-text);
   font-size: 0.8rem;
-  letter-spacing: 0.18em;
-  font-weight: 500;
+  letter-spacing: 0.22em;
+  font-weight: 700;
   padding: 0.35rem 0.8rem;
   margin: 0 0 0.6rem;
 }
