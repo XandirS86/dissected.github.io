@@ -4,15 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>a schley, dissected</title>
-<meta name="description" content="Analyses of football, education, economics and politics. Independent, ad-free.">
+<meta name="description" content="Analyses of sport, society and world order. Independent, ad-free.">
 <link rel="stylesheet" href="../styles.css">
-<link rel="alternate" type="application/rss+xml" title="a schley, dissected (en)" href="../en/feed.xml">
+<link rel="stylesheet" href="../rubriken.css">
+<link rel="alternate" type="application/rss+xml" title="a schley, dissected (de)" href="../de/feed.xml">
 <link rel="alternate" hreflang="de" href="../de/index.html">
 <link rel="alternate" hreflang="en" href="../en/index.html">
 </head>
 <body>
 <div class="seite">
-
 <header class="kopfzeile">
   <a class="marke" href="../en/index.html">a schley<span class="marke__verb">, dissected</span></a>
   <nav>
@@ -22,30 +22,98 @@
     <span class="sprache"><a href="../de/index.html" lang="de">de</a> · <span aria-current="true">en</span></span>
   </nav>
 </header>
-
-<!-- ===== PLAKAT: die aktuelle Analyse / current analysis. Pro Artikel anpassen:
-     Nummer, Thema, Datum, Titel, Untertitel, Links, --akzent, die drei Formen. -->
-<section class="plakat" style="--akzent:var(--rot)">
+<!-- ===== PLAKAT-KASKADE: die drei neuesten Analysen, gestaffelt.
+     Pro neuem Artikel: neue Stufe 1 einsetzen, bisherige 1 wird 2 (plakat--s2, Untertitel kuerzen),
+     bisherige 2 wird 3 (plakat--s3), bisherige 3 fliegt raus.
+     Komposition je Artikel individuell, aber in der Grammatik der Rubrik:
+     Grundfarbe + Signaturform (sport: gelber kreis, gesellschaft: rotes dreieck,
+     welt: blaues quadrat) + freie schwarze Elemente. -->
+<section class="plakat" style="--akzent:var(--blau)">
   <div class="plakat__text">
-    <p class="meta">no. 01 <span class="neutral">· football · 28.08.2026</span></p>
-    <h1 class="titel titel--plakat"><a href="analyses/001-the-case-and-fall-of-infantino.html">The Case (and Fall) of Infantino</a></h1>
-    <p class="untertitel">Why the most powerful man in world football does not fall – a survey on the mafia scale.</p>
+    <p class="meta">no. 03 <span class="neutral">· sport · football · 29.08.2026</span></p>
+    <h1 class="titel titel--plakat"><a href="/en/analyses/003-half-a-million-for-what.html">Half a Million — For What?</a></h1>
+    <p class="untertitel">The DFB president earns around half a million euros a year, half of it from Zurich. What he delivers can be measured – thirteen episodes, three levels, zero dissenting votes.</p>
   </div>
-  <a class="komposition" href="analyses/001-the-case-and-fall-of-infantino.html" aria-label="no. 01">
-    <span class="form form--kreis schwarz" style="width:280px;height:280px;top:30px;right:-80px"></span>
-    <span class="form form--quadrat gelb" style="width:70px;height:70px;top:44px;left:36px"></span>
+  <a class="komposition" href="/en/analyses/003-half-a-million-for-what.html" aria-label="no. 03">
     <span class="form form--balken schwarz" style="width:100%;height:14px;top:0;left:0"></span>
+    <span class="form form--quadrat schwarz" style="width:280px;height:280px;top:30px;right:-80px"></span>
+    <span class="form form--kreis gelb" style="width:70px;height:70px;top:44px;left:36px"></span>
   </a>
 </section>
+<section class="plakat plakat--s2" style="--akzent:var(--rot)">
+  <div class="plakat__text">
+    <p class="meta">no. 02 <span class="neutral">· world · geo-economics · 28.08.2026 · in german</span></p>
+    <h2 class="titel titel--plakat"><a href="/de/analysen/002-reparieren-unter-beschuss.html">Repairing Under Fire</a></h2>
+    <p class="untertitel">Why Russia’s economy reports a surplus and queues for petrol – the lasting damage of the drone campaign, measured.</p>
+  </div>
+  <a class="komposition" href="/de/analysen/002-reparieren-unter-beschuss.html" aria-label="no. 02, in german">
+    <span class="form form--quadrat blau" style="width:110px;height:110px;top:24px;left:-36px"></span>
+    <span class="form form--balken schwarz" style="width:100%;height:8px;top:64px;left:0"></span>
+    <span class="form form--quadrat blau" style="width:56px;height:56px;bottom:-18px;right:44px"></span>
+  </a>
+</section>
+<section class="plakat plakat--s3" style="--akzent:var(--blau)">
+  <div class="plakat__text">
+    <p class="meta">no. 01 <span class="neutral">· sport · football · 28.08.2026</span></p>
+    <h2 class="titel titel--plakat"><a href="/en/analyses/001-the-case-and-fall-of-infantino.html">The Case (and Fall) of Infantino</a></h2>
+    <p class="untertitel">Why the most powerful man in world football does not fall – a survey of FIFA on the mafia scale.</p>
+  </div>
+  <a class="komposition" href="/en/analyses/001-the-case-and-fall-of-infantino.html" aria-label="no. 01">
+    <span class="form form--kreis gelb" style="width:110px;height:110px;top:-46px;right:40px"></span>
+    <span class="form form--balken schwarz" style="width:100%;height:2px;bottom:30px;left:0"></span>
+    <span class="form form--balken schwarz" style="width:2px;height:100%;top:0;left:36px"></span>
+  </a>
+</section>
+<!-- ===== RUBRIKLEISTE: drei Cluster nebeneinander, je letzte Analysen (neueste zuerst).
+     Pro neue Analyse: eine Kachel oben in der passenden Rubrik einfügen; mehr als 3 Kacheln
+     pro Rubrik? Die älteste rausnehmen — vollständig ist das Archiv. -->
+<nav class="rubriken" aria-label="rubriken">
 
-<!-- ===== Ab № 02 diesen Absatz durch die Vorgänger-Leiste ersetzen (previous-strip.html). -->
-<p class="folgt"><b>first issue</b> · further analyses follow every one to two weeks</p>
+  <section class="rubrik rubrik--sport">
+    <a class="rubrik__kopf" href="archive.html#sport" aria-label="section sport">
+      <span class="rk rk--kreis" style="width:40px;height:40px;top:2px;right:-11px;background:var(--gelb)"></span>
+      <span class="rubrik__name">sport</span>
+    </a>
+    <a class="rubrik__eintrag" href="/en/analyses/003-half-a-million-for-what.html">
+      <span class="meta">no. 03 <span class="neutral">· football · 29.08.2026</span></span>
+      Half a Million — For What?
+      <span class="thema">what the best-paid volunteer in the country delivers</span>
+    </a>
+    <a class="rubrik__eintrag" href="/en/analyses/001-the-case-and-fall-of-infantino.html">
+      <span class="meta">no. 01 <span class="neutral">· football · 28.08.2026</span></span>
+      The Case (and Fall) of Infantino
+      <span class="thema">why the most powerful man in world football does not fall</span>
+    </a>
+    <a class="rubrik__alle" href="archive.html#sport">all →</a>
+  </section>
 
+  <section class="rubrik rubrik--gesellschaft">
+    <a class="rubrik__kopf" href="archive.html#society" aria-label="section society">
+      <span class="rk rk--dreieck" style="top:0;right:-9px;border-left:23px solid transparent;border-right:23px solid transparent;border-bottom:40px solid var(--rot)"></span>
+      <span class="rubrik__name">society</span>
+    </a>
+    <p class="rubrik__folgt">the first analysis is coming</p>
+    <a class="rubrik__alle" href="archive.html#society">all →</a>
+  </section>
+
+  <section class="rubrik rubrik--welt">
+    <a class="rubrik__kopf" href="archive.html#world" aria-label="section world">
+      <span class="rk rk--quadrat" style="width:40px;height:40px;top:2px;right:-11px;background:var(--blau)"></span>
+      <span class="rubrik__name">world</span>
+    </a>
+    <a class="rubrik__eintrag" href="/de/analysen/002-reparieren-unter-beschuss.html">
+      <span class="meta">no. 02 <span class="neutral">· geo-economics · 28.08.2026 · in german</span></span>
+      Repairing Under Fire
+      <span class="thema">why russia’s economy reports a surplus and queues for petrol</span>
+    </a>
+    <a class="rubrik__alle" href="archive.html#world">all →</a>
+  </section>
+
+</nav>
 <footer class="fusszeile">
   <div><a href="../en/legal.html">legal notice</a><a href="../en/privacy.html">privacy</a></div>
   <div class="motto">no ads, cookies, subscription traps. a hobby that thinks it's a publication.</div>
 </footer>
-
 </div>
 </body>
 </html>

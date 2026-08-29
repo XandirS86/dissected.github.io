@@ -4,15 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>archive — a schley, dissected</title>
-<meta name="description" content="Analyses of football, education, economics and politics. Independent, ad-free.">
+<meta name="description" content="All analyses, by section: sport, society, world.">
 <link rel="stylesheet" href="../styles.css">
-<link rel="alternate" type="application/rss+xml" title="a schley, dissected (en)" href="../en/feed.xml">
+<link rel="stylesheet" href="../rubriken.css">
+<link rel="alternate" type="application/rss+xml" title="a schley, dissected (de)" href="../de/feed.xml">
 <link rel="alternate" hreflang="de" href="../de/archiv.html">
 <link rel="alternate" hreflang="en" href="../en/archive.html">
 </head>
 <body>
 <div class="seite">
-
 <header class="kopfzeile">
   <a class="marke" href="../en/index.html">a schley<span class="marke__verb">, dissected</span></a>
   <nav>
@@ -23,25 +23,51 @@
   </nav>
 </header>
 
-<section class="archiv">
-  <div class="archiv__filter">
-    <span>1 analysis</span>
-    <span style="color:var(--grau-hell)">since august 2026</span>
-    <span style="display:block;height:24px"></span>
-    <a href="#"><span class="zeichen blau"></span>all</a>
-    <a href="#" style="color:var(--grau-hell)"><span class="zeichen rot zeichen--kreis"></span>categories to follow</a>
-  </div>
-  <!-- Neue Analyse: Zeile OBEN einfügen, Zähler links anpassen. -->
-  <ol class="liste" reversed>
-    <li><span class="nr">01</span><span><a href="analyses/001-the-case-and-fall-of-infantino.html">The Case (and Fall) of Infantino</a><span class="thema">football · fifa on the mafia scale</span></span><span class="datum">28.08.2026</span></li>
-  </ol>
-</section>
+<main class="archiv">
+  <p class="archiv-zaehler">3 analyses · since august 2026</p>
+
+  <section class="rubrik-archiv rubrik--sport" id="sport">
+    <h2 class="rubrik-archiv__titel"><span class="rubrik__kopf" aria-label="section sport">
+      <span class="rk rk--kreis" style="width:40px;height:40px;top:2px;right:-11px;background:var(--gelb)"></span>
+      <span class="rubrik__name">sport</span>
+    </span></h2>
+    <a class="rubrik__eintrag" href="analyses/003-half-a-million-for-what.html">
+      <span class="meta">no. 03 <span class="neutral">· football · 29.08.2026</span></span>
+      Half a Million — For What?
+      <span class="thema">what the best-paid volunteer in the country delivers</span>
+    </a>
+    <a class="rubrik__eintrag" href="analyses/001-the-case-and-fall-of-infantino.html">
+      <span class="meta">no. 01 <span class="neutral">· football · 28.08.2026</span></span>
+      The Case (and Fall) of Infantino
+      <span class="thema">why the most powerful man in world football does not fall</span>
+    </a>
+  </section>
+
+  <section class="rubrik-archiv rubrik--gesellschaft" id="society">
+    <h2 class="rubrik-archiv__titel"><span class="rubrik__kopf" aria-label="section society">
+      <span class="rk rk--dreieck" style="top:0;right:-9px;border-left:23px solid transparent;border-right:23px solid transparent;border-bottom:40px solid var(--rot)"></span>
+      <span class="rubrik__name">society</span>
+    </span></h2>
+    <p class="rubrik__folgt">the first analysis is coming</p>
+  </section>
+
+  <section class="rubrik-archiv rubrik--welt" id="world">
+    <h2 class="rubrik-archiv__titel"><span class="rubrik__kopf" aria-label="section world">
+      <span class="rk rk--quadrat" style="width:40px;height:40px;top:2px;right:-11px;background:var(--blau)"></span>
+      <span class="rubrik__name">world</span>
+    </span></h2>
+    <a class="rubrik__eintrag" href="../de/analysen/002-reparieren-unter-beschuss.html">
+      <span class="meta">no. 02 <span class="neutral">· geo-economics · 28.08.2026 · in german</span></span>
+      Repairing Under Fire
+      <span class="thema">why russia’s economy reports a surplus and queues for petrol</span>
+    </a>
+  </section>
+</main>
 
 <footer class="fusszeile">
-  <div><a href="../en/index.html">← home</a><a href="../en/legal.html">legal notice</a><a href="../en/privacy.html">privacy</a></div>
+  <div><a href="../en/legal.html">legal notice</a><a href="../en/privacy.html">privacy</a></div>
   <div class="motto">no ads, cookies, subscription traps. a hobby that thinks it's a publication.</div>
 </footer>
-
 </div>
 </body>
 </html>
