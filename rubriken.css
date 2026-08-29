@@ -4,22 +4,27 @@
    Konstante: schwarze Grundlinie, Form oben rechts angeschnitten.
    v4: Hover — Titel faerben sich in der Grundfarbe der Rubrik,
    "alle" steht in der Grundfarbe und kippt beim Hover in die Formfarbe.
-   v6: Plakat-Kaskade im Quart-Mass 4:3 — jede Stufe ist drei Viertel
-   der vorherigen (360/270/202), Schrift skaliert im selben Verhaeltnis.
+   v7: Plakat-Kaskade im Quart-Mass 4:3, Gesamtmodul um 30% verkleinert —
+   Hoehen 252/189/141, Titel 48/36/27, Innenabstaende mitskaliert.
    Alle Stufen tragen dieselben Bauelemente: Meta, Titel, Untertitel, Komposition. */
 
 /* --- Plakat-Kaskade (Startseite) --- */
-.plakat--s2 { min-height: 270px; }
-.plakat--s2 .plakat__text { padding-top: 32px; padding-bottom: 32px; }
-.plakat--s2 .titel--plakat { font-size: clamp(30px, 4.6vw, 51px); }
-.plakat--s2 .untertitel { font-size: 15px; margin-top: 13px; max-width: 44ch; }
-.plakat--s3 { min-height: 202px; }
-.plakat--s3 .plakat__text { padding-top: 24px; padding-bottom: 24px; }
-.plakat--s3 .titel--plakat { font-size: clamp(24px, 3.5vw, 38px); }
-.plakat--s3 .untertitel { font-size: 13.5px; margin-top: 10px; max-width: 40ch; }
+.plakat { min-height: 252px; }
+.plakat .plakat__text { padding-top: 30px; padding-bottom: 30px; }
+.plakat .titel--plakat { font-size: clamp(28px, 4.4vw, 48px); }
+.plakat .untertitel { font-size: 15px; margin-top: 13px; max-width: 44ch; }
+.plakat--s2 { min-height: 189px; }
+.plakat--s2 .plakat__text { padding-top: 22px; padding-bottom: 22px; }
+.plakat--s2 .titel--plakat { font-size: clamp(22px, 3.3vw, 36px); }
+.plakat--s2 .untertitel { font-size: 13.5px; margin-top: 10px; max-width: 40ch; }
+.plakat--s3 { min-height: 141px; }
+.plakat--s3 .plakat__text { padding-top: 17px; padding-bottom: 17px; }
+.plakat--s3 .titel--plakat { font-size: clamp(18px, 2.5vw, 27px); }
+.plakat--s3 .untertitel { font-size: 12.5px; margin-top: 8px; max-width: 38ch; }
 @media (max-width: 760px) {
-  .plakat--s2 .komposition { min-height: 165px; }
-  .plakat--s3 .komposition { min-height: 124px; }
+  .plakat .komposition { min-height: 154px; }
+  .plakat--s2 .komposition { min-height: 116px; }
+  .plakat--s3 .komposition { min-height: 88px; }
 }
 
 .rubrik--sport        { --rubrik: var(--blau); --rubrik-form: var(--gelb); --rubrik-kopf-text: #fff; --rubrik-akzent: var(--blau); }
