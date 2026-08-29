@@ -8,7 +8,8 @@
    Hoehen 176/132/99, Titel 34/25/19. Einheitliche Textfeldbreite:
    Titel laufen ueber die volle Spalte, Untertitel bis zur festen
    460px-Kante — die Umbrueche fallen auf allen Stufen gleich.
-   v9: Mobil steht die Komposition zwischen Meta-Zeile und Titel.
+   v9/v14: Mobil steht die Komposition zuoberst, direkt unter der Trennlinie,
+   darunter Meta, Titel, Untertitel.
    v10: 18px Weissraum zwischen den Stufen — jedes Plakat ein eigenes Blatt.
    v12: Rubrikkoepfe 34px (nochmals -30%), Formen auf 40px mitskaliert,
    Name mittig; Stufe-1-Bild mit 18px Weissraum zur Oberkante.
@@ -36,14 +37,13 @@
      zwischen Meta und Ueberschrift ruecken kann. */
   .plakat { display: grid; grid-template-columns: 1fr; }
   .plakat .plakat__text { display: contents; }
-  .plakat .meta { order: 1; margin: 18px 0 10px; }
-  .plakat .komposition { order: 2; min-height: 108px; }
-  .plakat .titel--plakat { order: 3; margin-top: 12px; }
+  .plakat .komposition { order: 1; min-height: 108px; }
+  .plakat:first-of-type .komposition { margin-top: 0; }
+  .plakat .meta { order: 2; margin: 12px 0 8px; }
+  .plakat .titel--plakat { order: 3; }
   .plakat .untertitel { order: 4; margin: 8px 0 20px; }
   .plakat--s2 .komposition { min-height: 81px; }
-  .plakat--s2 .meta { margin-top: 14px; }
   .plakat--s3 .komposition { min-height: 62px; }
-  .plakat--s3 .meta { margin-top: 12px; }
 }
 
 .rubrik--sport        { --rubrik: var(--blau); --rubrik-form: var(--gelb); --rubrik-kopf-text: #fff; --rubrik-akzent: var(--blau); }
