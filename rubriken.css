@@ -14,7 +14,9 @@
    v12: Rubrikkoepfe 34px (nochmals -30%), Formen auf 40px mitskaliert,
    Name mittig; Stufe-1-Bild mit 18px Weissraum zur Oberkante.
    v13: 18px Weissraum auch zwischen Stufe 3 und Rubrikleiste —
-   dasselbe Blattmass an allen vier Fugen. */
+   dasselbe Blattmass an allen vier Fugen.
+   v15: Rubriken als freie Blaetter — 18px Fugen statt Trennlinien,
+   keine horizontale Linie mehr in den Koepfen. */
 
 /* --- Plakat-Kaskade (Startseite) --- */
 .plakat + .plakat { margin-top: 18px; }
@@ -54,11 +56,10 @@
 .rubriken {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  border-top: 2px solid #111;
+  gap: 18px;
   margin-top: 18px;
 }
-.rubrik { border-right: 1px solid #111; display: flex; flex-direction: column; }
-.rubrik:last-child { border-right: 0; }
+.rubrik { display: flex; flex-direction: column; }
 
 .rubrik__kopf {
   display: block;
@@ -124,8 +125,6 @@
 
 @media (max-width: 720px) {
   .rubriken { grid-template-columns: 1fr; }
-  .rubrik { border-right: 0; border-bottom: 1px solid #111; }
-  .rubrik:last-child { border-bottom: 0; }
 }
 
 /* --- Archiv: Rubrik-Abschnitte mit Ankern --- */
