@@ -1,6 +1,6 @@
 /* Rubriken-Stylesheet v3 — Systemfamilie: alle Koepfe identisches Raster,
-   nur Form und Farbe wechseln. sport = roter kreis auf blau,
-   gesellschaft = rotes dreieck auf gelb, welt = gelbes quadrat auf rot.
+   nur Form und Farbe wechseln. sport = gelber kreis auf blau,
+   gesellschaft = rotes dreieck auf gelb, welt = blaues quadrat auf rot.
    Konstante: schwarze Grundlinie, Form oben rechts angeschnitten. */
 
 .rubrik--sport        { --rubrik: var(--blau); --rubrik-kopf-text: #fff; --rubrik-akzent: var(--blau); }
