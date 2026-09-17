@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /de/vorgaenger-leiste.html
+Disallow: /en/previous-strip.html
+Disallow: /charts/*.py$
+
+Sitemap: https://www.dissected.eu/sitemap.xml
