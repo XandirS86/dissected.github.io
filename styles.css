@@ -267,3 +267,6 @@ tr.hervor td{font-weight:500}
   .einspruch__paar{grid-template-columns:1fr;row-gap:12px}
   .einspruch__replik{border-left:0;border-top:1px solid #ddd;padding:12px 0 0}
 }
+
+/* Methodik & Quellen: Absätze unter der Überschrift 35 % kleiner als der Lesekörper (17px → 0,65) */
+.artikel__text > p.methodik{font-size:.65em}
