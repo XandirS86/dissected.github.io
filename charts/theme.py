@@ -1,5 +1,5 @@
 """
-Chart-Theme für alwy schley — analysen.
+Chart-Theme für a xandir, dissected —.
 Erzeugt SVG-Diagramme im Stil der Seite: schwarz, ein Akzent, nur Nullinie, Werte am Balken.
 
 Nutzung (Python 3, matplotlib):

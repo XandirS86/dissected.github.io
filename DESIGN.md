@@ -1,4 +1,4 @@
-# a schley, dissected · Designsystem v0.2
+# a xandir, dissected · Designsystem v0.2
 
 Eine Schrift. Vier Farben. Ein Raster. Drei Formen.
 Laute Hülle, ruhiger Text. Jede Analyse ist ein Einzelstück – aber nur im Kopf.
