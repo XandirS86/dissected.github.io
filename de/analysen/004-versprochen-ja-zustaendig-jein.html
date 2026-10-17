@@ -142,7 +142,7 @@ p.weiter::before{content:"→ ";color:var(--rot)}
 .anleitung .codes{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;margin:8px 0 0;font-size:15px;color:var(--fg2)}
 .anleitung .codes b{font-family:var(--disp)}
 .ph{background:var(--gelb);color:#161616;padding:0 4px}
-:root{--bg:#ffffff;--fg:#111111;--fg2:#5c5c5c;--fg3:#9a9a9a;--line:#dddddd;--card:#ffffff;--blau:#1b4fa0;--rot:#d7261e;--gelb:#f2c200;--grid:#eeeeee;--band:#eeeeee;--tip:#111111;--tipfg:#ffffff;--disp:'Jost',system-ui,sans-serif;--body:'Jost',system-ui,sans-serif;--cD:#f2c200;--cB:url(#hatchB);--cF:#111111;--cK:#5c5c5c;--cS:#9a9a9a;--cU:url(#dotsU);--seq0:#fffbe0;--seq1:#f2c200;--pSPD:#d7261e;--pCDU:#111111;--pGruene:#3a7d44;--pAfD:#1b4fa0;--pLinke:#b0266e;--pBSW:#6b4c9a;--zeiger:#d7261e;}
+:root{--bg:#ffffff;--fg:#111111;--fg2:#5c5c5c;--fg3:#9a9a9a;--line:#dddddd;--card:#ffffff;--blau:#1b4fa0;--rot:#d7261e;--gelb:#f2c200;--grid:#eeeeee;--band:#eeeeee;--tip:#111111;--tipfg:#ffffff;--disp:'Jost',system-ui,sans-serif;--body:'Jost',system-ui,sans-serif;--cD:#f2c200;--cB:url(#hatchB);--cF:#111111;--cK:#5c5c5c;--cS:#9a9a9a;--cU:url(#dotsU);--seq0:#fffbe0;--seq1:#f2c200;--pSPD:#111111;--pGruene:#3c3c3c;--pCDU:#666666;--pAfD:#8c8c8c;--pLinke:#adadad;--pBSW:#cdcdcd;--zeiger:#d7261e;}
 
 /* Farbsystem der Rubrik gesellschaft: Gelb = Fläche (Landeshebel), Schwarzskala = andere Ebenen, Punktraster = unbestimmt, Rot = Zeiger */
 .seite{--akzent:var(--gelb)}
@@ -253,7 +253,7 @@ Zweifelst du noch oder zählst du schon? Jetzt noch ein paar Bilder: Preiselbeer
       <p class="sub">Die 48 Programme liegen zwischen 41 % und 76 % Landeshebel. Was unterscheidet oben von unten? Vor allem, wie konkret ein Programm schreibt: Programme mit vielen vagen Sätzen landen unten, Programme, die Instrumente und Zuständige nennen, oben. Wie viel ein Programm vom Bund fordert, spielt eine kleinere Rolle (Korrelation <span id="rU"></span> gegenüber <span id="rF"></span>).</p>
       <div class="leg3" id="leg3"></div>
       <div class="plot" id="c3"><noscript><img src="../../charts/004-streuung.de.svg" alt="Abbildung 3 als statisches Bild (ohne Skript)"></noscript></div>
-      <p class="fuss">Jeder Punkt ist ein Programm in der Farbe seiner Partei: je weiter rechts, desto vager, je weiter unten, desto kleiner der Hebel. Ein Klick auf eine Partei oder ein Land in der Legende hebt deren Programme hervor; ein zweiter Klick oder „Alle“ setzt zurück. Die gestrichelte Linie ist der Trend über alle 48 Programme.</p></div>
+      <p class="fuss">Jeder Punkt ist ein Programm im Grauton seiner Partei (dunkler = höherer Landeshebel der Partei insgesamt): je weiter rechts, desto vager, je weiter unten, desto kleiner der Hebel. Ein Klick auf eine Partei oder ein Land in der Legende hebt deren Programme hervor; ein zweiter Klick oder „Alle“ setzt zurück. Die gestrichelte Linie ist der Trend über alle 48 Programme.</p></div>
     <div class="karte"><div class="nr">Ableitung <span class="art">aus Befund 2 und 3</span></div><h3>Der Hebel hängt stärker an der Formulierung als an der Zuständigkeit des Bundes.</h3>
       <p class="sub">Befund 2: Das Vage (27 %) ist mehr als doppelt so groß wie alle Forderungen an den Bund (11 %). Befund 3: Der U-Anteil hängt enger mit dem Hebel zusammen (−0,77) als der Bundesanteil (−0,65).</p></div>
   </div>
@@ -296,7 +296,7 @@ Zweifelst du noch oder zählst du schon? Jetzt noch ein paar Bilder: Preiselbeer
       <p class="sub">Die Partei, die das Programm schreibt, macht mehr aus als das Land, in dem gewählt wird. In Baden-Württemberg liegen 33 Punkte zwischen Linke (43 %) und SPD (76 %), in Hamburg 25 und in Berlin 21 zwischen BSW und SPD. Thüringen ist die Ausnahme: Dort liegen alle sechs Programme eng beieinander (56 bis 67 %).</p>
       <div class="leg3" id="leg9"></div>
       <div class="plot" id="c9"><noscript><img src="../../charts/004-spannweite.de.svg" alt="Abbildung 9 als statisches Bild (ohne Skript)"></noscript></div>
-      <p class="fuss">Jeder Punkt ist ein Programm in der Farbe seiner Partei, die Linie verbindet das niedrigste und das höchste Programm eines Landes.</p></div>
+      <p class="fuss">Jeder Punkt ist ein Programm im Grauton seiner Partei (dunkler = höherer Landeshebel der Partei insgesamt); das gelbe Band verbindet das niedrigste und das höchste Programm eines Landes.</p></div>
     <div class="karte"><div class="nr">These <span class="art">geprüft in Teil 4 Verhandelt</span></div><h3>Koalitionsverträge erben den Hebel der Programme.</h3>
       <p class="sub">Wenn die Partei den Hebel stärker bestimmt als das Land, müsste sich das in den Verträgen wiederfinden. Teil 4 zählt nach.</p></div>
   </div>
@@ -525,16 +525,17 @@ function codeTip(name,o,n){return `<b>${name}</b>${n?` · ${deI(n)} Positionen`:
 const PARTEIEN=['SPD','CDU','Grüne','AfD','Linke','BSW'];
 const LAENDER=['Hamburg','Berlin','Thüringen','Sachsen','Sachsen-Anhalt','Brandenburg','Rheinland-Pfalz','Baden-Württemberg'];
 const pcol=p=>getComputedStyle(document.documentElement).getPropertyValue('--p'+(p==='Grüne'?'Gruene':p)).trim();
-const FORMEN=false,PARTEIFARBEN=true;
+const FORMEN=false,PARTEIFARBEN=true,HOHL=false;
 const FORMEN_MAP={'SPD':'kreis','CDU':'quadrat','Grüne':'dreieck','AfD':'raute','Linke':'dreieck2','BSW':'balken'};
-function mark(cx,cy,p){const f=FORMEN?FORMEN_MAP[p]:'kreis',c=pcol(p),a={class:'mk',fill:c,stroke:'var(--card)','stroke-width':2};
+const HOHL_SET=new Set(['Grüne','AfD','BSW']);
+function mark(cx,cy,p){const f=FORMEN?FORMEN_MAP[p]:'kreis',c=pcol(p),hohl=HOHL&&HOHL_SET.has(p),a={class:'mk'+(hohl?' hohl':''),fill:hohl?'var(--card)':c,stroke:hohl?c:'var(--card)','stroke-width':hohl?2.5:2};
   if(f==='kreis')return el('circle',{...a,cx,cy,r:7});
   if(f==='quadrat')return el('rect',{...a,x:cx-6.5,y:cy-6.5,width:13,height:13});
   if(f==='dreieck')return el('path',{...a,d:`M${cx} ${cy-8.5}L${cx+8} ${cy+6}L${cx-8} ${cy+6}Z`});
   if(f==='dreieck2')return el('path',{...a,d:`M${cx} ${cy+8.5}L${cx+8} ${cy-6}L${cx-8} ${cy-6}Z`});
   if(f==='raute')return el('path',{...a,d:`M${cx} ${cy-9}L${cx+9} ${cy}L${cx} ${cy+9}L${cx-9} ${cy}Z`});
   return el('rect',{...a,x:cx-8.5,y:cy-3.5,width:17,height:7});}
-const sw=p=>{if(!FORMEN&&!PARTEIFARBEN)return '';const m=mark(8,8,p);m.setAttribute('stroke','none');const s=el('svg',{viewBox:'0 0 16 16','aria-hidden':'true'});s.append(m);return s.outerHTML;};
+const sw=p=>{if(!FORMEN&&!PARTEIFARBEN)return '';const m=mark(8,8,p);if(!m.classList.contains('hohl'))m.setAttribute('stroke','none');const s=el('svg',{viewBox:'0 0 16 16','aria-hidden':'true'});s.append(m);return s.outerHTML;};
 function legende(id,interaktiv){
   const chip=(k,v,inner)=>`<span${interaktiv?` role="button" tabindex="0" data-k="${k}" data-v="${v}"`:''}>${inner}</span>`;
   let h=`<div class="z${interaktiv?' i':''}"><b>Partei</b>`+PARTEIEN.map(p=>chip('partei',p,sw(p)+p)).join('')+'</div>';
