@@ -522,7 +522,7 @@ const tip=document.getElementById('tip');
 function hover(node,html){node.classList.add('hit');node.addEventListener('mousemove',e=>{tip.innerHTML=html;tip.style.opacity=1;const x=Math.min(e.clientX+14,window.innerWidth-280),y=e.clientY+16;tip.style.left=x+'px';tip.style.top=y+'px';});node.addEventListener('mouseleave',()=>tip.style.opacity=0);}
 function codeTip(name,o,n){return `<b>${name}</b>${n?` · ${deI(n)} Positionen`:''}<br>`+CODES.map(([c,l])=>`${c} ${l}: ${de(o[c+'p'])} %`).join('<br>')+`<br><b>Landeshebel D+B: ${de(o.DB)} %</b>`;}
 // Parteifarben (Kernaussagen 3 und 9); Kernaussage 3 zusätzlich mit klickbarer Legende zum Hervorheben nach Partei oder Land
-const PARTEIEN=['SPD','CDU','Grüne','AfD','Linke','BSW'];
+const PARTEIEN=['SPD','Grüne','CDU','AfD','Linke','BSW']; // Rangfolge nach gepooltem Landeshebel = Reihenfolge der Grautöne
 const LAENDER=['Hamburg','Berlin','Thüringen','Sachsen','Sachsen-Anhalt','Brandenburg','Rheinland-Pfalz','Baden-Württemberg'];
 const pcol=p=>getComputedStyle(document.documentElement).getPropertyValue('--p'+(p==='Grüne'?'Gruene':p)).trim();
 const FORMEN=false,PARTEIFARBEN=true,HOHL=false;
