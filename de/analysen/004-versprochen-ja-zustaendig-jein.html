@@ -1,3 +1,6 @@
+<!doctype html>
+<html lang="de">
+<head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Versprochen: ja. Zuständig: jein. — dissected</title>
@@ -139,17 +142,19 @@ p.weiter::before{content:"→ ";color:var(--rot)}
 .anleitung .codes{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;margin:8px 0 0;font-size:15px;color:var(--fg2)}
 .anleitung .codes b{font-family:var(--disp)}
 .ph{background:var(--gelb);color:#161616;padding:0 4px}
+:root{--bg:#ffffff;--fg:#111111;--fg2:#5c5c5c;--fg3:#9a9a9a;--line:#dddddd;--card:#ffffff;--blau:#1b4fa0;--rot:#d7261e;--gelb:#f2c200;--grid:#eeeeee;--band:#eeeeee;--tip:#111111;--tipfg:#ffffff;--disp:'Jost',system-ui,sans-serif;--body:'Jost',system-ui,sans-serif;--cD:#f2c200;--cB:url(#hatchB);--cF:#111111;--cK:#5c5c5c;--cS:#9a9a9a;--cU:url(#dotsU);--seq0:#fffbe0;--seq1:#f2c200;--pSPD:#d7261e;--pCDU:#111111;--pGruene:#3a7d44;--pAfD:#1b4fa0;--pLinke:#b0266e;--pBSW:#6b4c9a;--zeiger:#d7261e;}
 
-/* dissected.eu, Rubrik gesellschaft: weißer Grund, Jost, Gelb als Fläche, Schwarz als Textakzent; Code- und Parteifarben bleiben als Lesehilfe */
-:root{--bg:#ffffff;--fg:#111111;--fg2:#5c5c5c;--fg3:#9a9a9a;--line:#dddddd;--card:#ffffff;--blau:#1b4fa0;--rot:#d7261e;--gelb:#f2c200;
-  --cD:#1b4fa0;--cB:#8aa6d8;--cF:#d7261e;--cK:#f2c200;--cS:#111111;--cU:#9a9a9a;--grid:#eeeeee;--tip:#111111;--tipfg:#ffffff;--seq0:#e6ecf7;--seq1:#1b4fa0;
-  --pCDU:#111111;--disp:'Jost',system-ui,sans-serif;--body:'Jost',system-ui,sans-serif}
+/* Farbsystem der Rubrik gesellschaft: Gelb = Fläche (Landeshebel), Schwarzskala = andere Ebenen, Punktraster = unbestimmt, Rot = Zeiger */
 .seite{--akzent:var(--gelb)}
 body{font-size:16px;padding-left:0;padding-right:0}
 .wrap{max-width:none;margin:0;padding:0}
 .karte{border:1px solid var(--line)}
 .ebene h2::before,.ebene h2.p::before,.ebene h2.l::before,.stufe h2.frage::before{background:var(--schwarz)}
-nav.reiter button.on{border-bottom-color:var(--rot)}
+nav.reiter button.on{border-bottom-color:var(--zeiger)}
+.wahl button.on{border-color:var(--zeiger);color:var(--fg)}
+.leg3 span.on{border-color:var(--zeiger);color:var(--zeiger)}
+.knoten:hover rect,.knoten.on rect{stroke:var(--zeiger)}
+p.weiter::before{color:var(--zeiger)}
 .kopfzeile nav a[aria-current]{border-bottom-color:var(--schwarz)}
 .analysekopf__farbe{color:var(--schwarz)} .analysekopf__farbe .meta,.meta{color:var(--schwarz)} .konfidenz{color:var(--schwarz)}
 .einspruch__kopf h2{color:var(--schwarz)} .einspruch__replik{border-left-color:var(--schwarz)} .einspruch__tag{background:var(--schwarz)}
@@ -157,7 +162,19 @@ a:hover{color:var(--rot)}
 .lead-pre{margin:26px 0 0} .legende{margin-bottom:8px}
 .plot noscript img{max-width:100%;height:auto}
 .luecke{background:#fff3c4;padding:0 4px}
+.hero b{color:var(--fg);background:linear-gradient(transparent 58%,var(--gelb) 58%,var(--gelb) 92%,transparent 92%);padding:0 6px;margin-left:-6px}
+.legende i,.sw{display:inline-block;width:13px;height:13px;border-radius:0;margin-right:6px;vertical-align:-1px;box-sizing:border-box}
+.sw-D{background:var(--cD)} .sw-F{background:var(--cF)} .sw-K{background:var(--cK)} .sw-S{background:var(--cS)}
+.sw-B{background:repeating-linear-gradient(-45deg,#f2c200 0 3.5px,#111111 3.5px 5px)}
+.sw-U{background:radial-gradient(circle,#9a9a9a 1px,transparent 1.3px) 0 0/4px 4px #ffffff;border:1px solid #9a9a9a}
+svg rect[fill="url(#dotsU)"],svg path[fill="url(#dotsU)"]{stroke:#9a9a9a;stroke-width:1}
+.plot g.hl .mk{stroke:var(--fg);stroke-width:2}
+.zoom .code{display:inline-flex;align-items:center;gap:7px;background:var(--fg);color:var(--card)} .zoom .code .sw{margin:0}
+.leg3 svg{display:none}
+.leg3 svg{display:inline-block}
 </style>
+</head>
+<body>
 <div class="seite">
 <header class="kopfzeile">
   <a class="marke" href="../index.html"><span class="marke__verb">a xandir,</span> dissected</a>
@@ -186,6 +203,10 @@ a:hover{color:var(--rot)}
 </section>
 
 <div class="wrap">
+<svg aria-hidden="true" focusable="false" style="position:absolute;width:0;height:0;overflow:hidden"><defs>
+<pattern id="hatchB" patternUnits="userSpaceOnUse" width="7" height="7" patternTransform="rotate(45)"><rect width="7" height="7" fill="#f2c200"/><rect width="7" height="2.2" fill="#111111"/></pattern>
+<pattern id="dotsU" patternUnits="userSpaceOnUse" width="6" height="6"><rect width="6" height="6" fill="#ffffff"/><circle cx="3" cy="3" r="1.2" fill="#9a9a9a"/></pattern>
+</defs></svg>
 <nav class="reiter" role="tablist" aria-label="Reiter">
   <button data-tab="uebersicht" role="tab" class="on" aria-selected="true">Lesestrang</button>
   <button data-tab="laender" role="tab" aria-selected="false">Länder</button>
@@ -214,7 +235,7 @@ Zweifelst du noch oder zählst du schon? Jetzt noch ein paar Bilder: Preiselbeer
       <p class="sub">Von 1.000 Versprechen kann die Landesregierung 539 selbst umsetzen, etwa Lehrkräfte einstellen oder Polizei aufstocken. Bei 69 weiteren sitzt sie mit am Tisch und braucht den Bund, andere Länder oder Dritte. Die übrigen 392 liegen woanders oder bleiben im Programm so vage, dass kein Weg erkennbar ist.</p>
       <div class="hero"><b id="heroDB"></b><span>der 28.071 Versprechen liegen ganz oder teilweise in der Hand des Landes (D + B)</span></div>
       <div class="plot" id="c1"><noscript><img src="../../charts/004-hebel.de.svg" alt="Abbildung 1 als statisches Bild (ohne Skript)"></noscript></div>
-      <p class="fuss">Der Balken zeigt alle 28.071 Versprechen nach Zuständigkeit. Blau ist der Landeshebel, alles rechts davon kann das Land nicht allein einlösen.</p></div>
+      <p class="fuss">Der Balken zeigt alle 28.071 Versprechen nach Zuständigkeit. Gelb ist der Landeshebel (schraffiert: Land mit anderen), alles rechts davon kann das Land nicht allein einlösen; gerastert: kein Weg benannt.</p></div>
     <div class="karte"><div class="nr">These <span class="art">geprüft in Teil 2 Beworben</span></div><h3>Beworben werden die 61 %, nicht die 39 %.</h3>
       <p class="sub">Folgt nicht aus dieser Zählung. Ob Plakate und Reden die einlösbaren Versprechen nach vorn stellen, prüft Teil 2.</p></div>
   </div>
@@ -249,7 +270,7 @@ Zweifelst du noch oder zählst du schon? Jetzt noch ein paar Bilder: Preiselbeer
     <div class="karte"><div class="nr">Kernaussage 5 <span class="art">Befund</span></div><h3>Sieben von acht Ländern: dieselbe Spitze. Sechs von acht: dasselbe Ende.</h3>
       <p class="sub">Man könnte vermuten, dass die Parteiwerte nur durch einzelne Länder zustande kommen. Der Blick in alle acht Länder zeigt das Gegenteil: SPD oder Grüne führen in sieben von acht Ländern, das BSW ist in sechs Letzter. Ausnahmen: In Sachsen-Anhalt führt die AfD, Letzte sind in Baden-Württemberg die Linke und in Brandenburg die CDU. In Berlin liegt die CDU auf Platz zwei.</p>
       <div class="plot" id="c5"><noscript><img src="../../charts/004-matrix.de.svg" alt="Abbildung 5 als statisches Bild (ohne Skript)"></noscript></div>
-      <p class="fuss">Jede Zelle zeigt den Landeshebel eines Programms, die kleine Zahl den Rang im Land; dunkleres Blau heißt höherer Hebel.</p></div>
+      <p class="fuss">Jede Zelle zeigt den Landeshebel eines Programms, die kleine Zahl den Rang im Land; kräftigeres Gelb heißt höherer Hebel.</p></div>
     <div class="karte"><div class="nr">Kernaussage 6 <span class="art">Befund</span></div><h3>Fehlender Hebel hat zwei Gesichter: ein Fünftel an den Bund oder ein Drittel ohne Adresse.</h3>
       <p class="sub">Wer unter 100 % liegt, liegt es aus unterschiedlichen Gründen. Die AfD richtet jedes fünfte Versprechen an Bund oder EU (20 %) und lässt dafür am wenigsten offen. Das BSW hat die meisten vagen Versprechen (33 %) und fordert zugleich viel vom Bund. SPD und Grüne fordern am wenigsten vom Bund und lassen ein Viertel offen.</p>
       <div class="plot" id="c6"><noscript><img src="../../charts/004-gruende.de.svg" alt="Abbildung 6 als statisches Bild (ohne Skript)"></noscript></div>
@@ -290,68 +311,68 @@ Zweifelst du noch oder zählst du schon? Jetzt noch ein paar Bilder: Preiselbeer
       <div class="wahl zoomwahl" id="z-wahl" role="tablist" aria-label="Zuständigkeit wählen"></div>
       <div class="zgrp" data-code="D">
         <div class="zpos"><p class="wort">„Darüber hinaus werden wir das Katastrophenschutzgesetz überarbeiten sowie ein gesetzliches Notfallregister einführen“</p>
-          <p class="sub"><span class="code" style="background:var(--cD);color:#fff">D</span>Land allein. Begründung aus der Prüfung: Landesgesetz – D. Gezählte Position: „Ein gesetzliches Notfallregister einführen.“ Die Überarbeitung des Katastrophenschutzgesetzes ist eine eigene Position (Seiten 236 und 252), ebenfalls D.</p>
+          <p class="sub"><span class="code"><i class="sw sw-D"></i>D</span>Land allein. Begründung aus der Prüfung: Landesgesetz – D. Gezählte Position: „Ein gesetzliches Notfallregister einführen.“ Die Überarbeitung des Katastrophenschutzgesetzes ist eine eigene Position (Seiten 236 und 252), ebenfalls D.</p>
           <p class="fuss">Grüne Berlin 2026, PDF-Seite 252</p></div>
         <div class="zpos"><p class="wort">„Wir werden von Firmen ein Entgelt für die Entnahme von Oberflächenwasser erheben“</p>
-          <p class="sub"><span class="code" style="background:var(--cD);color:#fff">D</span>Land allein. Begründung aus der Prüfung: Wasserentnahmeentgelt im Landesrecht mit „wir“ (Nr. 8 Landesabgaben; wie BB CDU 0442 D) – D.</p>
+          <p class="sub"><span class="code"><i class="sw sw-D"></i>D</span>Land allein. Begründung aus der Prüfung: Wasserentnahmeentgelt im Landesrecht mit „wir“ (Nr. 8 Landesabgaben; wie BB CDU 0442 D) – D.</p>
           <p class="fuss">Linke Berlin 2026, PDF-Seite 203</p></div>
         <div class="zpos"><p class="wort">„Verbindliche Mindeststandards für Unterkünfte auf Landesebene“</p>
-          <p class="sub"><span class="code" style="background:var(--cD);color:#fff">D</span>Land allein. Begründung aus der Prüfung: D (Landesebene genannt).</p>
+          <p class="sub"><span class="code"><i class="sw sw-D"></i>D</span>Land allein. Begründung aus der Prüfung: D (Landesebene genannt).</p>
           <p class="fuss">Linke Baden-Württemberg 2026, PDF-Seite 13</p></div>
       </div>
       <div class="zgrp" data-code="B" hidden>
         <div class="zpos"><p class="wort">„Das nationale Spitzensportzentrum an der Paul-Heyse-Straße entwickeln wir mit dem Bund weiter“</p>
-          <p class="sub"><span class="code" style="background:var(--cB);color:#161616">B</span>Land mit anderen. Begründung aus der Prüfung: Bund als benannter Partner – B; eigenständiges Einzelprojekt.</p>
+          <p class="sub"><span class="code"><i class="sw sw-B"></i>B</span>Land mit anderen. Begründung aus der Prüfung: Bund als benannter Partner – B; eigenständiges Einzelprojekt.</p>
           <p class="fuss">SPD Berlin 2026, PDF-Seite 56</p></div>
         <div class="zpos"><p class="wort">„Wir werden die Förderung lokaljournalistischer Angebote durch die mabb auf 1,5 Millionen Euro anheben“</p>
-          <p class="sub"><span class="code" style="background:var(--cB);color:#161616">B</span>Land mit anderen. Begründung aus der Prüfung: Mittel und Förderentscheidungen der gemeinsamen staatsfernen Anstalt Berlin-Brandenburg → B (Nr. 5).</p>
+          <p class="sub"><span class="code"><i class="sw sw-B"></i>B</span>Land mit anderen. Begründung aus der Prüfung: Mittel und Förderentscheidungen der gemeinsamen staatsfernen Anstalt Berlin-Brandenburg → B (Nr. 5).</p>
           <p class="fuss">Linke Brandenburg 2024, PDF-Seite 119</p></div>
         <div class="zpos"><p class="wort">„Ziel ist ein ticketloser, solidarisch finanzierter ÖPNV, bei dem alle, unabhängig vom Einkommen, mitfahren können“</p>
-          <p class="sub"><span class="code" style="background:var(--cB);color:#161616">B</span>Land mit anderen. Begründung aus der Prüfung: Tarifforderung im Verbund ohne ausdrückliche Landesfinanzierung → B (Nr. 16, Nachtrag 19 h; Nachtrag 20 Zeile Tarif).</p>
+          <p class="sub"><span class="code"><i class="sw sw-B"></i>B</span>Land mit anderen. Begründung aus der Prüfung: Tarifforderung im Verbund ohne ausdrückliche Landesfinanzierung → B (Nr. 16, Nachtrag 19 h; Nachtrag 20 Zeile Tarif).</p>
           <p class="fuss">Linke Rheinland-Pfalz 2026, PDF-Seite 30</p></div>
       </div>
       <div class="zgrp" data-code="F" hidden>
         <div class="zpos"><p class="wort">„Die Verhängung einer Jugendstrafe soll bereits ab drei Monaten möglich sein“</p>
-          <p class="sub"><span class="code" style="background:var(--cF);color:#fff">F</span>Bund / EU. Begründung aus der Prüfung: Mindestmaß der Jugendstrafe im JGG, Bundesrecht (Nr. 15) – F.</p>
+          <p class="sub"><span class="code"><i class="sw sw-F"></i>F</span>Bund / EU. Begründung aus der Prüfung: Mindestmaß der Jugendstrafe im JGG, Bundesrecht (Nr. 15) – F.</p>
           <p class="fuss">AfD Berlin 2026, PDF-Seite 15</p></div>
         <div class="zpos"><p class="wort">„Wir setzen uns dafür ein, dass eine solche Konnexitätsregelung auch im Verhältnis zur Bundesebene verankert wird“</p>
-          <p class="sub"><span class="code" style="background:var(--cF);color:#fff">F</span>Bund / EU. Begründung aus der Prüfung: Finanzverfassung des Grundgesetzes – F.</p>
+          <p class="sub"><span class="code"><i class="sw sw-F"></i>F</span>Bund / EU. Begründung aus der Prüfung: Finanzverfassung des Grundgesetzes – F.</p>
           <p class="fuss">CDU Berlin 2026, PDF-Seite 89</p></div>
         <div class="zpos"><p class="wort">„Keine Social-Media-Verbote“</p>
-          <p class="sub"><span class="code" style="background:var(--cF);color:#fff">F</span>Bund / EU. Begründung aus der Prüfung: Plattformregulierung Bund/EU → F.</p>
+          <p class="sub"><span class="code"><i class="sw sw-F"></i>F</span>Bund / EU. Begründung aus der Prüfung: Plattformregulierung Bund/EU → F.</p>
           <p class="fuss">Linke Baden-Württemberg 2026, PDF-Seite 57</p></div>
       </div>
       <div class="zgrp" data-code="K" hidden>
         <div class="zpos"><p class="wort">„Die Rekommunalisierung der Energie- und Wasserversorgung“</p>
-          <p class="sub"><span class="code" style="background:var(--cK);color:#161616">K</span>Kommunen. Begründung aus der Prüfung: Rekommunalisierung entscheiden die Kommunen; kein Landesinstrument → K (gleich LSA BSW 0437).</p>
+          <p class="sub"><span class="code"><i class="sw sw-K"></i>K</span>Kommunen. Begründung aus der Prüfung: Rekommunalisierung entscheiden die Kommunen; kein Landesinstrument → K (gleich LSA BSW 0437).</p>
           <p class="fuss">Linke Baden-Württemberg 2026, PDF-Seite 68</p></div>
         <div class="zpos"><p class="wort">„Zudem sollen neue Baugebiete nach der Idee der ‚Schwammstadt‘ ausreichend Sickerflächen erhalten“</p>
-          <p class="sub"><span class="code" style="background:var(--cK);color:#161616">K</span>Kommunen. Begründung aus der Prüfung: Festsetzungen für neue Baugebiete sind Bauleitplanung der Gemeinden (§ 2 Abs. 1 BauGB); der Satz ist passiv und nennt weder das Land noch ein Landesinstrument (keine Landesbauordnung, keine Raumordnungsvorgabe, keine Förderung) – K.</p>
+          <p class="sub"><span class="code"><i class="sw sw-K"></i>K</span>Kommunen. Begründung aus der Prüfung: Festsetzungen für neue Baugebiete sind Bauleitplanung der Gemeinden (§ 2 Abs. 1 BauGB); der Satz ist passiv und nennt weder das Land noch ein Landesinstrument (keine Landesbauordnung, keine Raumordnungsvorgabe, keine Förderung) – K.</p>
           <p class="fuss">AfD Rheinland-Pfalz 2026, PDF-Seite 78</p></div>
         <div class="zpos"><p class="wort">„Die Breitbandanbindung sächsischer Schulen muss bis 2025 abgeschlossen werden“</p>
-          <p class="sub"><span class="code" style="background:var(--cK);color:#161616">K</span>Kommunen. Begründung aus der Prüfung: Anbindung/Sachausstattung der Schulen liegt beim Schulträger (Gemeinden), kein Landesinstrument genannt – K; der DigitalPakt im Folgesatz ist eine eigene Bundesforderung.</p>
+          <p class="sub"><span class="code"><i class="sw sw-K"></i>K</span>Kommunen. Begründung aus der Prüfung: Anbindung/Sachausstattung der Schulen liegt beim Schulträger (Gemeinden), kein Landesinstrument genannt – K; der DigitalPakt im Folgesatz ist eine eigene Bundesforderung.</p>
           <p class="fuss">Grüne Sachsen 2024, PDF-Seite 40</p></div>
       </div>
       <div class="zgrp" data-code="S" hidden>
         <div class="zpos"><p class="wort">„Die AfD setzt sich für die Schaffung einer KV-Notdienstpraxis pro Bezirk ein“</p>
-          <p class="sub"><span class="code" style="background:var(--cS);color:#fff">S</span>Selbstverwaltung / Dritte. Begründung aus der Prüfung: Notdienst im Sicherstellungsauftrag der KV (§ 75 Abs. 1b SGB V; Nachtrag 26 b 5) – S.</p>
+          <p class="sub"><span class="code"><i class="sw sw-S"></i>S</span>Selbstverwaltung / Dritte. Begründung aus der Prüfung: Notdienst im Sicherstellungsauftrag der KV (§ 75 Abs. 1b SGB V; Nachtrag 26 b 5) – S.</p>
           <p class="fuss">AfD Berlin 2026, PDF-Seite 70</p></div>
         <div class="zpos"><p class="wort">„Ihre Vergütung werden wir anpassen“</p>
-          <p class="sub"><span class="code" style="background:var(--cS);color:#fff">S</span>Selbstverwaltung / Dritte. Begründung aus der Prüfung: Vertragsärztliche Vergütung vereinbart die Selbstverwaltung → S.</p>
+          <p class="sub"><span class="code"><i class="sw sw-S"></i>S</span>Selbstverwaltung / Dritte. Begründung aus der Prüfung: Vertragsärztliche Vergütung vereinbart die Selbstverwaltung → S.</p>
           <p class="fuss">Linke Brandenburg 2024, PDF-Seite 52</p></div>
         <div class="zpos"><p class="wort">„Wir wollen neben den landeseigenen Häusern auch bei anderen Krankenhausträgern Entlastungstarifverträge“</p>
-          <p class="sub"><span class="code" style="background:var(--cS);color:#fff">S</span>Selbstverwaltung / Dritte. Begründung aus der Prüfung: Tarifverträge anderer Träger ohne Landesbeteiligung – Tarifparteien S (Nachtrag 11 b; 28 b 4 betrifft nur Landesbeschäftigte).</p>
+          <p class="sub"><span class="code"><i class="sw sw-S"></i>S</span>Selbstverwaltung / Dritte. Begründung aus der Prüfung: Tarifverträge anderer Träger ohne Landesbeteiligung – Tarifparteien S (Nachtrag 11 b; 28 b 4 betrifft nur Landesbeschäftigte).</p>
           <p class="fuss">SPD Berlin 2026, PDF-Seite 33</p></div>
       </div>
       <div class="zgrp" data-code="U" hidden>
         <div class="zpos"><p class="wort">„Das FUBIC an der Freien Universität ist zügig fertigzustellen“</p>
-          <p class="sub"><span class="code" style="background:var(--cU);color:#fff">U</span>Unbestimmt. Begründung aus der Prüfung: Passiv, benanntes Projekt ohne Land als Träger oder Finanzierer (Nachtrag 29 Teil 1c Zeile 6) – U.</p>
+          <p class="sub"><span class="code"><i class="sw sw-U"></i>U</span>Unbestimmt. Begründung aus der Prüfung: Passiv, benanntes Projekt ohne Land als Träger oder Finanzierer (Nachtrag 29 Teil 1c Zeile 6) – U.</p>
           <p class="fuss">CDU Berlin 2026, PDF-Seite 47</p></div>
         <div class="zpos"><p class="wort">„Dafür werden wir mehr Kurzzeitpflege- und Tagespflegeplätze im gesamten Land Brandenburg schaffen“</p>
-          <p class="sub"><span class="code" style="background:var(--cU);color:#fff">U</span>Unbestimmt. Begründung aus der Prüfung: Plätze schaffen Einrichtungsträger; „wir“ ohne Förder- oder Investitionsinstrument → U (Grundregel Schritt 3).</p>
+          <p class="sub"><span class="code"><i class="sw sw-U"></i>U</span>Unbestimmt. Begründung aus der Prüfung: Plätze schaffen Einrichtungsträger; „wir“ ohne Förder- oder Investitionsinstrument → U (Grundregel Schritt 3).</p>
           <p class="fuss">Linke Brandenburg 2024, PDF-Seite 56</p></div>
         <div class="zpos"><p class="wort">„Auch private Projekte wie das Hochleistungsrechenzentrum in Nierstein müssen durch das Land bestmöglich unterstützt werden“</p>
-          <p class="sub"><span class="code" style="background:var(--cU);color:#fff">U</span>Unbestimmt. Begründung aus der Prüfung: Das Land ist als Akteur genannt, aber ohne Instrument – keine Förderung, kein Programm, keine Mittel; reiner Zwecksatz zu einem benannten privaten Projekt (Nachtrag 6, Nr. 1).</p>
+          <p class="sub"><span class="code"><i class="sw sw-U"></i>U</span>Unbestimmt. Begründung aus der Prüfung: Das Land ist als Akteur genannt, aber ohne Instrument – keine Förderung, kein Programm, keine Mittel; reiner Zwecksatz zu einem benannten privaten Projekt (Nachtrag 6, Nr. 1).</p>
           <p class="fuss">AfD Rheinland-Pfalz 2026, PDF-Seite 33</p></div>
       </div>
 
@@ -456,7 +477,7 @@ Zweifelst du noch oder zählst du schon? Jetzt noch ein paar Bilder: Preiselbeer
   <h2>Konzept: vom Programm zum Landeshebel</h2>
   <p>Wie aus 48 Wahlprogrammen eine Zahl wird. Das Band zeigt den Weg der Positionen durch sechs Stufen; ein Klick auf eine Stufe erklärt sie.</p>
   <div class="karte"><div class="nr">Kernaussage</div><h3 class="e" id="k-t"></h3><p class="sub" id="k-s"></p><div class="plot" id="k-fluss"></div>
-    <p class="fuss">Das Band steht für die 28.071 Positionen und fächert am Ende nach Zuständigkeit auf; der blaue Teil ist der Landeshebel. Zahlen aus den technischen Prüfungen und Kennzahlen vom 17.10.2026.</p></div>
+    <p class="fuss">Das Band steht für die 28.071 Positionen und fächert am Ende nach Zuständigkeit auf; der gelbe Teil ist der Landeshebel. Zahlen aus den technischen Prüfungen und Kennzahlen vom 17.10.2026.</p></div>
   <div class="wahl" id="k-wahl" role="tablist" aria-label="Stufe wählen" style="margin-top:18px"></div>
   <div class="karte"><div class="nr" id="k-nr"></div><h3 class="e" id="k-h"></h3><div id="k-p"></div></div>
 </section>
@@ -504,7 +525,16 @@ function codeTip(name,o,n){return `<b>${name}</b>${n?` · ${deI(n)} Positionen`:
 const PARTEIEN=['SPD','CDU','Grüne','AfD','Linke','BSW'];
 const LAENDER=['Hamburg','Berlin','Thüringen','Sachsen','Sachsen-Anhalt','Brandenburg','Rheinland-Pfalz','Baden-Württemberg'];
 const pcol=p=>getComputedStyle(document.documentElement).getPropertyValue('--p'+(p==='Grüne'?'Gruene':p)).trim();
-const sw=p=>`<svg viewBox="-8 -8 16 16" aria-hidden="true"><circle r="6" fill="${pcol(p)}"/></svg>`;
+const FORMEN=false,PARTEIFARBEN=true;
+const FORMEN_MAP={'SPD':'kreis','CDU':'quadrat','Grüne':'dreieck','AfD':'raute','Linke':'dreieck2','BSW':'balken'};
+function mark(cx,cy,p){const f=FORMEN?FORMEN_MAP[p]:'kreis',c=pcol(p),a={class:'mk',fill:c,stroke:'var(--card)','stroke-width':2};
+  if(f==='kreis')return el('circle',{...a,cx,cy,r:7});
+  if(f==='quadrat')return el('rect',{...a,x:cx-6.5,y:cy-6.5,width:13,height:13});
+  if(f==='dreieck')return el('path',{...a,d:`M${cx} ${cy-8.5}L${cx+8} ${cy+6}L${cx-8} ${cy+6}Z`});
+  if(f==='dreieck2')return el('path',{...a,d:`M${cx} ${cy+8.5}L${cx+8} ${cy-6}L${cx-8} ${cy-6}Z`});
+  if(f==='raute')return el('path',{...a,d:`M${cx} ${cy-9}L${cx+9} ${cy}L${cx} ${cy+9}L${cx-9} ${cy}Z`});
+  return el('rect',{...a,x:cx-8.5,y:cy-3.5,width:17,height:7});}
+const sw=p=>{if(!FORMEN&&!PARTEIFARBEN)return '';const m=mark(8,8,p);m.setAttribute('stroke','none');const s=el('svg',{viewBox:'0 0 16 16','aria-hidden':'true'});s.append(m);return s.outerHTML;};
 function legende(id,interaktiv){
   const chip=(k,v,inner)=>`<span${interaktiv?` role="button" tabindex="0" data-k="${k}" data-v="${v}"`:''}>${inner}</span>`;
   let h=`<div class="z${interaktiv?' i':''}"><b>Partei</b>`+PARTEIEN.map(p=>chip('partei',p,sw(p)+p)).join('')+'</div>';
@@ -512,7 +542,7 @@ function legende(id,interaktiv){
   document.getElementById(id).innerHTML=h;}
 legende('leg3',true); legende('leg9',false);
 let sel=null; // aktive Auswahl in Kernaussage 3: {k:'partei'|'land', v}
-function hebeHervor(){document.querySelectorAll('#c3 g[data-partei]').forEach(g=>g.classList.toggle('dim',!!sel&&g.dataset[sel.k]!==sel.v));
+function hebeHervor(){document.querySelectorAll('#c3 g[data-partei]').forEach(g=>{const treffer=!!sel&&g.dataset[sel.k]===sel.v;g.classList.toggle('dim',!!sel&&!treffer);g.classList.toggle('hl',treffer);});
   document.querySelectorAll('#leg3 span[data-k]').forEach(c=>c.classList.toggle('on',!!sel&&c.dataset.k===sel.k&&c.dataset.v===sel.v));}
 document.getElementById('leg3').addEventListener('click',e=>{const c=e.target.closest('span[data-k]');if(!c)return;
   sel=(c.dataset.k==='alle'||(sel&&sel.k===c.dataset.k&&sel.v===c.dataset.v))?null:{k:c.dataset.k,v:c.dataset.v};hebeHervor();});
@@ -520,7 +550,7 @@ document.getElementById('leg3').addEventListener('keydown',e=>{if(e.key==='Enter
 
 // KPIs + Legende
 const kpiBox=document.getElementById('kpis');if(kpiBox)kpiBox.innerHTML=[['48','programme'],['8','landtagswahlen'],[deI(DATA.N),'positionen'],[de(DATA.DB)+' %','landeshebel (d + b)']].map(([v,l])=>`<div class="kpi"><b>${v}</b><span>${l}</span></div>`).join('');
-document.getElementById('legende').innerHTML='<span><b>Wer ist zuständig?</b></span>'+CODES.map(([c,l])=>`<span><i style="background:${col(c)}"></i><b>${c}</b> ${l}</span>`).join('');
+document.getElementById('legende').innerHTML='<span><b>Wer ist zuständig?</b></span>'+CODES.map(([c,l])=>`<span><i class="sw sw-${c}"></i><b>${c}</b> ${l}</span>`).join('');
 document.getElementById('heroDB').textContent=de(DATA.DB)+' %';
 document.getElementById('rU').textContent=de(DATA.rU,2).replace('-','−'); document.getElementById('rF').textContent=de(DATA.rF,2).replace('-','−');
 
@@ -535,7 +565,7 @@ function stacked(id,items,opts={}){
     if(it.sub)s.append(el('text',{x:lab-10,y:y+rowH/2+16,'text-anchor':'end',class:'s'},it.sub));
     CODES.forEach(([c])=>{const v=it[c+'p'];if(!v)return;const w=bw*v/100;const r=el('rect',{x:x+1,y:y+4,width:Math.max(w-2,0.5),height:rowH-8,fill:col(c),rx:0});
       hover(r,`<b>${it.name}</b> · ${c} ${CODES.find(k=>k[0]==c)[1]}: ${de(v)} %${it.n?` (${deI(it[c])} von ${deI(it.n)})`:''}`);s.append(r);
-      if(w>=bw*0.04){s.append(el('text',{x:x+w/2,y:y+rowH/2+4,'text-anchor':'middle',class:c==='K'||c==='B'?'v':'w','pointer-events':'none'},de(v)));}
+      if(w>=bw*0.04){s.append(el('text',{x:x+w/2,y:y+rowH/2+4,'text-anchor':'middle',class:(c==='F'||c==='K')?'w':'v','pointer-events':'none'},de(v)));}
       x+=w;});
     if(opts.brace){const xb=lab+bw*it.DB/100;s.append(el('line',{x1:xb,x2:xb,y1:y+1,y2:y+rowH-1,stroke:'var(--fg)','stroke-width':2}));}
   });
@@ -545,9 +575,9 @@ function stacked(id,items,opts={}){
 // C1: ein Gesamtbalken mit Klammer
 (function(){const W=900,H=120,bw=W-20,x0=10,y=42,h=38;const s=svg(W,H);let x=x0;const t=DATA.totp;
   CODES.forEach(([c,l])=>{const w=bw*t[c]/100;const r=el('rect',{x:x+1,y:y,width:Math.max(w-2,0.5),height:h,fill:col(c)});hover(r,`<b>${c} ${l}</b>: ${de(t[c])} %`);s.append(r);
-    if(w>40)s.append(el('text',{x:x+w/2,y:y+h/2+5,'text-anchor':'middle',class:(c==='B'||c==='K')?'v':'w','pointer-events':'none'},c+' '+de(t[c])+' %'));x+=w;});
+    if(w>40)s.append(el('text',{x:x+w/2,y:y+h/2+5,'text-anchor':'middle',class:(c==='F'||c==='K')?'w':'v','pointer-events':'none'},c+' '+de(t[c])+' %'));x+=w;});
   const xdb=x0+bw*DATA.DB/100;
-  s.append(el('path',{d:`M${x0} ${y-10} v-8 H${xdb} v8`,fill:'none',stroke:'var(--blau)','stroke-width':2}));
+  s.append(el('path',{d:`M${x0} ${y-10} v-8 H${xdb} v8`,fill:'none',stroke:'var(--fg)','stroke-width':2}));
   s.append(el('text',{x:(x0+xdb)/2,y:y-24,'text-anchor':'middle',class:'v'},`Landeshebel D + B: ${de(DATA.DB)} %`));
   s.append(el('path',{d:`M${xdb+2} ${y+h+10} v8 H${x0+bw} v-8`,fill:'none',stroke:'var(--fg3)','stroke-width':2}));
   s.append(el('text',{x:(xdb+x0+bw)/2,y:y+h+34,'text-anchor':'middle',class:'v'},`nicht allein einlösbar: ${de(100-DATA.DB)} %`));
@@ -571,7 +601,7 @@ function scatter(id,opts={}){const W=900,H=440,ml=56,mr=20,mt=16,mb=46,pw=W-ml-m
   const [m,b]=DATA.ols;s.append(el('line',{x1:xs(14),y1:ys(m*14+b),x2:xs(42),y2:ys(m*42+b),stroke:'var(--fg3)','stroke-width':2,'stroke-dasharray':'6 5'}));
   const label={'baden-wuerttemberg-2026-SPD':[12,-6,'start'],'hamburg-2025-SPD':[-12,10,'end'],'sachsen-anhalt-2026-AfD':[-12,4,'end'],'hamburg-2025-AfD':[12,4,'start'],'hamburg-2025-BSW':[12,4,'start'],'thueringen-2024-BSW':[12,-4,'start'],'rheinland-pfalz-2026-BSW':[12,4,'start'],'sachsen-anhalt-2026-BSW':[-12,-6,'end'],'sachsen-2024-BSW':[-12,4,'end']};
   const hl=opts.hl;const labels=[];
-  DATA.rows.forEach(r=>{const cx=xs(r.Up),cy=ys(r.DB);const dim=hl&&r[hl.k]!==hl.v;const g=el('g',{'data-partei':r.partei,'data-land':r.land,class:dim?'dim':''});g.append(el('circle',{cx,cy,r:7,fill:pcol(r.partei),stroke:'var(--card)','stroke-width':2}));
+  DATA.rows.forEach(r=>{const cx=xs(r.Up),cy=ys(r.DB);const dim=hl&&r[hl.k]!==hl.v;const g=el('g',{'data-partei':r.partei,'data-land':r.land,class:dim?'dim':(hl?'hl':'')});g.append(mark(cx,cy,r.partei));
     hover(g,codeTip(r.kurz+' '+r.partei,r,r.n));s.append(g);
     if(!hl&&label[r.id]){const [dx,dy,an]=label[r.id];s.append(el('text',{x:cx+dx,y:cy+dy,'text-anchor':an,class:'s'},r.kurz+' '+r.partei));}
     if(hl&&!dim)labels.push({cx,cy,t:opts.labelKey==='land'?r.kurz:r.partei});});
@@ -590,7 +620,7 @@ function bars(id,items,opts){const W=900,lab=opts.lab||170,rowH=40,top=24,H=top+
   items.forEach((it,i)=>{const y=top+i*rowH,w=bw*it.DB/max,weak=it.programme<6&&opts.weak;
     s.append(el('text',{x:lab-12,y:y+rowH/2-2,'text-anchor':'end',class:'k'},it.name));
     s.append(el('text',{x:lab-12,y:y+rowH/2+12,'text-anchor':'end',class:'s'},`${it.programme} Programm${it.programme>1?'e':''} · ${deI(it.n)} Pos.`));
-    const r=el('rect',{x:lab,y:y+6,width:w,height:rowH-14,fill:weak?'var(--cB)':'var(--blau)'});hover(r,codeTip(it.name,it,it.n));s.append(r);
+    const r=el('rect',{x:lab,y:y+6,width:w,height:rowH-14,fill:'var(--gelb)',opacity:weak?.55:1});hover(r,codeTip(it.name,it,it.n));s.append(r);
     s.append(el('text',{x:lab+w+8,y:y+rowH/2+4,class:'v'},de(it.DB)+' %'));});
   document.getElementById(id).append(s);}
 bars('c4',[...DATA.parteien].sort((a,b)=>b.DB-a.DB),{lab:150});
@@ -603,7 +633,7 @@ bars('c4',[...DATA.parteien].sort((a,b)=>b.DB-a.DB),{lab:150});
     const rs=DATA.rows.filter(r=>r.land===l).sort((a,b)=>b.DB-a.DB);
     parts.forEach((p,j)=>{const r=rs.find(x=>x.partei===p);const rank=rs.indexOf(r)+1;const t=(r.DB-lo)/(hi-lo);const x=lab+cw*j;
       const g=el('g');g.append(el('rect',{x:x+2,y:y+2,width:cw-4,height:ch-4,fill:`color-mix(in oklab, var(--seq1) ${Math.round(25+75*t)}%, var(--seq0))`}));
-      g.append(el('text',{x:x+cw/2,y:y+ch/2+6,'text-anchor':'middle',class:t>0.45?'w':'vn',style:'font-size:15px'},de(r.DB)+' %'));
+      g.append(el('text',{x:x+cw/2,y:y+ch/2+6,'text-anchor':'middle',class:'vn',style:'font-size:15px'},de(r.DB)+' %'));
       g.append(el('circle',{cx:x+cw-14,cy:y+13,r:9,fill:'var(--card)'}));g.append(el('text',{x:x+cw-14,y:y+17,'text-anchor':'middle',class:'v',style:'font-size:11px'},rank));
       hover(g,`<b>${r.kurz} ${r.partei}</b> · Rang ${rank} von 6 in ${l}<br>Landeshebel ${de(r.DB)} % · ${deI(r.n)} Positionen`);s.append(g);});});
   document.getElementById('c5').append(s);})();
@@ -620,9 +650,9 @@ stacked('c8',[...DATA.laender].sort((a,b)=>a.Up-b.Up).map(l=>({...l,sub:`${l.pro
   [40,50,60,70,80].forEach(v=>{s.append(el('line',{x1:xs(v),x2:xs(v),y1:top-6,y2:H-6,class:'grid'}));s.append(el('text',{x:xs(v),y:top-12,'text-anchor':'middle',class:'s'},v+' %'));});
   order.forEach((l,i)=>{const y=top+i*rowH+rowH/2;const rs=DATA.rows.filter(r=>r.land===l).sort((a,b)=>a.DB-b.DB);const L=DATA.laender.find(x=>x.name===l);
     s.append(el('text',{x:lab-12,y:y+4,'text-anchor':'end',class:'k'},l));
-    if(rs.length>1){s.append(el('line',{x1:xs(rs[0].DB),x2:xs(rs[rs.length-1].DB),y1:y,y2:y,stroke:rs.length<6?'var(--cB)':'var(--blau)','stroke-width':3}));
+    if(rs.length>1){s.append(el('line',{x1:xs(rs[0].DB),x2:xs(rs[rs.length-1].DB),y1:y,y2:y,stroke:'var(--gelb)','stroke-width':9,opacity:rs.length<6?.55:1}));
       s.append(el('text',{x:xs(rs[rs.length-1].DB)+14,y:y+4,class:'s'},`Spannweite ${de(rs[rs.length-1].DB-rs[0].DB)} Pp`));}
-    rs.forEach((r,k)=>{const g=el('g');g.append(el('circle',{cx:xs(r.DB),cy:y,r:7,fill:pcol(r.partei),stroke:'var(--card)','stroke-width':2}));
+    rs.forEach((r,k)=>{const g=el('g');g.append(mark(xs(r.DB),y,r.partei));
       if(k===0||k===rs.length-1){const left=k===0&&rs.length>1;g.append(el('text',{x:xs(r.DB)+(left?-12:(rs.length>1?0:0)),y:y+(left?4:(rs.length>1?-12:4)),'text-anchor':left?'end':(rs.length>1?'middle':'start'),class:'s'},r.partei));}hover(g,codeTip(r.kurz+' '+r.partei,r,r.n));s.append(g);});});
   document.getElementById('c9').append(s);})();
 
@@ -642,7 +672,7 @@ function barsE(id,items,marke,fill){const W=900,lab=170,rowH=40,top=24,H=top+ite
     s.append(el('text',{x:lab+w+8,y:y+rowH/2+4,class:'v'},de(r.DB)+' %'));});
   const xg=lab+bw*DATA.DB/max,xm=lab+bw*marke.DB/max;
   s.append(el('line',{x1:xg,x2:xg,y1:top-6,y2:H-6,stroke:'var(--fg)','stroke-width':1.5,'stroke-dasharray':'4 4'}));
-  s.append(el('line',{x1:xm,x2:xm,y1:top-6,y2:H-6,stroke:'var(--fg)','stroke-width':1.5}));
+  s.append(el('line',{x1:xm,x2:xm,y1:top-6,y2:H-6,stroke:'var(--zeiger)','stroke-width':2}));
   s.append(el('text',{x:xm+5,y:H-8,class:'s'},`${marke.name}: ${de(marke.DB)} %`));
   const box=document.getElementById(id);box.innerHTML='';box.append(s);}
 function rangText(i,n){return `Rang ${i+1} von ${n}`;}
@@ -674,7 +704,7 @@ function steckLand(L){const rs=DATA.rows.filter(r=>r.land===L.name).sort((a,b)=>
   setT('l-s2',`Was nicht beim Land liegt, hat je Programm einen anderen Grund. ${spitzen(k.maxU,k.maxF,ART[k.maxU.partei],ART[k.maxF.partei])} ${L.stadtstaat?`Verweise an Kommunen fehlen, weil ${L.name} keine eigenständigen Gemeinden hat.`:`${de(L.Kp)} % der Positionen verweisen an die Kommunen, ${de(L.Sp)} % an Selbstverwaltung oder Dritte.`}`);
   setT('l-h3',`${L.name} schreibt ${k.konkret?'konkreter':'vager'} als der Durchschnitt – ${vonN(k.ueberTrend,N,true)} über der Trendlinie`);
   setT('l-s3',`Je vager ein Programm, desto kleiner sein Hebel; dieser Zusammenhang gilt auch in ${L.name} (${de(L.Up)} % unbestimmt gegenüber ${de(DATA.totp.U)} % in allen Programmen). Am weitesten über der Trendlinie ${vb(k.best.partei,'liegt','liegen')} ${ART[k.best.partei]} (${de(k.best.DB)} % Hebel bei ${de(k.best.Up)} % unbestimmt), am weitesten darunter ${ART[k.worst.partei]} (${de(k.worst.DB)} % bei ${de(k.worst.Up)} %).`);
-  barsE('l-bars',rs.map(r=>({...r,name:r.partei})),L,r=>pcol(r.partei));
+  barsE('l-bars',rs.map(r=>({...r,name:r.partei})),L,r=>'var(--gelb)');
   document.getElementById('l-stack').innerHTML='';stacked('l-stack',rs.map(r=>({...r,name:r.partei,sub:`${deI(r.n)} Pos.`})),{lab:120,rowH:40});
   scatter('l-scatter',{hl:{k:'land',v:L.name},labelKey:'partei'});}
 function steckPartei(P){const rs=DATA.rows.filter(r=>r.partei===P.name).sort((a,b)=>b.DB-a.DB),rang=PSORT.indexOf(P),d=P.DB-DATA.DB,span=rs[0].DB-rs[rs.length-1].DB;
@@ -695,7 +725,7 @@ function steckPartei(P){const rs=DATA.rows.filter(r=>r.partei===P.name).sort((a,
   setT('p-s2',`Was nicht beim Land liegt, hat je Landesverband einen anderen Grund. ${spitzen(k.maxU,k.maxF,`das Programm in ${k.maxU.land}`,`das in ${k.maxF.land}`)} ${de(P.Kp)} % verweisen an Kommunen, ${de(P.Sp)} % an Selbstverwaltung oder Dritte.`);
   setT('p-h3',`${art} ${vb(P.name,'schreibt','schreiben')} ${k.konkret?'konkreter':'vager'} als der Durchschnitt – ${vonN(k.ueberTrend,N,true)} über der Trendlinie`);
   setT('p-s3',`Je vager ein Programm, desto kleiner sein Hebel; dieser Zusammenhang gilt auch ${P.name==='BSW'?'beim BSW':'bei '+DAT[P.name]} (${de(P.Up)} % unbestimmt gegenüber ${de(DATA.totp.U)} % in allen Programmen). Am weitesten über der Trendlinie liegt das Programm in ${k.best.land} (${de(k.best.DB)} % Hebel bei ${de(k.best.Up)} % unbestimmt), am weitesten darunter das in ${k.worst.land} (${de(k.worst.DB)} % bei ${de(k.worst.Up)} %).`);
-  barsE('p-bars',rs.map(r=>({...r,name:r.land})),P,r=>pcol(r.partei));
+  barsE('p-bars',rs.map(r=>({...r,name:r.land})),P,r=>'var(--gelb)');
   document.getElementById('p-stack').innerHTML='';stacked('p-stack',rs.map(r=>({...r,name:r.kurz,sub:`${deI(r.n)} Pos.`})),{lab:120,rowH:40});
   scatter('p-scatter',{hl:{k:'partei',v:P.name},labelKey:'land'});}
 const WAHL={l:{list:LSORT,render:steckLand,cur:null},p:{list:PSORT,render:steckPartei,cur:null}};
@@ -733,7 +763,7 @@ const KW=980;let kclip=null,kRaf=0;
 function baueFluss(){const W=KW,H=300,T=56,cy=150,bx=[10,170,330,490,650],bw=110,bh=64,cx=850,cw=40,top=16,ch=H-32;const s=svg(W,H);s.setAttribute('aria-label','Datenfluss vom Programm zum Landeshebel');
   const defs=el('defs'),clip=el('clipPath',{id:'kclip'}),crect=el('rect',{x:0,y:0,width:W,height:H});clip.append(crect);defs.append(clip);s.append(defs);
   const g=el('g',{'clip-path':'url(#kclip)'});
-  for(let i=0;i<4;i++)g.append(el('rect',{x:bx[i]+bw,y:cy-T/2,width:bx[i+1]-bx[i]-bw,height:T,fill:'var(--seq0)'}));
+  for(let i=0;i<4;i++)g.append(el('rect',{x:bx[i]+bw,y:cy-T/2,width:bx[i+1]-bx[i]-bw,height:T,fill:'var(--band)'}));
   let y0=cy-T/2,y1=top;const x0=bx[4]+bw,x1=cx,xm=(x0+x1)/2;
   CODES.forEach(([c,l])=>{const p=DATA.totp[c]/100,h0=T*p,h1=ch*p;
     const path=el('path',{d:`M${x0} ${y0} C${xm} ${y0} ${xm} ${y1} ${x1} ${y1} L${x1} ${y1+h1} C${xm} ${y1+h1} ${xm} ${y0+h0} ${x0} ${y0+h0} Z`,fill:col(c),opacity:.85});
@@ -741,7 +771,7 @@ function baueFluss(){const W=KW,H=300,T=56,cy=150,bx=[10,170,330,490,650],bw=110
     const r=el('rect',{x:cx,y:y1,width:cw,height:h1,fill:col(c)});hover(r,`<b>${c} ${l}</b>: ${de(DATA.totp[c])} % (${deI(DATA.tot[c])} Positionen)`);g.append(r);
     if(h1>=14)g.append(el('text',{x:cx+cw+8,y:y1+h1/2+4,class:'vn',style:'font-size:12px'},`${c} ${de(DATA.totp[c])} %`));
     y0+=h0;y1+=h1;});
-  const hDB=ch*DATA.DB/100;g.append(el('path',{d:`M${cx-8} ${top} h-6 V${top+hDB} h6`,fill:'none',stroke:'var(--blau)','stroke-width':2}));
+  const hDB=ch*DATA.DB/100;g.append(el('path',{d:`M${cx-8} ${top} h-6 V${top+hDB} h6`,fill:'none',stroke:'var(--fg)','stroke-width':2}));
   g.append(el('text',{x:cx-20,y:top+hDB/2,'text-anchor':'middle',transform:`rotate(-90 ${cx-20} ${top+hDB/2})`,class:'v'},`Landeshebel ${de(DATA.DB)} %`));
   const bl=[`${deI(KZ.seiten)} Seiten gelesen`,`${deI(DATA.N)} Positionen`,'je Position ein Code','Nachträge und Nachzüge'];
   for(let i=0;i<4;i++)g.append(el('text',{x:(bx[i]+bw+bx[i+1])/2,y:cy+T/2+16,'text-anchor':'middle',class:'s'},bl[i]));
@@ -779,3 +809,5 @@ window.addEventListener('hashchange',()=>{const h=location.hash.slice(1);const i
 (function(){const rs=[...DATA.rows].sort((a,b)=>b.DB-a.DB);document.getElementById('tbl').innerHTML=`<table><thead><tr><th>Land</th><th>Partei</th><th>Wahl</th><th>Positionen</th><th>D</th><th>B</th><th>F</th><th>K</th><th>S</th><th>U</th><th>D+B</th></tr></thead><tbody>`+
   rs.map(r=>`<tr><td>${r.land}</td><td>${r.partei}</td><td>${r.wahl}</td><td>${deI(r.n)}</td>${['D','B','F','K','S','U'].map(c=>`<td>${de(r[c+'p'])} %</td>`).join('')}<td><b>${de(r.DB)} %</b></td></tr>`).join('')+`</tbody></table>`;})();
 </script>
+</body>
+</html>
