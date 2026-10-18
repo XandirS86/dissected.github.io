@@ -178,7 +178,7 @@ svg rect[fill="url(#dotsU)"],svg path[fill="url(#dotsU)"]{stroke:#9a9a9a;stroke-
 
 /* Dunkelmodus (Etappe 3, 18.10.2026): gilt für das Graustufen-Farbsystem (Variante E) */
 :root[data-theme="dark"]{--bg:#161616;--fg:#c4c4c4;--fg2:#9a9a9a;--fg3:#777777;--line:#333333;--card:#1e1e1e;--grid:#2a2a2a;--band:#2a2a2a;--tip:#e6e6e6;--tipfg:#161616;
-  --cF:#e6e6e6;--cK:#a8a8a8;--cS:#6e6e6e;--seq0:#2e2a12;--seq1:#f2c200;--zeiger:#ff6a5e;
+  --cF:#e6e6e6;--cK:#a8a8a8;--cS:#6e6e6e;--seq0:#7a6a10;--seq1:#f2c200;--zeiger:#ff6a5e;   /* Matrix-Rampe ab Olivgold, damit dunkle Schrift überall ≥ 4,7:1 lesbar bleibt (Nutzerentscheidung 18.10.2026) */
   --pSPD:#f2f2f2;--pGruene:#d0d0d0;--pCDU:#adadad;--pAfD:#8c8c8c;--pLinke:#6a6a6a;--pBSW:#4a4a4a}
 [data-theme="dark"] svg text.w{fill:#161616}                       /* F ist im Dunkeln hell, Beschriftung dunkel */
 [data-theme="dark"] #dotsU rect{fill:#161616}[data-theme="dark"] #dotsU circle{fill:#8a8a8a}
@@ -188,8 +188,8 @@ svg rect[fill="url(#dotsU)"],svg path[fill="url(#dotsU)"]{stroke:#9a9a9a;stroke-
 [data-theme="dark"] .sw-B{background:repeating-linear-gradient(-45deg,#f2c200 0 3.5px,#161616 3.5px 5px)}
 [data-theme="dark"] .analysekopf__farbe,[data-theme="dark"] .analysekopf__farbe .untertitel,[data-theme="dark"] .analysekopf__farbe .meta{color:#111111}   /* gelber Kopf behält schwarze Schrift */
 [data-theme="dark"] .luecke{background:#3d3300}
-[data-theme="dark"] #c5 text.vn-hell{fill:#161616;stroke:none}      /* Matrix: dunkle Schrift auf kräftig gelben Zellen (Nutzerhinweis 18.10.2026) */
-[data-theme="dark"] #c5 text.vn-dunkel{fill:#f2f2f2;stroke:none}    /* helle Schrift auf dunklen Zellen */
+[data-theme="dark"] #c5 text.vn-hell,[data-theme="dark"] #c5 text.vn-dunkel{fill:#161616;stroke:none}   /* Matrix: eine Zahlfarbe, dunkel auf der ganzen Rampe (Nutzerentscheidung 18.10.2026) */
+@media (max-width:640px){.plot{overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch}.plot svg{min-width:640px}}   /* Handybreite: Grafiken behalten Lesegröße und werden seitlich geschoben (Nutzerhinweis 18.10.2026) */
 [data-theme="dark"] .zoom .code{background:#2a2a2a;color:#f2f2f2;border:1px solid #4a4a4a}   /* Code-Kästchen dunkel statt hellgrau (Nutzerhinweis 18.10.2026) */
 [data-theme="dark"] .hero b{color:#f2f2f2;paint-order:stroke fill;-webkit-text-stroke:6px #161616;text-stroke:6px #161616}   /* große Zahl auf Gelb: heller Kern mit dunklem Lichthof wie die Balkenbeschriftung (Nutzerhinweis 18.10.2026) */
 [data-theme="dark"] .plot noscript img{background:#fff;padding:14px;display:block}   /* bewusste Ausnahme wie auf den übrigen Seiten */
