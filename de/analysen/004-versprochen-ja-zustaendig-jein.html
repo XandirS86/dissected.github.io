@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Versprochen: ja. Zuständig: jein. – Wahlversprechen im Check | dissected</title>
 <meta name="description" content="48 Wahlprogramme zu 8 Landtagswahlen im Check: Für welche Wahlversprechen ist das Land zuständig, welche liegen beim Bund? 61 % ja, 27 % ohne Zuständigkeit.">
+<script>(function(){try{var m=localStorage.getItem('modus');if(m==='dunkel'||(!m&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark')}}catch(e){}})();</script>
 <link rel="stylesheet" href="../../styles.css">
 <link rel="canonical" href="https://www.dissected.eu/de/analysen/004-versprochen-ja-zustaendig-jein.html">
 <link rel="alternate" hreflang="de" href="https://www.dissected.eu/de/analysen/004-versprochen-ja-zustaendig-jein.html">
@@ -175,6 +176,20 @@ svg rect[fill="url(#dotsU)"],svg path[fill="url(#dotsU)"]{stroke:#9a9a9a;stroke-
 .leg3 svg{display:none}
 .leg3 svg{display:inline-block}
 
+/* Dunkelmodus (Etappe 3, 18.10.2026): gilt für das Graustufen-Farbsystem (Variante E) */
+:root[data-theme="dark"]{--bg:#161616;--fg:#c4c4c4;--fg2:#9a9a9a;--fg3:#777777;--line:#333333;--card:#1e1e1e;--grid:#2a2a2a;--band:#2a2a2a;--tip:#e6e6e6;--tipfg:#161616;
+  --cF:#e6e6e6;--cK:#a8a8a8;--cS:#6e6e6e;--seq0:#2e2a12;--seq1:#f2c200;--zeiger:#ff6a5e;
+  --pSPD:#f2f2f2;--pGruene:#d0d0d0;--pCDU:#adadad;--pAfD:#8c8c8c;--pLinke:#6a6a6a;--pBSW:#4a4a4a}
+[data-theme="dark"] svg text.w{fill:#161616}                       /* F ist im Dunkeln hell, Beschriftung dunkel */
+[data-theme="dark"] #dotsU rect{fill:#161616}[data-theme="dark"] #dotsU circle{fill:#8a8a8a}
+[data-theme="dark"] svg rect[fill="url(#dotsU)"],[data-theme="dark"] svg path[fill="url(#dotsU)"]{stroke:#8a8a8a}
+[data-theme="dark"] #hatchB rect:last-child{fill:#161616}
+[data-theme="dark"] .sw-U{background:radial-gradient(circle,#8a8a8a 1px,transparent 1.3px) 0 0/4px 4px #161616;border-color:#8a8a8a}
+[data-theme="dark"] .sw-B{background:repeating-linear-gradient(-45deg,#f2c200 0 3.5px,#161616 3.5px 5px)}
+[data-theme="dark"] .analysekopf__farbe,[data-theme="dark"] .analysekopf__farbe .untertitel,[data-theme="dark"] .analysekopf__farbe .meta{color:#111111}   /* gelber Kopf behält schwarze Schrift */
+[data-theme="dark"] .luecke{background:#3d3300}
+[data-theme="dark"] .plot noscript img{background:#fff;padding:14px;display:block}   /* bewusste Ausnahme wie auf den übrigen Seiten */
+
 /* Seitenkopf (18.10.2026): Vorspann in der rechten Spalte, Kasten „in 30 sekunden“ in voller Breite in der Optik des Metadatenkastens, Sprunglinks unterstrichen, verschobener Metadatenkasten ohne Spaltenabstand */
 .analysekopf__vorspann{padding:36px 0 36px var(--rand);font-size:17px;line-height:1.7;max-width:calc(var(--mass) + var(--rand))}
 .analysekopf__vorspann p{margin:0}
@@ -200,6 +215,7 @@ svg rect[fill="url(#dotsU)"],svg path[fill="url(#dotsU)"]{stroke:#9a9a9a;stroke-
     <a href="../ueber.html">über</a>
     <a href="../feed.xml">rss</a>
     <span class="sprache"><span aria-current="true">de</span></span>
+    <button class="modus" type="button" role="switch" aria-checked="false" aria-label="Dunkelmodus"><span class="modus__knopf"></span></button>
   </nav>
 </header>
 
@@ -846,5 +862,6 @@ window.addEventListener('hashchange',()=>{const h=location.hash.slice(1);const i
 (function(){const rs=[...DATA.rows].sort((a,b)=>b.DB-a.DB);document.getElementById('tbl').innerHTML=`<table><thead><tr><th>Land</th><th>Partei</th><th>Wahl</th><th>Positionen</th><th>D</th><th>B</th><th>F</th><th>K</th><th>S</th><th>U</th><th>D+B</th></tr></thead><tbody>`+
   rs.map(r=>`<tr><td>${r.land}</td><td>${r.partei}</td><td>${r.wahl}</td><td>${deI(r.n)}</td>${['D','B','F','K','S','U'].map(c=>`<td>${de(r[c+'p'])} %</td>`).join('')}<td><b>${de(r.DB)} %</b></td></tr>`).join('')+`</tbody></table>`;})();
 </script>
+<script>(function(){var b=document.querySelector('.modus');if(!b)return;var r=document.documentElement;function s(){b.setAttribute('aria-checked',String(r.getAttribute('data-theme')==='dark'))}s();b.addEventListener('click',function(){var d=r.getAttribute('data-theme')==='dark';if(d){r.removeAttribute('data-theme')}else{r.setAttribute('data-theme','dark')}try{localStorage.setItem('modus',d?'hell':'dunkel')}catch(e){}s()})})();</script>
 </body>
 </html>
