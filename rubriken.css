@@ -49,7 +49,7 @@
 }
 
 .rubrik--sport        { --rubrik: var(--blau); --rubrik-form: var(--gelb); --rubrik-kopf-text: #fff; --rubrik-akzent: var(--blau); }
-.rubrik--gesellschaft { --rubrik: var(--gelb); --rubrik-form: var(--rot);  --rubrik-kopf-text: #fff; --rubrik-akzent: #111; }
+.rubrik--gesellschaft { --rubrik: var(--gelb); --rubrik-form: var(--rot);  --rubrik-kopf-text: #fff; --rubrik-akzent: var(--ocker); }
 .rubrik--welt         { --rubrik: var(--rot);  --rubrik-form: var(--blau); --rubrik-kopf-text: #fff; --rubrik-akzent: var(--rot); }
 
 /* --- Startseite: dreispaltige Rubrikleiste --- */

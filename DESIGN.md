@@ -29,6 +29,7 @@ ein Änderungswunsch am System – nicht am Stück.
 | `--schwarz`| `#111111` | Text, Linien, Balken. Nie reines `#000`.               |
 | `--rot`    | `#d7261e` | Akzent 1                                               |
 | `--gelb`   | `#f2c200` | Akzent 2 (nie für Text auf Weiß – Kontrast reicht nicht)|
+| `--ocker`  | `#7a6000` | Lesbares Gelb: Textakzent der Rubrik gesellschaft (6,0:1 auf Weiß); nur wo `--gelb` als Schriftfarbe stünde |
 | `--blau`   | `#1b4fa0` | Akzent 3                                               |
 | `--grau`   | `#5c5c5c` | Sekundärtext, Bildunterschriften                        |
 | `--grau-hell`| `#9a9a9a`| Metadaten, Nummern im Archiv                           |
