@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-18T11:14:35.853131</dc:date>
+    <dc:date>2026-10-18T14:06:23.428208</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -45,7 +45,7 @@ L 247.652352 92.498824
 L 247.652352 65.816471 
 L 9.216 65.816471 
 z
-" clip-path="url(#pcce445f5e2)" style="fill: #f2c200"/>
+" clip-path="url(#pe65ba9b1e6)" style="fill: #f2c200"/>
    </g>
    <g id="patch_4">
     <path d="M 9.216 92.498824 
@@ -54,7 +54,7 @@ L 247.652352 65.816471
 L 9.216 65.816471 
 L 9.216 92.498824 
 z
-" clip-path="url(#pcce445f5e2)" style="fill: none; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
+" clip-path="url(#pe65ba9b1e6)" style="fill: none; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_5">
     <path d="M 247.652352 92.498824 
@@ -62,7 +62,7 @@ L 278.618112 92.498824
 L 278.618112 65.816471 
 L 247.652352 65.816471 
 z
-" clip-path="url(#pcce445f5e2)" style="fill: url(#h42e7043b8c)"/>
+" clip-path="url(#pe65ba9b1e6)" style="fill: url(#h3c2c939920)"/>
    </g>
    <g id="patch_6">
     <path d="M 247.652352 92.498824 
@@ -71,7 +71,7 @@ L 278.618112 65.816471
 L 247.652352 65.816471 
 L 247.652352 92.498824 
 z
-" clip-path="url(#pcce445f5e2)" style="fill: none; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
+" clip-path="url(#pe65ba9b1e6)" style="fill: none; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_7">
     <path d="M 278.618112 92.498824 
@@ -79,7 +79,7 @@ L 328.605696 92.498824
 L 328.605696 65.816471 
 L 278.618112 65.816471 
 z
-" clip-path="url(#pcce445f5e2)" style="fill: #111111"/>
+" clip-path="url(#pe65ba9b1e6)" style="fill: #111111"/>
    </g>
    <g id="patch_8">
     <path d="M 278.618112 92.498824 
@@ -88,7 +88,7 @@ L 328.605696 65.816471
 L 278.618112 65.816471 
 L 278.618112 92.498824 
 z
-" clip-path="url(#pcce445f5e2)" style="fill: none; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
+" clip-path="url(#pe65ba9b1e6)" style="fill: none; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_9">
     <path d="M 328.605696 92.498824 
@@ -96,7 +96,7 @@ L 331.702272 92.498824
 L 331.702272 65.816471 
 L 328.605696 65.816471 
 z
-" clip-path="url(#pcce445f5e2)" style="fill: #5c5c5c"/>
+" clip-path="url(#pe65ba9b1e6)" style="fill: #5c5c5c"/>
    </g>
    <g id="patch_10">
     <path d="M 328.605696 92.498824 
@@ -105,7 +105,7 @@ L 331.702272 65.816471
 L 328.605696 65.816471 
 L 328.605696 92.498824 
 z
-" clip-path="url(#pcce445f5e2)" style="fill: none; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
+" clip-path="url(#pe65ba9b1e6)" style="fill: none; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_11">
     <path d="M 331.702272 92.498824 
@@ -113,7 +113,7 @@ L 334.35648 92.498824
 L 334.35648 65.816471 
 L 331.702272 65.816471 
 z
-" clip-path="url(#pcce445f5e2)" style="fill: #9a9a9a"/>
+" clip-path="url(#pe65ba9b1e6)" style="fill: #9a9a9a"/>
    </g>
    <g id="patch_12">
     <path d="M 331.702272 92.498824 
@@ -122,7 +122,7 @@ L 334.35648 65.816471
 L 331.702272 65.816471 
 L 331.702272 92.498824 
 z
-" clip-path="url(#pcce445f5e2)" style="fill: none; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
+" clip-path="url(#pe65ba9b1e6)" style="fill: none; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_13">
     <path d="M 334.35648 92.498824 
@@ -130,24 +130,24 @@ L 452.026368 92.498824
 L 452.026368 65.816471 
 L 334.35648 65.816471 
 z
-" clip-path="url(#pcce445f5e2)" style="fill: url(#h43831e4412); stroke: #9a9a9a; stroke-width: 0.8; stroke-linejoin: miter"/>
+" clip-path="url(#pe65ba9b1e6)" style="fill: url(#h23310d5548); stroke: #9a9a9a; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
    <g id="matplotlib.axis_1"/>
    <g id="matplotlib.axis_2"/>
    <g id="line2d_1">
     <path d="M 9.216 54.698824 
 L 278.175744 54.698824 
-" clip-path="url(#pcce445f5e2)" style="fill: none; stroke: #111111; stroke-width: 2; stroke-linecap: square"/>
+" clip-path="url(#pe65ba9b1e6)" style="fill: none; stroke: #111111; stroke-width: 2; stroke-linecap: square"/>
    </g>
    <g id="line2d_2">
     <path d="M 9.216 56.922353 
 L 9.216 52.475294 
-" clip-path="url(#pcce445f5e2)" style="fill: none; stroke: #111111; stroke-width: 2; stroke-linecap: square"/>
+" clip-path="url(#pe65ba9b1e6)" style="fill: none; stroke: #111111; stroke-width: 2; stroke-linecap: square"/>
    </g>
    <g id="line2d_3">
     <path d="M 278.175744 56.922353 
 L 278.175744 52.475294 
-" clip-path="url(#pcce445f5e2)" style="fill: none; stroke: #111111; stroke-width: 2; stroke-linecap: square"/>
+" clip-path="url(#pe65ba9b1e6)" style="fill: none; stroke: #111111; stroke-width: 2; stroke-linecap: square"/>
    </g>
    <g id="text_1">
     <!-- 53,9 % -->
@@ -896,8 +896,8 @@ z
     </g>
    </g>
    <g id="text_6">
-    <!-- nicht allein einlösbar: 39,2 % -->
-    <g style="fill: #5c5c5c" transform="translate(294.081122 43.013824) scale(0.11 -0.11)">
+    <!-- nicht allein beim land: 39,2 % -->
+    <g style="fill: #5c5c5c" transform="translate(292.288466 43.013824) scale(0.11 -0.11)">
      <defs>
       <path id="Jost-Medium-e3" d="M 2336 1792 
 Q 2336 2451 1792 2451 
@@ -1057,83 +1057,6 @@ Q 2451 2106 2252 2294
 Q 2054 2483 1747 2483 
 z
 " transform="scale(0.015625)"/>
-      <path id="Jost-Medium-ed" d="M 2061 3962 
-Q 2061 4134 2189 4256 
-Q 2317 4378 2502 4378 
-Q 2682 4378 2810 4256 
-Q 2938 4134 2938 3962 
-Q 2938 3782 2810 3660 
-Q 2682 3539 2502 3539 
-Q 2317 3539 2189 3660 
-Q 2061 3782 2061 3962 
-z
-M 672 3962 
-Q 672 4134 800 4256 
-Q 928 4378 1107 4378 
-Q 1286 4378 1414 4256 
-Q 1542 4134 1542 3962 
-Q 1542 3782 1414 3660 
-Q 1286 3539 1107 3539 
-Q 928 3539 800 3660 
-Q 672 3782 672 3962 
-z
-M 218 1472 
-Q 218 1926 426 2272 
-Q 634 2618 992 2813 
-Q 1350 3008 1805 3008 
-Q 2253 3008 2614 2813 
-Q 2976 2618 3184 2272 
-Q 3392 1926 3392 1472 
-Q 3392 1018 3184 672 
-Q 2976 326 2614 131 
-Q 2253 -64 1805 -64 
-Q 1350 -64 992 131 
-Q 634 326 426 672 
-Q 218 1018 218 1472 
-z
-M 928 1472 
-Q 928 1062 1181 803 
-Q 1434 544 1805 544 
-Q 2176 544 2429 803 
-Q 2682 1062 2682 1472 
-Q 2682 1888 2429 2144 
-Q 2176 2400 1805 2400 
-Q 1434 2400 1181 2144 
-Q 928 1888 928 1472 
-z
-" transform="scale(0.015625)"/>
-      <path id="Jost-Medium-f8" d="M 576 973 
-Q 794 730 1008 605 
-Q 1222 480 1446 480 
-Q 1632 480 1737 563 
-Q 1843 646 1843 794 
-Q 1843 986 1660 1094 
-Q 1478 1203 1184 1312 
-Q 979 1382 787 1488 
-Q 595 1594 470 1766 
-Q 346 1939 346 2208 
-Q 346 2477 483 2653 
-Q 621 2829 851 2918 
-Q 1082 3008 1357 3008 
-Q 1715 3008 2016 2857 
-Q 2317 2707 2496 2490 
-L 2112 2080 
-Q 1971 2246 1763 2358 
-Q 1555 2470 1344 2470 
-Q 1190 2470 1094 2406 
-Q 998 2342 998 2221 
-Q 998 2054 1184 1958 
-Q 1370 1862 1638 1760 
-Q 1882 1658 2086 1546 
-Q 2291 1434 2416 1267 
-Q 2541 1101 2541 832 
-Q 2541 416 2256 163 
-Q 1971 -90 1491 -90 
-Q 1030 -90 697 112 
-Q 365 314 173 563 
-L 576 973 
-z
-" transform="scale(0.015625)"/>
       <path id="Jost-Medium-b6" d="M 3552 1472 
 Q 3552 986 3353 643 
 Q 3155 301 2828 118 
@@ -1164,21 +1087,59 @@ Q 2310 538 2572 784
 Q 2835 1030 2835 1472 
 z
 " transform="scale(0.015625)"/>
-      <path id="Jost-Medium-f3" d="M 2003 2208 
-Q 1907 2285 1824 2323 
-Q 1741 2362 1613 2362 
-Q 1357 2362 1241 2166 
-Q 1126 1971 1126 1658 
-L 1126 0 
+      <path id="Jost-Medium-e2" d="M 4659 1875 
+L 4659 0 
+L 3962 0 
+L 3962 1792 
+Q 3962 2451 3475 2451 
+Q 3206 2451 3046 2278 
+Q 2886 2106 2886 1792 
+L 2886 0 
+L 2195 0 
+L 2195 1792 
+Q 2195 2451 1702 2451 
+Q 1434 2451 1277 2278 
+Q 1120 2106 1120 1792 
+L 1120 0 
 L 442 0 
 L 442 2944 
-L 1126 2944 
-L 1126 2592 
-Q 1261 2784 1437 2899 
-Q 1613 3014 1798 3014 
-Q 1958 3014 2099 2960 
-Q 2240 2906 2342 2790 
-L 2003 2208 
+L 1120 2944 
+L 1120 2515 
+Q 1389 3008 1952 3008 
+Q 2598 3008 2797 2483 
+Q 3117 3008 3718 3008 
+Q 4192 3008 4425 2710 
+Q 4659 2413 4659 1875 
+z
+" transform="scale(0.015625)"/>
+      <path id="Jost-Medium-bd" d="M 218 1472 
+Q 218 1958 416 2300 
+Q 614 2643 940 2825 
+Q 1267 3008 1651 3008 
+Q 1971 3008 2230 2864 
+Q 2490 2720 2656 2451 
+L 2656 4992 
+L 3354 4992 
+L 3354 0 
+L 2656 0 
+L 2656 493 
+Q 2490 224 2230 80 
+Q 1971 -64 1651 -64 
+Q 1267 -64 940 118 
+Q 614 301 416 643 
+Q 218 986 218 1472 
+z
+M 934 1472 
+Q 934 1030 1196 784 
+Q 1459 538 1818 538 
+Q 2022 538 2214 646 
+Q 2406 755 2531 963 
+Q 2656 1171 2656 1472 
+Q 2656 1773 2531 1981 
+Q 2406 2189 2214 2297 
+Q 2022 2406 1818 2406 
+Q 1459 2406 1196 2160 
+Q 934 1914 934 1472 
 z
 " transform="scale(0.015625)"/>
       <path id="Jost-Medium-1c4" d="M 538 2746 
@@ -1245,23 +1206,23 @@ z
      <use xlink:href="#Jost-Medium-d1" transform="translate(394.5 0)"/>
      <use xlink:href="#Jost-Medium-e3" transform="translate(421.203125 0)"/>
      <use xlink:href="#Jost-Medium-1" transform="translate(475.703125 0)"/>
-     <use xlink:href="#Jost-Medium-bf" transform="translate(505.703125 0)"/>
-     <use xlink:href="#Jost-Medium-d1" transform="translate(559.609375 0)"/>
-     <use xlink:href="#Jost-Medium-e3" transform="translate(586.3125 0)"/>
-     <use xlink:href="#Jost-Medium-de" transform="translate(640.8125 0)"/>
-     <use xlink:href="#Jost-Medium-ed" transform="translate(665.40625 0)"/>
-     <use xlink:href="#Jost-Medium-f8" transform="translate(721.8125 0)"/>
-     <use xlink:href="#Jost-Medium-b6" transform="translate(764.21875 0)"/>
-     <use xlink:href="#Jost-Medium-ac" transform="translate(823.125 0)"/>
-     <use xlink:href="#Jost-Medium-f3" transform="translate(873.53125 0)"/>
-     <use xlink:href="#Jost-Medium-1c4" transform="translate(910.625 0)"/>
-     <use xlink:href="#Jost-Medium-1" transform="translate(941.53125 0)"/>
-     <use xlink:href="#Jost-Medium-16c" transform="translate(971.53125 0)"/>
-     <use xlink:href="#Jost-Medium-172" transform="translate(1029.125 0)"/>
-     <use xlink:href="#Jost-Medium-1c3" transform="translate(1083.53125 0)"/>
-     <use xlink:href="#Jost-Medium-16b" transform="translate(1114.9375 0)"/>
-     <use xlink:href="#Jost-Medium-1" transform="translate(1175.34375 0)"/>
-     <use xlink:href="#Jost-Medium-1b0" transform="translate(1205.34375 0)"/>
+     <use xlink:href="#Jost-Medium-b6" transform="translate(505.703125 0)"/>
+     <use xlink:href="#Jost-Medium-bf" transform="translate(564.609375 0)"/>
+     <use xlink:href="#Jost-Medium-d1" transform="translate(618.515625 0)"/>
+     <use xlink:href="#Jost-Medium-e2" transform="translate(645.21875 0)"/>
+     <use xlink:href="#Jost-Medium-1" transform="translate(724.8125 0)"/>
+     <use xlink:href="#Jost-Medium-de" transform="translate(754.8125 0)"/>
+     <use xlink:href="#Jost-Medium-ac" transform="translate(779.40625 0)"/>
+     <use xlink:href="#Jost-Medium-e3" transform="translate(829.8125 0)"/>
+     <use xlink:href="#Jost-Medium-bd" transform="translate(884.3125 0)"/>
+     <use xlink:href="#Jost-Medium-1c4" transform="translate(943.21875 0)"/>
+     <use xlink:href="#Jost-Medium-1" transform="translate(974.125 0)"/>
+     <use xlink:href="#Jost-Medium-16c" transform="translate(1004.125 0)"/>
+     <use xlink:href="#Jost-Medium-172" transform="translate(1061.71875 0)"/>
+     <use xlink:href="#Jost-Medium-1c3" transform="translate(1116.125 0)"/>
+     <use xlink:href="#Jost-Medium-16b" transform="translate(1147.53125 0)"/>
+     <use xlink:href="#Jost-Medium-1" transform="translate(1207.9375 0)"/>
+     <use xlink:href="#Jost-Medium-1b0" transform="translate(1237.9375 0)"/>
     </g>
    </g>
   </g>
@@ -2048,12 +2009,12 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pcce445f5e2">
+  <clipPath id="pe65ba9b1e6">
    <rect x="9.216" y="30.24" width="442.368" height="75.6"/>
   </clipPath>
  </defs>
  <defs>
-  <pattern id="h42e7043b8c" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+  <pattern id="h3c2c939920" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
    <rect x="0" y="0" width="73" height="73" fill="#f2c200"/>
    <path d="M -36 36 
 L 36 -36 
@@ -2107,7 +2068,7 @@ M 36 108
 L 108 36 
 " style="fill: #111111; stroke: #111111; stroke-width: 1.1; stroke-linecap: butt; stroke-linejoin: miter"/>
   </pattern>
-  <pattern id="h43831e4412" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+  <pattern id="h23310d5548" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
    <rect x="0" y="0" width="73" height="73" fill="#ffffff"/>
    <path d="M 0 72.3 
 C 0.079561 72.3 0.155874 72.26839 0.212132 72.212132 

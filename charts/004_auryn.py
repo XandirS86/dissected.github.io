@@ -59,7 +59,7 @@ def c1():
     db = D["DB"]
     ax.plot([0, db], [0.55, 0.55], color=S, lw=2); ax.plot([0, 0], [0.5, 0.6], color=S, lw=2); ax.plot([db, db], [0.5, 0.6], color=S, lw=2)
     ax.text(db / 2, 0.72, f"landeshebel d + b: {de(db)} %", ha="center", va="bottom", fontsize=11, color=S, fontproperties=SCHRIFT[700])
-    ax.text((db + 100) / 2, 0.72, f"nicht allein einlösbar: {de(100 - db)} %", ha="center", va="bottom", fontsize=11, color=G, fontproperties=SCHRIFT[500])
+    ax.text((db + 100) / 2, 0.72, f"nicht allein beim land: {de(100 - db)} %", ha="center", va="bottom", fontsize=11, color=G, fontproperties=SCHRIFT[500])
     ax.set_xlim(0, 100); ax.set_ylim(-0.6, 1.1); nackt(ax, links=False); ax.set_yticks([])
     fertig(f, ax, "alle 28.071 positionen der 48 programme · gelb: landeshebel (schraffiert: mit anderen) · gerastert: kein weg", "hebel")
 
