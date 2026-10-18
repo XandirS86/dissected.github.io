@@ -318,11 +318,11 @@ durchgezählt, verortet, nachgeprüft; uuund nochmal nachgeprüft...
       <p class="sub">Die acht Länder unterscheiden sich kaum darin, wie viel ihre Programme vom Bund fordern (9 bis 13 %), deutlich dagegen darin, wie konkret sie schreiben (20 bis 32 % unbestimmt). Hamburg und Berlin sind Stadtstaaten: Es gibt keine eigenständigen Gemeinden, an die ein Programm Aufgaben verweisen könnte, deshalb fehlt dort der Anteil der Kommunen (K).</p>
       <div class="plot" id="c8"><noscript><img src="../../charts/004-offen.de.svg" alt="Abbildung 8 als statisches Bild (ohne Skript)"></noscript></div>
       <p class="fuss">Jeder Balken zeigt, wie sich die Versprechen eines Landes auf die Zuständigkeiten verteilen (Summe 100 %), sortiert nach dem Anteil unbestimmt (gerastert). Beschriftet sind Anteile ab 4 %.</p></div>
-    <div class="karte"><div class="nr">Kernaussage 9 <span class="art">Befund</span></div><h3>Innerhalb eines Landes 33 Punkte, zwischen den Ländern 16. Die Partei wiegt doppelt.</h3>
-      <p class="sub">Die Partei, die das Programm schreibt, macht mehr aus als das Land, in dem gewählt wird. In Baden-Württemberg liegen 33 Punkte zwischen Linke (43 %) und SPD (76 %), in Hamburg 25 und in Berlin 21 zwischen BSW und SPD. Thüringen ist die Ausnahme: Dort liegen alle sechs Programme eng beieinander (56 bis 67 %).</p>
+    <div class="karte"><div class="nr">Kernaussage 9 <span class="art">Befund</span></div><h3>Der Hebel hängt an der Partei, kaum am Land: Im selben Land liegen die Programme bis zu 33 Punkte auseinander, die Landeswerte nur 16.</h3>
+      <p class="sub">Die Partei, die das Programm schreibt, macht mehr aus als das Land, in dem gewählt wird. In Baden-Württemberg liegen 33 Punkte zwischen Linke (43 %) und SPD (76 %), in Hamburg 25 und in Berlin 21 zwischen BSW und SPD. Thüringen ist die Ausnahme: Dort liegen alle sechs Programme eng beieinander (56 bis 67 %). Rechnet man je Land alle Programme zusammen, liegen die Landeswerte (schwarze Marken) nur 16 Punkte auseinander: Hamburg 69 %, Sachsen-Anhalt 54 %.</p>
       <div class="leg3" id="leg9"></div>
       <div class="plot" id="c9"><noscript><img src="../../charts/004-spannweite.de.svg" alt="Abbildung 9 als statisches Bild (ohne Skript)"></noscript></div>
-      <p class="fuss">Jeder Punkt ist ein Programm im Grauton seiner Partei (dunkler = höherer Landeshebel der Partei insgesamt); das gelbe Band verbindet das niedrigste und das höchste Programm eines Landes.</p></div>
+      <p class="fuss">Jeder Punkt ist ein Programm im Grauton seiner Partei (dunkler = höherer Landeshebel der Partei insgesamt); das gelbe Band verbindet das niedrigste und das höchste Programm eines Landes; die schwarze Marke ist der Landeswert, alle Programme des Landes zusammengerechnet.</p></div>
   </div>
 </section>
 
@@ -682,6 +682,7 @@ stacked('c8',[...DATA.laender].sort((a,b)=>a.Up-b.Up).map(l=>({...l,sub:`${l.pro
     s.append(el('text',{x:lab-12,y:y+4,'text-anchor':'end',class:'k'},l));
     if(rs.length>1){s.append(el('line',{x1:xs(rs[0].DB),x2:xs(rs[rs.length-1].DB),y1:y,y2:y,stroke:'var(--gelb)','stroke-width':9,opacity:rs.length<6?.55:1}));
       s.append(el('text',{x:xs(rs[rs.length-1].DB)+14,y:y+4,class:'s'},`Spannweite ${de(rs[rs.length-1].DB-rs[0].DB)} Pp`));}
+    {const xl=xs(L.DB);const m=el('line',{x1:xl,x2:xl,y1:y-11,y2:y+11,stroke:'var(--fg)','stroke-width':2.5});hover(m,`<b>${l}</b> · Landeswert ${de(L.DB)} % (alle ${L.programme} Programme zusammen)`);s.append(m);s.append(el('text',{x:xl,y:y+24,'text-anchor':'middle',class:'s'},de(L.DB)+' %'));}
     rs.forEach((r,k)=>{const g=el('g');g.append(mark(xs(r.DB),y,r.partei));
       if(k===0||k===rs.length-1){const left=k===0&&rs.length>1;g.append(el('text',{x:xs(r.DB)+(left?-12:(rs.length>1?0:0)),y:y+(left?4:(rs.length>1?-12:4)),'text-anchor':left?'end':(rs.length>1?'middle':'start'),class:'s'},r.partei));}hover(g,codeTip(r.kurz+' '+r.partei,r,r.n));s.append(g);});});
   document.getElementById('c9').append(s);})();

@@ -164,10 +164,12 @@ def c9():
         rs = sorted([r for r in rows if r["land"] == l["name"]], key=lambda r: r["DB"]); lo, hi = rs[0], rs[-1]
         ax.plot([lo["DB"], hi["DB"]], [y, y], color=Y, lw=6, solid_capstyle="round", zorder=2)
         ax.scatter([r["DB"] for r in rs], [y] * len(rs), s=30, color=S, zorder=3, linewidths=0)
+        ax.plot([l["DB"], l["DB"]], [y - 0.28, y + 0.28], color=S, lw=2, zorder=4)  # Landeswert: alle Programme des Landes zusammen
+        ax.text(l["DB"], y - 0.36, f'{de(l["DB"], 0)} %', ha="center", va="top", fontsize=8, color=S, fontproperties=SCHRIFT[500])
         ax.text(lo["DB"] - 0.8, y, lo["partei"], ha="right", va="center", fontsize=9.5, color=G, fontproperties=SCHRIFT[400])
         ax.text(hi["DB"] + 0.8, y, f'{hi["partei"]} · {de(hi["DB"] - lo["DB"])} punkte', ha="left", va="center", fontsize=9.5, color=G, fontproperties=SCHRIFT[400])
     ylabels(ax, ys, [l["name"] for l in ls]); ax.set_xlim(30, 100); ax.set_ylim(-0.7, len(ls) - 0.3); nackt(ax)
-    fertig(f, ax, "jeder punkt ein programm · gelbes band: niedrigstes bis höchstes programm des landes", "spannweite")
+    fertig(f, ax, "jeder punkt ein programm · gelbes band: niedrigstes bis höchstes programm · schwarze marke: landeswert", "spannweite")
 
 if __name__ == "__main__":
     for fn in (c1, c2, c3, c4, c5, c6, c7, c8, c9): fn()
