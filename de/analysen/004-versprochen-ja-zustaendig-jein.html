@@ -188,6 +188,7 @@ svg rect[fill="url(#dotsU)"],svg path[fill="url(#dotsU)"]{stroke:#9a9a9a;stroke-
 [data-theme="dark"] .sw-B{background:repeating-linear-gradient(-45deg,#f2c200 0 3.5px,#161616 3.5px 5px)}
 [data-theme="dark"] .analysekopf__farbe,[data-theme="dark"] .analysekopf__farbe .untertitel,[data-theme="dark"] .analysekopf__farbe .meta{color:#111111}   /* gelber Kopf behält schwarze Schrift */
 [data-theme="dark"] .luecke{background:#3d3300}
+[data-theme="dark"] .hero b{color:#f2f2f2;paint-order:stroke fill;-webkit-text-stroke:6px #161616;text-stroke:6px #161616}   /* große Zahl auf Gelb: heller Kern mit dunklem Lichthof wie die Balkenbeschriftung (Nutzerhinweis 18.10.2026) */
 [data-theme="dark"] .plot noscript img{background:#fff;padding:14px;display:block}   /* bewusste Ausnahme wie auf den übrigen Seiten */
 
 /* Seitenkopf (18.10.2026): Vorspann in der rechten Spalte, Kasten „in 30 sekunden“ in voller Breite in der Optik des Metadatenkastens, Sprunglinks unterstrichen, verschobener Metadatenkasten ohne Spaltenabstand */
@@ -862,6 +863,6 @@ window.addEventListener('hashchange',()=>{const h=location.hash.slice(1);const i
 (function(){const rs=[...DATA.rows].sort((a,b)=>b.DB-a.DB);document.getElementById('tbl').innerHTML=`<table><thead><tr><th>Land</th><th>Partei</th><th>Wahl</th><th>Positionen</th><th>D</th><th>B</th><th>F</th><th>K</th><th>S</th><th>U</th><th>D+B</th></tr></thead><tbody>`+
   rs.map(r=>`<tr><td>${r.land}</td><td>${r.partei}</td><td>${r.wahl}</td><td>${deI(r.n)}</td>${['D','B','F','K','S','U'].map(c=>`<td>${de(r[c+'p'])} %</td>`).join('')}<td><b>${de(r.DB)} %</b></td></tr>`).join('')+`</tbody></table>`;})();
 </script>
-<script>(function(){var b=document.querySelector('.modus');if(!b)return;var r=document.documentElement;function s(){b.setAttribute('aria-checked',String(r.getAttribute('data-theme')==='dark'))}s();b.addEventListener('click',function(){var d=r.getAttribute('data-theme')==='dark';if(d){r.removeAttribute('data-theme')}else{r.setAttribute('data-theme','dark')}try{localStorage.setItem('modus',d?'hell':'dunkel')}catch(e){}s()})})();</script>
+<script>(function(){var r=document.documentElement;function bilder(){var d=r.getAttribute('data-theme')==='dark';document.querySelectorAll('img[data-dunkel]').forEach(function(i){if(!i.dataset.hell){i.dataset.hell=i.getAttribute('src')}var q=d?i.dataset.dunkel:i.dataset.hell;if(i.getAttribute('src')!==q){i.src=q}})}bilder();var b=document.querySelector('.modus');if(!b)return;function s(){b.setAttribute('aria-checked',String(r.getAttribute('data-theme')==='dark'))}s();b.addEventListener('click',function(){var d=r.getAttribute('data-theme')==='dark';if(d){r.removeAttribute('data-theme')}else{r.setAttribute('data-theme','dark')}try{localStorage.setItem('modus',d?'hell':'dunkel')}catch(e){}s();bilder()})})();</script>
 </body>
 </html>
