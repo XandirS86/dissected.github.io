@@ -205,5 +205,7 @@ ohne Wahl gilt `prefers-color-scheme`. Ein Vorab-Skript im `<head>` setzt `data-
 Farbsatz in `styles.css` unter `:root[data-theme="dark"]`: Grund `#161616`, Schrift und Linien `#c4c4c4` (10,4:1),
 Sekundärtext `#9a9a9a`, Metadaten `#777`, Ocker → Gelb. Textakzente werden per `color-mix` zu 40 % mit Weiß aufgehellt,
 die Farbflächen der Plakate und Rubrikköpfe behalten Rot, Gelb, Blau.
-Bewusste Ausnahmen: schwarze Balken und Quadrate der Plakate bleiben schwarz; statische Grafiken (SVG) liegen auf weißen Kacheln.
+Bewusste Ausnahme: schwarze Balken und Quadrate der Plakate bleiben schwarz. Statische Grafiken haben dunkle Zwillinge
+(`charts/dunkel.py` schreibt zu jeder `*.svg` eine `*.dunkel.svg` nach fester Farbtabelle); das Bild trägt `data-dunkel="…dunkel.svg"`,
+das Schalter-Skript tauscht die Quelle. Bilder ohne Zwilling liegen auf weißen Kacheln. Neue Grafik: `dunkel.py` laufen lassen, Attribut setzen.
 Das Dashboard № 04 hat ein eigenes dunkles Farbsystem (Etappe 3).

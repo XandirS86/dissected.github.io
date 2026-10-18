@@ -80,7 +80,7 @@
     <p>Denn im Inneren zerbrach einiges. Im Juli 2026 verarbeiteten Russlands Raffinerien rund 3,6 Millionen Barrel am Tag — der niedrigste Stand seit Mai 2002 und etwa ein Drittel unter dem, was zu dieser Jahreszeit normal wäre.<sup class="ref" data-ref="2">2</sup> Benzin wurde in 56 der 83 Regionen rationiert, auf der besetzten Krim wurde der Verkauf an Zivilisten zeitweise ganz eingestellt, und selbst an Moskauer Tankstellen galten im August wieder Obergrenzen. Ein Land, das gleichzeitig Rekordeinnahmen und Benzinmarken meldet, hat kein Bilanzproblem. Es hat ein Mengenproblem, das die Bilanz noch nicht erreicht hat.</p>
 
     <figure>
-      <img src="/charts/002-paradox_de.svg" alt="Raffineriedurchsatz 2020–2026 fällt auf den tiefsten Stand seit 2002, mit Markierung des Haushaltsüberschusses im Juni 2026.">
+      <img src="/charts/002-paradox_de.svg" data-dunkel="/charts/002-paradox_de.dunkel.svg" alt="Raffineriedurchsatz 2020–2026 fällt auf den tiefsten Stand seit 2002, mit Markierung des Haushaltsüberschusses im Juni 2026.">
       <figcaption><b>Abb. 1</b> Zwei Wahrheiten in einer Kurve: Der Raffineriedurchsatz fällt seit 2024 stetig auf den tiefsten Stand seit 2002 — ausgerechnet im Quartal des Haushaltsüberschusses. Der Trend ist belastbar, nicht die Nachkommastelle; zwei Punkte sind interpoliert (hohl).</figcaption>
     </figure>
 
@@ -111,7 +111,7 @@
     <p>Man kann die Sequenz der ganzen Kampagne als eine Treppe lesen, auf der jede Stufe eine breitere Gruppe von Menschen erreicht. Munitionsdepots treffen die Front. Bomberbasen treffen die Luftwaffe. Raffinerien treffen die Staatskasse und, über die Rationierung, den Autofahrer. Exportterminals treffen die Handelsbilanz. Und die Lager von Wildberries treffen das Paket, das der Bürger bestellt hat. Zum ersten Mal steht am Ziel nicht mehr der russische Export, sondern der russische Alltag.</p>
 
     <figure>
-      <img src="/charts/002-verlagerung_de.svg" alt="Dokumentierte Drohnentreffer je Quartal nach Zielgruppe; die zivile Logistik bricht im Sommer 2026 ein.">
+      <img src="/charts/002-verlagerung_de.svg" data-dunkel="/charts/002-verlagerung_de.dunkel.svg" alt="Dokumentierte Drohnentreffer je Quartal nach Zielgruppe; die zivile Logistik bricht im Sommer 2026 ein.">
       <figcaption><b>Abb. 2</b> Wohin die Angriffe wandern: dokumentierte Drohnentreffer je Quartal, nach Zielgruppe. Bis 2025 dominiert Militärisches, im Frühjahr 2026 die Energie — und im Sommer 2026 bricht mit der Wildberries-/Ozon-Serie die zivile Logistik ein. Basis: rund 95 dokumentierte Einzelereignisse, nicht die Gesamtkampagne.</figcaption>
     </figure>
 
@@ -187,6 +187,6 @@
 
 </div>
 <script src="/marginalien.js"></script>
-<script>(function(){var b=document.querySelector('.modus');if(!b)return;var r=document.documentElement;function s(){b.setAttribute('aria-checked',String(r.getAttribute('data-theme')==='dark'))}s();b.addEventListener('click',function(){var d=r.getAttribute('data-theme')==='dark';if(d){r.removeAttribute('data-theme')}else{r.setAttribute('data-theme','dark')}try{localStorage.setItem('modus',d?'hell':'dunkel')}catch(e){}s()})})();</script>
+<script>(function(){var r=document.documentElement;function bilder(){var d=r.getAttribute('data-theme')==='dark';document.querySelectorAll('img[data-dunkel]').forEach(function(i){if(!i.dataset.hell){i.dataset.hell=i.getAttribute('src')}var q=d?i.dataset.dunkel:i.dataset.hell;if(i.getAttribute('src')!==q){i.src=q}})}bilder();var b=document.querySelector('.modus');if(!b)return;function s(){b.setAttribute('aria-checked',String(r.getAttribute('data-theme')==='dark'))}s();b.addEventListener('click',function(){var d=r.getAttribute('data-theme')==='dark';if(d){r.removeAttribute('data-theme')}else{r.setAttribute('data-theme','dark')}try{localStorage.setItem('modus',d?'hell':'dunkel')}catch(e){}s();bilder()})})();</script>
 </body>
 </html>

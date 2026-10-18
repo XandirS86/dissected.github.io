@@ -55,6 +55,6 @@
 </footer>
 
 </div>
-<script>(function(){var b=document.querySelector('.modus');if(!b)return;var r=document.documentElement;function s(){b.setAttribute('aria-checked',String(r.getAttribute('data-theme')==='dark'))}s();b.addEventListener('click',function(){var d=r.getAttribute('data-theme')==='dark';if(d){r.removeAttribute('data-theme')}else{r.setAttribute('data-theme','dark')}try{localStorage.setItem('modus',d?'hell':'dunkel')}catch(e){}s()})})();</script>
+<script>(function(){var r=document.documentElement;function bilder(){var d=r.getAttribute('data-theme')==='dark';document.querySelectorAll('img[data-dunkel]').forEach(function(i){if(!i.dataset.hell){i.dataset.hell=i.getAttribute('src')}var q=d?i.dataset.dunkel:i.dataset.hell;if(i.getAttribute('src')!==q){i.src=q}})}bilder();var b=document.querySelector('.modus');if(!b)return;function s(){b.setAttribute('aria-checked',String(r.getAttribute('data-theme')==='dark'))}s();b.addEventListener('click',function(){var d=r.getAttribute('data-theme')==='dark';if(d){r.removeAttribute('data-theme')}else{r.setAttribute('data-theme','dark')}try{localStorage.setItem('modus',d?'hell':'dunkel')}catch(e){}s();bilder()})})();</script>
 </body>
 </html>

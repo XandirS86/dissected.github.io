@@ -287,7 +287,7 @@ tr.hervor td{font-weight:500}
 [data-theme="dark"] .plakat .meta:not([style]){color:color-mix(in srgb,var(--akzent) 60%,#fff)}
 [data-theme="dark"] th,[data-theme="dark"] td,[data-theme="dark"] .liste li{border-bottom-color:#333}
 [data-theme="dark"] .luecke{background:#3d3300}
-[data-theme="dark"] .artikel__text figure img{background:#fff;padding:14px;display:block}   /* bewusste Ausnahme: Grafiken bleiben weiß */
+[data-theme="dark"] .artikel__text figure img:not([data-dunkel]){background:#fff;padding:14px;display:block}   /* nur Grafiken ohne dunklen Zwilling bleiben weiß */
 @media (max-width:760px){
   [data-theme="dark"] .vorgaenger a{border-bottom-color:#333}
   [data-theme="dark"] .marginalie{border-left-color:#333}
