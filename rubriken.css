@@ -128,6 +128,12 @@
 }
 
 /* --- Archiv: Rubrik-Abschnitte mit Ankern --- */
+/* v16: die drei Rubriken stehen nebeneinander wie die Rubrikleiste der Startseite (18px Fuge);
+   der Zaehler laeuft ueber die volle Breite. Vorher griff das 1:3-Raster der Archivseite
+   (Filter : Liste) und verteilte die Rubriken auf zwei Spalten. */
+.archiv { grid-template-columns: repeat(3, 1fr); column-gap: 18px; }
+.archiv-zaehler { grid-column: 1 / -1; }
+@media (max-width: 720px) { .archiv { grid-template-columns: 1fr; } }
 .archiv-zaehler { font-size: 0.8rem; letter-spacing: 0.12em; color: #8a8a8a; margin: 2rem 0 1rem; }
 .rubrik-archiv { margin: 0 0 2.2rem; }
 .rubrik-archiv .rubrik__kopf { display: block; margin: 0 0 0.6rem; }
