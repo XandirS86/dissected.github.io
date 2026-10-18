@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>about — who dissects here — a xandir, dissected</title>
 <meta name="description" content="Who is behind a xandir, dissected, how the analyses are made (data, sources, confidence) and how to file an objection.">
+<script>(function(){try{var m=localStorage.getItem('modus');if(m==='dunkel'||(!m&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark')}}catch(e){}})();</script>
 <link rel="stylesheet" href="../styles.css">
 <!-- seo -->
 <link rel="canonical" href="https://www.dissected.eu/en/about.html">
@@ -33,6 +34,7 @@
     <a href="../en/about.html" aria-current="page">about</a>
     <a href="../en/feed.xml">rss</a>
     <span class="sprache"><a href="../de/ueber.html" lang="de">de</a> · <span aria-current="true">en</span></span>
+    <button class="modus" type="button" role="switch" aria-checked="false" aria-label="Dark mode"><span class="modus__knopf"></span></button>
   </nav>
 </header>
 
@@ -57,5 +59,6 @@
 </footer>
 
 </div>
+<script>(function(){var b=document.querySelector('.modus');if(!b)return;var r=document.documentElement;function s(){b.setAttribute('aria-checked',String(r.getAttribute('data-theme')==='dark'))}s();b.addEventListener('click',function(){var d=r.getAttribute('data-theme')==='dark';if(d){r.removeAttribute('data-theme')}else{r.setAttribute('data-theme','dark')}try{localStorage.setItem('modus',d?'hell':'dunkel')}catch(e){}s()})})();</script>
 </body>
 </html>

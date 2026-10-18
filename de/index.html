@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>a xandir, dissected — analysen zu sport, gesellschaft und welt</title>
 <meta name="description" content="Unabhängige, datenbasierte Analysen zu Sport, Gesellschaft und Weltordnung – mit Quellen, Methode und Konfidenz. Ohne Werbung, ohne Tracking.">
+<script>(function(){try{var m=localStorage.getItem('modus');if(m==='dunkel'||(!m&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark')}}catch(e){}})();</script>
 <link rel="stylesheet" href="../styles.css">
 <link rel="stylesheet" href="../rubriken.css">
 <!-- seo -->
@@ -34,6 +35,7 @@
     <a href="../de/ueber.html">über</a>
     <a href="../de/feed.xml">rss</a>
     <span class="sprache"><span aria-current="true">de</span> · <a href="../en/index.html" lang="en">en</a></span>
+    <button class="modus" type="button" role="switch" aria-checked="false" aria-label="Dunkelmodus"><span class="modus__knopf"></span></button>
   </nav>
 </header>
 <!-- ===== PLAKAT-KASKADE: die drei neuesten Analysen, gestaffelt.
@@ -133,5 +135,6 @@
   <div class="motto">keine werbung, kekse, abofalle. ein hobby, das sich für eine publikation hält.</div>
 </footer>
 </div>
+<script>(function(){var b=document.querySelector('.modus');if(!b)return;var r=document.documentElement;function s(){b.setAttribute('aria-checked',String(r.getAttribute('data-theme')==='dark'))}s();b.addEventListener('click',function(){var d=r.getAttribute('data-theme')==='dark';if(d){r.removeAttribute('data-theme')}else{r.setAttribute('data-theme','dark')}try{localStorage.setItem('modus',d?'hell':'dunkel')}catch(e){}s()})})();</script>
 </body>
 </html>
