@@ -187,6 +187,7 @@ svg rect[fill="url(#dotsU)"],svg path[fill="url(#dotsU)"]{stroke:#9a9a9a;stroke-
 .kurz a,.anleitung a,.analysekopf__daten a{text-decoration:underline;text-underline-offset:3px}
 .anleitung .analysekopf__daten{padding:0 0 26px;margin:0 0 18px;border-bottom:1px solid var(--line)}
 @media (max-width:760px){.analysekopf__vorspann{padding:24px 0}.kurz__spalten{grid-template-columns:1fr}}
+.ebene .legende{margin:0 0 18px}
 </style>
 </head>
 <body>
@@ -474,6 +475,7 @@ durchgezählt, verortet, nachgeprüft; uuund nochmal nachgeprüft...
 <section class="ebene">
   <h2 class="l">Länder im Einzelnen</h2>
   <p>Ein Land, seine sechs Programme. Die Sätze unter dem Steckbrief sind aus den Zahlen erzeugt und enthalten keine Deutung.</p>
+  <div class="legende"></div>
   <div class="wahl" id="l-wahl" role="tablist" aria-label="Land wählen"></div>
   <div class="karten">
     <div class="karte"><div class="nr">Kernaussage 1</div><h3 class="e" id="l-titel"></h3><p class="sub" id="l-s0"></p><div class="steck" id="l-steck"></div><ul class="befund" id="l-befund"></ul></div>
@@ -494,6 +496,7 @@ durchgezählt, verortet, nachgeprüft; uuund nochmal nachgeprüft...
 <section class="ebene">
   <h2 class="p">Parteien im Einzelnen</h2>
   <p>Eine Partei, ihre acht Programme. Die Sätze unter dem Steckbrief sind aus den Zahlen erzeugt und enthalten keine Deutung.</p>
+  <div class="legende"></div>
   <div class="wahl" id="p-wahl" role="tablist" aria-label="Partei wählen"></div>
   <div class="karten">
     <div class="karte"><div class="nr">Kernaussage 1</div><h3 class="e" id="p-titel"></h3><p class="sub" id="p-s0"></p><div class="steck" id="p-steck"></div><ul class="befund" id="p-befund"></ul></div>
@@ -514,6 +517,7 @@ durchgezählt, verortet, nachgeprüft; uuund nochmal nachgeprüft...
 <section class="ebene">
   <h2>Konzept: vom Programm zum Landeshebel</h2>
   <p>Wie aus 48 Wahlprogrammen eine Zahl wird. Das Band zeigt den Weg der Positionen durch sechs Stufen; ein Klick auf eine Stufe erklärt sie.</p>
+  <div class="legende"></div>
   <div class="karte"><div class="nr">Kernaussage</div><h3 class="e" id="k-t"></h3><p class="sub" id="k-s"></p><div class="plot" id="k-fluss"></div>
     <p class="fuss">Das Band steht für die 28.071 Positionen und fächert am Ende nach Zuständigkeit auf; der gelbe Teil ist der Landeshebel. Zahlen aus den technischen Prüfungen und Kennzahlen vom 17.10.2026.</p></div>
   <div class="wahl" id="k-wahl" role="tablist" aria-label="Stufe wählen" style="margin-top:18px"></div>
@@ -589,7 +593,7 @@ document.getElementById('leg3').addEventListener('keydown',e=>{if(e.key==='Enter
 
 // KPIs + Legende
 const kpiBox=document.getElementById('kpis');if(kpiBox)kpiBox.innerHTML=[['48','programme'],['8','landtagswahlen'],[deI(DATA.N),'positionen'],[de(DATA.DB)+' %','landeshebel (d + b)']].map(([v,l])=>`<div class="kpi"><b>${v}</b><span>${l}</span></div>`).join('');
-document.getElementById('legende').innerHTML='<span><b>Wer ist zuständig?</b></span>'+CODES.map(([c,l])=>`<span><i class="sw sw-${c}"></i><b>${c}</b> ${l}</span>`).join('');
+{const LEG='<span><b>Wer ist zuständig?</b></span>'+CODES.map(([c,l])=>`<span><i class="sw sw-${c}"></i><b>${c}</b> ${l}</span>`).join('');document.querySelectorAll('.legende').forEach(e=>{e.innerHTML=LEG;});}
 document.getElementById('heroDB').textContent=de(DATA.DB)+' %';
 document.getElementById('rU').textContent=de(DATA.rU,2).replace('-','−'); document.getElementById('rF').textContent=de(DATA.rF,2).replace('-','−');
 
