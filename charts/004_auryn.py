@@ -53,7 +53,7 @@ def c1():
         v = D["totp"][c]
         balken(ax, 0, v, x, c)
         if v >= 4:
-            ax.text(x + v / 2, 0, f"{c} {de(v)} %", ha="center", va="center", fontsize=10.5, color=TEXT[c],
+            ax.text(x + v / 2, 0, f"{de(v)} %", ha="center", va="center", fontsize=10.5, color=TEXT[c],
                     fontproperties=SCHRIFT[700 if c in ("D", "B") else 500], bbox=dict(boxstyle="square,pad=0.15", fc=W, ec="none", alpha=0.85) if c in ("B", "U") else None)
         x += v
     db = D["DB"]
