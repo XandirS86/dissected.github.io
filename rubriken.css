@@ -143,3 +143,12 @@ h2.rubrik-archiv__titel { margin: 0; }
 .rubrik-archiv .rubrik__folgt { padding-left: 0; border-bottom: 1px solid rgba(0,0,0,0.12); }
 
 h1.archiv-zaehler { font-weight: 400; }
+
+/* ---- Dunkelmodus (Mockup 18.10.2026) ---- */
+[data-theme="dark"] .rubrik--gesellschaft{--rubrik-akzent:var(--gelb)}
+[data-theme="dark"] .rubrik--sport{--rubrik-akzent:#86aefc}
+[data-theme="dark"] .rubrik--welt{--rubrik-akzent:#ff8a80}
+[data-theme="dark"] .rubrik__eintrag{color:var(--schwarz)}
+[data-theme="dark"] .rubrik__eintrag .meta{color:var(--rubrik-akzent)}   /* Rubrikfarbe statt Seitenakzent */
+[data-theme="dark"] .rubrik__eintrag .thema{color:var(--grau)}
+[data-theme="dark"] .rubrik__eintrag:hover{background:rgba(255,255,255,0.06);color:var(--schwarz)}

@@ -271,3 +271,29 @@ tr.hervor td{font-weight:500}
 
 /* Methodik & Quellen: Absätze unter der Überschrift 35 % kleiner als der Lesekörper (17px → 0,65) */
 .artikel__text > p.methodik{font-size:.65em}
+
+/* ---- Dunkelmodus (Mockup 18.10.2026): Schalter in der Kopfzeile, Wahl im Browser gemerkt, sonst Systemeinstellung ---- */
+:root[data-theme="dark"]{
+  --weiss:#161616; --schwarz:#c4c4c4; --linie:#c4c4c4;   /* Schrift gedämpft (10,4:1), Nutzerentscheidung 18.10.2026 */
+  --grau:#9a9a9a; --grau-hell:#777777;
+  --ocker:#f2c200;            /* auf Schwarz darf das Gelb selbst Schrift sein (11:1) */
+  color-scheme:dark;
+}
+[data-theme="dark"] .schwarz{background:#111111}   /* bewusste Ausnahme: Balken und Quadrate der Plakate bleiben schwarz */
+[data-theme="dark"] a:hover{color:color-mix(in srgb,var(--akzent) 60%,#fff)}
+[data-theme="dark"] .meta{color:color-mix(in srgb,var(--akzent) 60%,#fff)}   /* bewusst schwach (0,2,0), damit Rubrikeinträge in rubriken.css gewinnen */
+[data-theme="dark"] :is(.artikel__text h2 .nr,.konfidenz,.marginalie .nr,sup.ref,.einspruch__kopf h2){color:color-mix(in srgb,var(--akzent) 60%,#fff)}
+[data-theme="dark"] .plakat .meta[style]{color:var(--ocker)!important}   /* № 04: Gelb statt Ocker */
+[data-theme="dark"] .plakat .meta:not([style]){color:color-mix(in srgb,var(--akzent) 60%,#fff)}
+[data-theme="dark"] th,[data-theme="dark"] td,[data-theme="dark"] .liste li{border-bottom-color:#333}
+[data-theme="dark"] .luecke{background:#3d3300}
+[data-theme="dark"] .artikel__text figure img{background:#fff;padding:14px;display:block}   /* bewusste Ausnahme: Grafiken bleiben weiß */
+@media (max-width:760px){
+  [data-theme="dark"] .vorgaenger a{border-bottom-color:#333}
+  [data-theme="dark"] .marginalie{border-left-color:#333}
+}
+/* Schalter */
+.kopfzeile .modus{margin-left:28px;width:40px;height:22px;border-radius:11px;border:2px solid var(--schwarz);background:transparent;position:relative;cursor:pointer;padding:0;vertical-align:middle;flex:none}
+.kopfzeile .modus__knopf{position:absolute;top:3px;left:3px;width:12px;height:12px;border-radius:50%;background:var(--schwarz);transition:transform .2s}
+[data-theme="dark"] .kopfzeile .modus__knopf{transform:translateX(18px)}
+.kopfzeile .modus:focus-visible{outline:2px solid var(--akzent);outline-offset:3px}

@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Ne halbe Million...wofür genau? Neuendorf, DFB und FIFA — dissected</title>
 <meta name="description" content="DFB-Präsident Neuendorf verdient rund eine halbe Million Euro im Jahr. Hälfte Zürich, Hälfte Frankfurt. Messbar in dreizehn Episoden, drei Ebenen...und null Gegenstimmen.">
+<script>(function(){try{var m=localStorage.getItem('modus');if(m==='dunkel'||(!m&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark')}}catch(e){}})();</script>
 <link rel="stylesheet" href="../../styles.css">
 <!-- seo -->
 <link rel="canonical" href="https://www.dissected.eu/de/analysen/003-eine-halbe-million-fuer-was.html">
@@ -40,6 +41,7 @@
     <a href="../ueber.html">über</a>
     <a href="../feed.xml">rss</a>
     <span class="sprache"><span aria-current="true">de</span> · <a href="../../en/analyses/003-half-a-million-for-what.html" lang="en">en</a></span>
+    <button class="modus" type="button" role="switch" aria-checked="false" aria-label="Dunkelmodus"><span class="modus__knopf"></span></button>
   </nav>
 </header>
 
@@ -205,5 +207,6 @@
 
 </div>
 <script src="../../marginalien.js"></script>
+<script>(function(){var b=document.querySelector('.modus');if(!b)return;var r=document.documentElement;function s(){b.setAttribute('aria-checked',String(r.getAttribute('data-theme')==='dark'))}s();b.addEventListener('click',function(){var d=r.getAttribute('data-theme')==='dark';if(d){r.removeAttribute('data-theme')}else{r.setAttribute('data-theme','dark')}try{localStorage.setItem('modus',d?'hell':'dunkel')}catch(e){}s()})})();</script>
 </body>
 </html>

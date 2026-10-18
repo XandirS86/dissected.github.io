@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>archiv — alle analysen — a xandir, dissected</title>
 <meta name="description" content="Alle Analysen von a xandir, dissected nach Rubriken: sport, gesellschaft, welt – von FIFA und DFB über die russische Kriegswirtschaft bis zu den Wahlversprechen der Landtagswahlen.">
+<script>(function(){try{var m=localStorage.getItem('modus');if(m==='dunkel'||(!m&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark')}}catch(e){}})();</script>
 <link rel="stylesheet" href="../styles.css">
 <link rel="stylesheet" href="../rubriken.css">
 <!-- seo -->
@@ -32,6 +33,7 @@
     <a href="../de/ueber.html">über</a>
     <a href="../de/feed.xml">rss</a>
     <span class="sprache"><span aria-current="true">de</span> · <a href="../en/index.html" lang="en">en</a></span>
+    <button class="modus" type="button" role="switch" aria-checked="false" aria-label="Dunkelmodus"><span class="modus__knopf"></span></button>
   </nav>
 </header>
 
@@ -85,5 +87,6 @@
   <div class="motto">keine werbung, kekse, abofalle. ein hobby, das sich für eine publikation hält.</div>
 </footer>
 </div>
+<script>(function(){var b=document.querySelector('.modus');if(!b)return;var r=document.documentElement;function s(){b.setAttribute('aria-checked',String(r.getAttribute('data-theme')==='dark'))}s();b.addEventListener('click',function(){var d=r.getAttribute('data-theme')==='dark';if(d){r.removeAttribute('data-theme')}else{r.setAttribute('data-theme','dark')}try{localStorage.setItem('modus',d?'hell':'dunkel')}catch(e){}s()})})();</script>
 </body>
 </html>

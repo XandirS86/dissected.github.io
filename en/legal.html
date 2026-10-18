@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>legal notice — a xandir, dissected</title>
 <meta name="description" content="Legal notice (Impressum) for dissected.eu – provider identification and contact.">
+<script>(function(){try{var m=localStorage.getItem('modus');if(m==='dunkel'||(!m&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark')}}catch(e){}})();</script>
 <link rel="stylesheet" href="../styles.css">
 <!-- seo -->
 <link rel="canonical" href="https://www.dissected.eu/en/legal.html">
@@ -32,6 +33,7 @@
     <a href="../en/about.html">about</a>
     <a href="../en/feed.xml">rss</a>
     <span class="sprache"><a href="../de/impressum.html" lang="de">de</a> · <span aria-current="true">en</span></span>
+    <button class="modus" type="button" role="switch" aria-checked="false" aria-label="Dark mode"><span class="modus__knopf"></span></button>
   </nav>
 </header>
 
@@ -54,5 +56,6 @@
 </footer>
 
 </div>
+<script>(function(){var b=document.querySelector('.modus');if(!b)return;var r=document.documentElement;function s(){b.setAttribute('aria-checked',String(r.getAttribute('data-theme')==='dark'))}s();b.addEventListener('click',function(){var d=r.getAttribute('data-theme')==='dark';if(d){r.removeAttribute('data-theme')}else{r.setAttribute('data-theme','dark')}try{localStorage.setItem('modus',d?'hell':'dunkel')}catch(e){}s()})})();</script>
 </body>
 </html>

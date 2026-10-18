@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>datenschutz — a xandir, dissected</title>
 <meta name="description" content="Datenschutzerklärung von dissected.eu – keine Cookies, Zählung ohne Tracking (GoatCounter), Hosting bei GitHub Pages.">
+<script>(function(){try{var m=localStorage.getItem('modus');if(m==='dunkel'||(!m&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark')}}catch(e){}})();</script>
 <link rel="stylesheet" href="../styles.css">
 <!-- seo -->
 <link rel="canonical" href="https://www.dissected.eu/de/datenschutz.html">
@@ -32,6 +33,7 @@
     <a href="../de/ueber.html">über</a>
     <a href="../de/feed.xml">rss</a>
     <span class="sprache"><span aria-current="true">de</span> · <a href="../en/privacy.html" lang="en">en</a></span>
+    <button class="modus" type="button" role="switch" aria-checked="false" aria-label="Dunkelmodus"><span class="modus__knopf"></span></button>
   </nav>
 </header>
 
@@ -44,6 +46,8 @@
   <p>Diese Seite wird über GitHub Pages ausgeliefert, einen Dienst der GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. Beim Aufruf einer Seite übermittelt Ihr Browser technisch notwendige Daten (IP-Adresse, Zeitpunkt, aufgerufene Seite, Browsertyp) an die Server von GitHub. GitHub speichert diese Daten in Server-Logs zur Sicherstellung des Betriebs und der Sicherheit. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einem sicheren und effizienten Betrieb). GitHub ist unter dem EU-US Data Privacy Framework zertifiziert. Einzelheiten: <a href="https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement" style="border-bottom:1px solid var(--schwarz)">GitHub-Datenschutzerklärung</a>.</p>
   <h2>reichweitenmessung, ohne cookies</h2>
   <p>Um zu erfahren, wie oft diese Seiten gelesen werden, nutze ich GoatCounter, einen Zähldienst von Martin Tournoij (Irland), dessen Server bei der Hetzner Online GmbH in Deutschland und Finnland stehen. Beim Aufruf einer Seite überträgt ein kleines Skript, das diese Seite selbst ausliefert, die aufgerufene Seite, die verweisende Seite, Browsertyp, Betriebssystem, Bildschirmbreite, Sprache und das aus der IP-Adresse abgeleitete Land an GoatCounter. IP-Adresse und vollständige Browserkennung werden nach Angaben des Betreibers nicht gespeichert, sondern höchstens acht Stunden im Arbeitsspeicher gehalten, um Besuche zu unterscheiden. Es werden keine Cookies gesetzt und nichts im Browser abgelegt. Die Zahlen liegen nur als Tages- und Stundensummen vor; einzelne Personen sind daraus nicht erkennbar. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse, die Reichweite der eigenen Veröffentlichungen zu kennen). Einzelheiten: <a href="https://www.goatcounter.com/help/privacy" style="border-bottom:1px solid var(--schwarz)">GoatCounter-Datenschutzhinweise</a>.</p>
+  <h2>dunkelmodus</h2>
+  <p>Der Schalter für den Dunkelmodus in der Kopfzeile merkt sich Ihre Wahl im lokalen Speicher Ihres Browsers. Das ist kein Cookie, der Wert verlässt Ihren Browser nicht und lässt sich dort jederzeit löschen. Ohne Wahl folgt die Seite der Einstellung Ihres Geräts.</p>
   <h2>schriften</h2>
   <p>Die verwendete Schrift wird von dieser Seite selbst ausgeliefert; es findet keine Verbindung zu Google Fonts oder anderen Schriftanbietern statt.</p>
   <h2>kontaktaufnahme</h2>
@@ -59,5 +63,6 @@
 </footer>
 
 </div>
+<script>(function(){var b=document.querySelector('.modus');if(!b)return;var r=document.documentElement;function s(){b.setAttribute('aria-checked',String(r.getAttribute('data-theme')==='dark'))}s();b.addEventListener('click',function(){var d=r.getAttribute('data-theme')==='dark';if(d){r.removeAttribute('data-theme')}else{r.setAttribute('data-theme','dark')}try{localStorage.setItem('modus',d?'hell':'dunkel')}catch(e){}s()})})();</script>
 </body>
 </html>
