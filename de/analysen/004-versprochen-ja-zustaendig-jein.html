@@ -841,7 +841,7 @@ const TABS=['uebersicht','laender','parteien','konzept'];
 function zeigeTab(t,sub){if(!TABS.includes(t))t='uebersicht';if(t==='konzept')starteFluss();
   TABS.forEach(x=>{document.getElementById('tab-'+x).classList.toggle('on',x===t);const b=document.querySelector(`nav.reiter button[data-tab="${x}"]`);b.classList.toggle('on',x===t);b.setAttribute('aria-selected',x===t);});
   if(sub&&t==='laender')waehle('l',sub);if(sub&&t==='parteien')waehle('p',sub);}
-document.querySelector('nav.reiter').addEventListener('click',e=>{const b=e.target.closest('button[data-tab]');if(!b)return;zeigeTab(b.dataset.tab);const k=b.dataset.tab==='laender'?WAHL.l.cur:b.dataset.tab==='parteien'?WAHL.p.cur:'';history.replaceState(null,'','#'+b.dataset.tab+(k?'-'+k:''));window.scrollTo({top:0});});
+document.querySelector('nav.reiter').addEventListener('click',e=>{const b=e.target.closest('button[data-tab]');if(!b)return;zeigeTab(b.dataset.tab);const k=b.dataset.tab==='laender'?WAHL.l.cur:b.dataset.tab==='parteien'?WAHL.p.cur:'';history.replaceState(null,'','#'+b.dataset.tab+(k?'-'+k:''));});
 (function(){const h=location.hash.slice(1);const i=h.indexOf('-');zeigeTab(i<0?h:h.slice(0,i),i<0?null:h.slice(i+1));})();
 window.addEventListener('hashchange',()=>{const h=location.hash.slice(1);const i=h.indexOf('-');zeigeTab(i<0?h:h.slice(0,i),i<0?null:h.slice(i+1));});
 
