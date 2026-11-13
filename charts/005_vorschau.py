@@ -29,7 +29,7 @@ for mitte in (-165, 165):                                                       
 
 ax.text(60, 540, 'nr. 05 · gesellschaft · abtreibung', fontsize=17, color=FARBEN['schwarz'], fontproperties=SCHRIFT[500], va='top')
 ax.text(60, 480, 'GRAUSTUFEN\nZWISCHEN GEWISSHEIT\nUND GEWISSHEIT', fontsize=46, color=FARBEN['schwarz'], fontproperties=SCHRIFT[700], va='top', linespacing=1.0)
-ax.text(60, 190, 'Wann ist werdendes Leben schützenswert,\nund was heißt das für die Frau, die es trägt?', fontsize=21, color=FARBEN['schwarz'], fontproperties=SCHRIFT[400], va='top', linespacing=1.35)
+ax.text(60, 190, 'Ab wann verdient werdendes Leben Schutz,\nund was heißt das für die Frau, die es trägt?', fontsize=21, color=FARBEN['schwarz'], fontproperties=SCHRIFT[400], va='top', linespacing=1.35)
 ax.text(60, 40, 'a xandir, dissected · dissected.eu', fontsize=15, color=FARBEN['schwarz'], fontproperties=SCHRIFT[500], va='bottom')
 f.savefig(os.path.join(OUT, '005-graustufen.png'), dpi=100, facecolor=FARBEN['gelb']); plt.close(f)
 print('og/005-graustufen.png erzeugt')
