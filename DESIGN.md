@@ -209,3 +209,19 @@ Bewusste Ausnahme: schwarze Balken und Quadrate der Plakate bleiben schwarz. Sta
 (`charts/dunkel.py` schreibt zu jeder `*.svg` eine `*.dunkel.svg` nach fester Farbtabelle); das Bild trägt `data-dunkel="…dunkel.svg"`,
 das Schalter-Skript tauscht die Quelle. Bilder ohne Zwilling liegen auf weißen Kacheln. Neue Grafik: `dunkel.py` laufen lassen, Attribut setzen.
 Das Dashboard № 04 hat ein eigenes dunkles Farbsystem (Etappe 3).
+
+## SEO (seit 14.11.2026)
+
+Was jede Seite im `<head>` trägt (Reihenfolge wie in № 04/05): `title` (Schlagzeile – Zusatz | dissected, bis ~70 Zeichen),
+`description` (bis 160 Zeichen), `robots: max-image-preview:large`, Favicon-Links und Schrift-Preload (400, 700), `canonical`,
+`hreflang` (de, en wenn vorhanden, x-default = de), RSS-Link, Open Graph mit `og:image` (1200 × 630) samt `og:image:alt`,
+`og:locale` und `og:locale:alternate`, Twitter-Card `summary_large_image` mit Titel, Text und Bild.
+
+Zusätzlich je Analyse: `author`, `article:author`, `article:published_time`, `article:modified_time` (= „stand“), `article:section`,
+drei `article:tag`, JSON-LD `Article` (headline, description, image, datePublished, dateModified, keywords, author, publisher)
+und `BreadcrumbList` (Start → Rubrik im Archiv → Analyse). Jedes `<img>` trägt `alt`, `width`/`height` aus der viewBox der Grafik
+und ab dem zweiten Bild `loading="lazy" decoding="async"`.
+
+Seiten ohne eigenes Bild (Start, Archiv, Über, Impressum, Datenschutz) nutzen `og/dissected.<sprache>.png` aus `charts/og_seite.py`.
+Favicon-Satz aus `charts/favicon.py` (plus `favicon.svg` von Hand). Nach jeder Änderung: `lastmod` in `sitemap.xml`,
+`lastBuildDate` im Feed. Englische Listen führen deutsche Analysen mit dem Vermerk „in german“, damit nichts verwaist.

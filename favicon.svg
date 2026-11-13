@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- a xandir, dissected: ein roter Kreis, von einem Schnitt in Grundfarbe zerlegt. Grund hell, im Dunkelmodus dunkel. -->
+  <style>:root{--grund:#ffffff}@media (prefers-color-scheme:dark){:root{--grund:#161616}}</style>
+  <rect width="64" height="64" fill="var(--grund)"/>
+  <circle cx="40" cy="28" r="28" fill="#d7261e"/>
+  <rect x="-20" y="29" width="104" height="6" fill="var(--grund)" transform="rotate(-12 32 32)"/>
+</svg>

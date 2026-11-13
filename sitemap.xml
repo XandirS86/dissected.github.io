@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Pro Änderung an einer Seite: ihr <lastmod> auf das Datum der letzten inhaltlichen Änderung setzen. Neue Analyse: <url>-Block mit hreflang-Zwillingen ergänzen. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.dissected.eu/de/index.html</loc>
-    <lastmod>2026-09-17</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.dissected.eu/de/index.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dissected.eu/en/index.html"/>
@@ -10,7 +11,7 @@
   </url>
   <url>
     <loc>https://www.dissected.eu/en/index.html</loc>
-    <lastmod>2026-09-17</lastmod>
+    <lastmod>2026-11-14</lastmod>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.dissected.eu/de/index.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dissected.eu/en/index.html"/>
@@ -18,7 +19,7 @@
   </url>
   <url>
     <loc>https://www.dissected.eu/de/archiv.html</loc>
-    <lastmod>2026-09-17</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.dissected.eu/de/archiv.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dissected.eu/en/archive.html"/>
@@ -26,7 +27,7 @@
   </url>
   <url>
     <loc>https://www.dissected.eu/en/archive.html</loc>
-    <lastmod>2026-09-17</lastmod>
+    <lastmod>2026-11-14</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.dissected.eu/de/archiv.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dissected.eu/en/archive.html"/>
@@ -34,7 +35,7 @@
   </url>
   <url>
     <loc>https://www.dissected.eu/de/ueber.html</loc>
-    <lastmod>2026-09-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.dissected.eu/de/ueber.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dissected.eu/en/about.html"/>
@@ -42,7 +43,7 @@
   </url>
   <url>
     <loc>https://www.dissected.eu/en/about.html</loc>
-    <lastmod>2026-09-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.dissected.eu/de/ueber.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dissected.eu/en/about.html"/>
@@ -50,7 +51,7 @@
   </url>
   <url>
     <loc>https://www.dissected.eu/de/impressum.html</loc>
-    <lastmod>2026-09-17</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <priority>0.2</priority>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.dissected.eu/de/impressum.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dissected.eu/en/legal.html"/>
@@ -58,7 +59,7 @@
   </url>
   <url>
     <loc>https://www.dissected.eu/en/legal.html</loc>
-    <lastmod>2026-09-17</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <priority>0.2</priority>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.dissected.eu/de/impressum.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dissected.eu/en/legal.html"/>
@@ -66,7 +67,7 @@
   </url>
   <url>
     <loc>https://www.dissected.eu/de/datenschutz.html</loc>
-    <lastmod>2026-09-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <priority>0.2</priority>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.dissected.eu/de/datenschutz.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dissected.eu/en/privacy.html"/>
@@ -74,7 +75,7 @@
   </url>
   <url>
     <loc>https://www.dissected.eu/en/privacy.html</loc>
-    <lastmod>2026-09-17</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <priority>0.2</priority>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.dissected.eu/de/datenschutz.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dissected.eu/en/privacy.html"/>
@@ -98,7 +99,7 @@
   </url>
   <url>
     <loc>https://www.dissected.eu/de/analysen/002-reparieren-unter-beschuss.html</loc>
-    <lastmod>2026-09-02</lastmod>
+    <lastmod>2026-11-14</lastmod>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.dissected.eu/de/analysen/002-reparieren-unter-beschuss.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dissected.eu/de/analysen/002-reparieren-unter-beschuss.html"/>

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Pro neuer Analyse: einen <item>-Block OBEN einfügen, lastBuildDate anpassen. Datumsformat: Wed, 27 Aug 2026 09:00:00 +0200 -->
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>a xandir, dissected (de)</title>
   <link>https://www.dissected.eu/de/</link>
-  <description>Analysen zu Fußball, Bildung, Ökonomie und Politik. Unabhängig, ohne Werbung.</description>
+  <atom:link href="https://www.dissected.eu/de/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>Unabhängige, datenbasierte Analysen zu Sport, Gesellschaft und Welt. Mit Quellen, Methode und Konfidenz. Ohne Werbung, ohne Tracking.</description>
   <language>de</language>
   <lastBuildDate>Fri, 13 Nov 2026 21:45:00 +0100</lastBuildDate>
 
