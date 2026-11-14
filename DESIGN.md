@@ -28,8 +28,8 @@ ein Änderungswunsch am System – nicht am Stück.
 | `--weiss`  | `#ffffff` | Grund. Immer (im Dunkelmodus `#161616`, siehe Abschnitt Dunkelmodus). |
 | `--schwarz`| `#111111` | Text, Linien, Balken. Nie reines `#000`.               |
 | `--rot`    | `#d7261e` | Akzent 1                                               |
-| `--gelb`   | `#f2c200` | Akzent 2 (nie für Text auf Weiß – Kontrast reicht nicht)|
-| `--ocker`  | `#7a6000` | Lesbares Gelb: Textakzent der Rubrik gesellschaft (6,0:1 auf Weiß); nur wo `--gelb` als Schriftfarbe stünde |
+| `--gelb`   | `#f2c200` | Akzent 2. Als Schrift auf Weiß nur für Nummern und Meta-Labels gelber Stücke (Plakate, Rubrikblock, Archiv), Entscheidung des Autors 14.11.2026 trotz 1,7:1; nie für Lesetext|
+| `--ocker`  | `#7a6000` | Lesbares Gelb für Textakzente im Lesekörper gelber Stücke (Kernsatz, Konfidenz, Kapitel- und Fußnotenziffern in № 05), 6,0:1 auf Weiß |
 | `--blau`   | `#1b4fa0` | Akzent 3                                               |
 | `--grau`   | `#5c5c5c` | Sekundärtext, Bildunterschriften                        |
 | `--grau-hell`| `#9a9a9a`| Metadaten, Nummern im Archiv                           |
