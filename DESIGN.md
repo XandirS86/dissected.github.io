@@ -219,8 +219,8 @@ Was jede Seite im `<head>` trägt (Reihenfolge wie in № 04/05): `title` (Schla
 
 Zusätzlich je Analyse: `author`, `article:author`, `article:published_time`, `article:modified_time` (= „stand“), `article:section`,
 drei `article:tag`, JSON-LD `Article` (headline, description, image, datePublished, dateModified, keywords, author, publisher)
-und `BreadcrumbList` (Start → Rubrik im Archiv → Analyse). Jedes `<img>` trägt `alt`, `width`/`height` aus der viewBox der Grafik
-und ab dem zweiten Bild `loading="lazy" decoding="async"`.
+und `BreadcrumbList` (Start → Rubrik im Archiv → Analyse). Jedes `<img>` trägt `alt`, `width`/`height` als Pixelgröße der Grafik (SVG-Attribute `width`/`height`; Punkt mal 4/3,
+460,8 pt = 614 px, nicht die viewBox-Zahlen) und ab dem zweiten Bild `loading="lazy" decoding="async"`.
 
 Seiten ohne eigenes Bild (Start, Archiv, Über, Impressum, Datenschutz) nutzen `og/dissected.<sprache>.png` aus `charts/og_seite.py`.
 Favicon-Satz aus `charts/favicon.py` (plus `favicon.svg` von Hand). Nach jeder Änderung: `lastmod` in `sitemap.xml`,
