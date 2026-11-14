@@ -30,7 +30,7 @@ ax.add_patch(Rectangle((1038, 110), 4, 410, color=FARBEN['schwarz'], lw=0))
 ax.text(60, 560, 'nr. 06 · sport · fußball · im entwurf · nachtrag zu nr. 01', fontsize=17, color=WEISS, fontproperties=SCHRIFT[500], va='top')
 ax.text(60, 525, 'DER\nRÜCKKAUF', fontsize=60, color=WEISS, fontproperties=SCHRIFT[700], va='top', linespacing=1.0)
 # Sätze des Autors aus dem Lead, keine eigene Zusammenfassung (Entscheidung 14.11.2026)
-ax.text(60, 290, 'Sturz der FIFA! Ahh nein, doch nicht; alles beim Alten…\nUnd der Aufstand vom August? Niedergeschlagen!\n25 Millionen Dollar je Verband, ohne Bedingung.',
+ax.text(60, 290, 'Was ein goldener Herbst! Sturz der FIFA!\nAhh nein, dann doch nicht; alles beim Alten…\n25 Millionen Dollar je Verband aus der Kriegskasse gefallen.',
         fontsize=20, color=WEISS, fontproperties=SCHRIFT[400], va='top', linespacing=1.35)
 ax.text(60, 40, 'a xandir, dissected · dissected.eu', fontsize=15, color=WEISS, fontproperties=SCHRIFT[500], va='bottom')
 f.savefig(os.path.join(OUT, '006-rueckkauf.png'), dpi=100, facecolor=flaeche)
