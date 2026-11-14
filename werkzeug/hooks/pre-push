@@ -1,0 +1,6 @@
+#!/bin/sh
+# Prüft die Seite vor jedem Push; bei Fehlern wird der Push abgebrochen.
+# Einschalten je Repo: git config core.hooksPath werkzeug/hooks
+cd "$(git rev-parse --show-toplevel)" || exit 1
+if command -v python3 >/dev/null 2>&1; then PY=python3; else PY=python; fi
+"$PY" werkzeug/pruefen.py --leise || { echo "Push abgebrochen: werkzeug/pruefen.py meldet Fehler."; exit 1; }

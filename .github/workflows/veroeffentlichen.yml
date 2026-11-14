@@ -1,0 +1,61 @@
+name: veröffentlichen
+
+# Läuft bei jedem Push auf main: prüft die Seite, erzeugt Sitemap und Feed-Datum, meldet Änderungen per IndexNow,
+# postet neue Analysen und Nachträge aus dem Feed. Erzeugtes schreibt der Bot mit [skip ci] zurück.
+# Schlüssel liegen ausschließlich in den Repo-Secrets (Settings → Secrets and variables → Actions).
+
+on:
+  push:
+    branches: [main]
+
+concurrency:
+  group: veroeffentlichen
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  veroeffentlichen:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo mit Historie holen
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Prüfen (Köpfe, Links, Bilder, Sitemap, Feeds)
+        run: python werkzeug/pruefen.py
+
+      - name: Sitemap und Feed-Datum erzeugen
+        run: |
+          python werkzeug/sitemap_bauen.py
+          python werkzeug/feed_datum.py
+
+      - name: Geänderte Seiten per IndexNow melden
+        run: python werkzeug/indexnow.py --von "${{ github.event.before }}" --bis "${{ github.sha }}"
+
+      - name: Neue Analysen und Nachträge posten
+        env:
+          MASTODON_TOKEN: ${{ secrets.MASTODON_TOKEN }}
+          BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
+        run: python werkzeug/posten.py --von "${{ github.event.before }}" --bis "${{ github.sha }}"
+
+      - name: Erzeugtes zurückschreiben
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sitemap.xml de/feed.xml en/feed.xml werkzeug/gepostet.json
+          if git diff --cached --quiet; then
+            echo "nichts zurückzuschreiben"
+          else
+            git commit -m "Automatik: Sitemap, Feed-Datum, Post-Protokoll [skip ci]"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi

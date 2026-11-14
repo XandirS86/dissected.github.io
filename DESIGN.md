@@ -223,5 +223,23 @@ und `BreadcrumbList` (Start → Rubrik im Archiv → Analyse). Jedes `<img>` tr�
 460,8 pt = 614 px, nicht die viewBox-Zahlen) und ab dem zweiten Bild `loading="lazy" decoding="async"`.
 
 Seiten ohne eigenes Bild (Start, Archiv, Über, Impressum, Datenschutz) nutzen `og/dissected.<sprache>.png` aus `charts/og_seite.py`.
-Favicon-Satz aus `charts/favicon.py` (plus `favicon.svg` von Hand). Nach jeder Änderung: `lastmod` in `sitemap.xml`,
-`lastBuildDate` im Feed. Englische Listen führen deutsche Analysen mit dem Vermerk „in german“, damit nichts verwaist.
+Favicon-Satz aus `charts/favicon.py` (plus `favicon.svg` von Hand). Sitemap und `lastBuildDate` erzeugt die Automatik (unten).
+Englische Listen führen deutsche Analysen mit dem Vermerk „in german“, damit nichts verwaist.
+
+## Veröffentlichungsautomatik (seit 14.11.2026)
+
+Bei jedem Push auf `main` läuft `.github/workflows/veroeffentlichen.yml`, Skripte in `werkzeug/`, nur Standardbibliothek:
+
+1. `pruefen.py` prüft alle Seiten: Köpfe nach der SEO-Checkliste oben, hreflang-Paare symmetrisch, Beschreibung an allen Stellen gleich,
+   JSON-LD lesbar, kein Streutext im `<head>`, Bilder mit `alt`, `width`, `height` und vorhandenen Dateien, interne Links erreichbar,
+   jede indexierbare Seite in der Sitemap, jede Analyse im Feed. Fehler machen den Lauf rot (GitHub schickt eine Mail), Warnungen nur Protokoll.
+   Lokal vor jedem Push: `python werkzeug/pruefen.py`; als Hook einschalten mit `git config core.hooksPath werkzeug/hooks`.
+2. `sitemap_bauen.py` erzeugt `sitemap.xml` aus den Seiten (Canonical, hreflang, `lastmod` = letzter Commit der Datei). Nicht von Hand pflegen.
+3. `feed_datum.py` setzt `lastBuildDate` auf das jüngste `pubDate`. Die Einträge der Feeds bleiben Handarbeit: Der Feed ist die Sendeliste.
+4. `indexnow.py` meldet geänderte Adressen an Bing (IndexNow). Der Schlüssel ist der Name der Schlüsseldatei im Wurzelverzeichnis; Google kennt das nicht.
+5. `posten.py` postet auf Mastodon und Bluesky, ausgelöst allein durch den Feed: neuer `<item>` = neue Analyse, geänderter `<item>` (Titel, Text, Datum) = „Nachtrag“.
+   Text = Titel, Teasersatz, Link; Bluesky mit Linkkarte und Vorschaubild. Konten stehen öffentlich in `werkzeug/konten.json`, Schlüssel nur in den
+   Repo-Secrets `MASTODON_TOKEN` und `BLUESKY_APP_PASSWORD`. Ohne Schlüssel Trockenlauf ins Protokoll. Gepostetes merkt `werkzeug/gepostet.json`.
+6. Erzeugtes (Sitemap, Feed-Datum, Post-Protokoll) schreibt der Bot als eigenen Commit mit `[skip ci]` zurück; vor dem eigenen Push also `git fetch`.
+
+Was die Automatik nicht tut: Texte verändern, Fehler stillschweigend reparieren, die Veröffentlichung blockieren (GitHub Pages baut weiter aus dem Branch).
