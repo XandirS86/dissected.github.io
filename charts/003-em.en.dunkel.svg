@@ -26,7 +26,7 @@ L 460.8 212
 L 460.8 0 
 L 0 0 
 z
-" style="fill: #161616"/>
+" style="fill: #111111"/>
   </g>
   <g id="axes_1">
    <g id="patch_2">
@@ -35,7 +35,7 @@ L 440 34
 L 440 56 
 L 160 56 
 z
-" clip-path="url(#p3b68b9cfa3)" style="fill: #c4c4c4"/>
+" clip-path="url(#p3b68b9cfa3)" style="fill: #ffffff"/>
    </g>
    <g id="patch_3">
     <path d="M 160 68 
@@ -43,7 +43,7 @@ L 302.912 68
 L 302.912 90 
 L 160 90 
 z
-" clip-path="url(#p3b68b9cfa3)" style="fill: #c4c4c4"/>
+" clip-path="url(#p3b68b9cfa3)" style="fill: #ffffff"/>
    </g>
    <g id="patch_4">
     <path d="M 160 102 
@@ -64,11 +64,11 @@ z
    <g id="line2d_1">
     <path d="M 160 30 
 L 160 162 
-" clip-path="url(#p3b68b9cfa3)" style="fill: none; stroke: #c4c4c4; stroke-width: 1.5"/>
+" clip-path="url(#p3b68b9cfa3)" style="fill: none; stroke: #ffffff; stroke-width: 1.5"/>
    </g>
    <g id="text_1">
     <!-- uefa: revenue -->
-    <g style="fill: #c4c4c4" transform="translate(100.495312 48) scale(0.085 -0.085)">
+    <g style="fill: #ffffff" transform="translate(100.495312 48) scale(0.085 -0.085)">
      <defs>
       <path id="Jost-Medium-75" d="M 1152 1152 
 L 1152 2944 
@@ -283,7 +283,7 @@ z
    </g>
    <g id="text_2">
     <!-- €2,500 m -->
-    <g style="fill: #161616" transform="translate(395.995703 48) scale(0.085 -0.085)">
+    <g style="fill: #111111" transform="translate(395.995703 48) scale(0.085 -0.085)">
      <defs>
       <path id="Jost-Medium-20ac" d="M 198 2541 
 L 3379 2541 
@@ -468,7 +468,7 @@ z
    </g>
    <g id="text_3">
     <!-- uefa: tournament profit -->
-    <g style="fill: #c4c4c4" transform="translate(65.909609 82) scale(0.085 -0.085)">
+    <g style="fill: #ffffff" transform="translate(65.909609 82) scale(0.085 -0.085)">
      <defs>
       <path id="Jost-Medium-74" d="M 32 2944 
 L 32 2336 
@@ -592,7 +592,7 @@ z
    </g>
    <g id="text_4">
     <!-- €1,276 m -->
-    <g style="fill: #161616" transform="translate(260.632938 82) scale(0.085 -0.085)">
+    <g style="fill: #111111" transform="translate(260.632938 82) scale(0.085 -0.085)">
      <defs>
       <path id="Jost-Medium-31" d="M 480 3430 
 L 1523 3718 
@@ -660,7 +660,7 @@ z
    </g>
    <g id="text_5">
     <!-- federal, state, city budgets: costs -->
-    <g style="fill: #c4c4c4" transform="translate(29.185625 116) scale(0.085 -0.085)">
+    <g style="fill: #ffffff" transform="translate(29.185625 116) scale(0.085 -0.085)">
      <defs>
       <path id="Jost-Medium-64" d="M 2656 4992 
 L 2656 0 
@@ -903,7 +903,7 @@ z
    </g>
    <g id="text_6">
     <!-- €650 m -->
-    <g style="fill: #161616" transform="translate(196.692734 116) scale(0.085 -0.085)">
+    <g style="fill: #111111" transform="translate(196.692734 116) scale(0.085 -0.085)">
      <use xlink:href="#Jost-Medium-20ac"/>
      <use xlink:href="#Jost-Medium-36" transform="translate(60.999985 0)"/>
      <use xlink:href="#Jost-Medium-35" transform="translate(122.399979 0)"/>
@@ -914,7 +914,7 @@ z
    </g>
    <g id="text_7">
     <!-- dfb: prize money -->
-    <g style="fill: #c4c4c4" transform="translate(87.702812 150) scale(0.085 -0.085)">
+    <g style="fill: #ffffff" transform="translate(87.702812 150) scale(0.085 -0.085)">
      <defs>
       <path id="Jost-Medium-7a" d="M 1811 2304 
 L 96 0 

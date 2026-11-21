@@ -26,7 +26,7 @@ L 460.8 232
 L 460.8 0 
 L 0 0 
 z
-" style="fill: #161616"/>
+" style="fill: #111111"/>
   </g>
   <g id="axes_1">
    <g id="patch_2">
@@ -35,7 +35,7 @@ L 128.92 166.857143
 L 128.92 176 
 L 46.72 176 
 z
-" clip-path="url(#p1a13290227)" style="fill: #c4c4c4"/>
+" clip-path="url(#p1a13290227)" style="fill: #ffffff"/>
    </g>
    <g id="patch_3">
     <path d="M 196.21 157.714286 
@@ -43,7 +43,7 @@ L 278.41 157.714286
 L 278.41 176 
 L 196.21 176 
 z
-" clip-path="url(#p1a13290227)" style="fill: #c4c4c4"/>
+" clip-path="url(#p1a13290227)" style="fill: #ffffff"/>
    </g>
    <g id="patch_4">
     <path d="M 345.7 48 
@@ -56,7 +56,7 @@ z
    <g id="line2d_1">
     <path d="M 27.648 176 
 L 446.976 176 
-" clip-path="url(#p1a13290227)" style="fill: none; stroke: #c4c4c4; stroke-width: 1.5"/>
+" clip-path="url(#p1a13290227)" style="fill: none; stroke: #ffffff; stroke-width: 1.5"/>
    </g>
    <g id="line2d_2">
     <path d="M 319.7 48 
@@ -65,7 +65,7 @@ L 344.2 48
    </g>
    <g id="text_1">
     <!-- $1 bn -->
-    <g style="fill: #c4c4c4" transform="translate(75.294219 161.857143) scale(0.1 -0.1)">
+    <g style="fill: #ffffff" transform="translate(75.294219 161.857143) scale(0.1 -0.1)">
      <defs>
       <path id="Jost-Medium-24" d="M 1664 5235 
 L 1683 4198 
@@ -197,7 +197,7 @@ z
    </g>
    <g id="text_2">
     <!-- payouts -->
-    <g style="fill: #c4c4c4" transform="translate(72.596992 189) scale(0.095 -0.095)">
+    <g style="fill: #ffffff" transform="translate(72.596992 189) scale(0.095 -0.095)">
      <defs>
       <path id="Jost-Regular-70" d="M 960 -1408 
 L 960 2944 
@@ -402,7 +402,7 @@ z
    </g>
    <g id="text_3">
     <!-- 2016–2018 -->
-    <g style="fill: #c4c4c4" transform="translate(63.595 201) scale(0.095 -0.095)">
+    <g style="fill: #ffffff" transform="translate(63.595 201) scale(0.095 -0.095)">
      <defs>
       <path id="Jost-Regular-32" d="M 128 0 
 L 3290 0 
@@ -593,7 +593,7 @@ z
    </g>
    <g id="text_4">
     <!-- $2 bn -->
-    <g style="fill: #c4c4c4" transform="translate(224.134219 152.714286) scale(0.1 -0.1)">
+    <g style="fill: #ffffff" transform="translate(224.134219 152.714286) scale(0.1 -0.1)">
      <defs>
       <path id="Jost-Medium-32" d="M 128 0 
 L 3546 0 
@@ -633,7 +633,7 @@ z
    </g>
    <g id="text_5">
     <!-- payouts -->
-    <g style="fill: #c4c4c4" transform="translate(222.086992 189) scale(0.095 -0.095)">
+    <g style="fill: #ffffff" transform="translate(222.086992 189) scale(0.095 -0.095)">
      <use xlink:href="#Jost-Regular-70"/>
      <use xlink:href="#Jost-Regular-61" transform="translate(56.999985 0)"/>
      <use xlink:href="#Jost-Regular-79" transform="translate(105.099976 0)"/>
@@ -645,7 +645,7 @@ z
    </g>
    <g id="text_6">
     <!-- from 2019 on -->
-    <g style="fill: #c4c4c4" transform="translate(209.661289 201) scale(0.095 -0.095)">
+    <g style="fill: #ffffff" transform="translate(209.661289 201) scale(0.095 -0.095)">
      <defs>
       <path id="Jost-Regular-66" d="M 256 2944 
 L 256 2464 
@@ -798,7 +798,7 @@ z
    </g>
    <g id="text_7">
     <!-- $14 bn -->
-    <g style="fill: #c4c4c4" transform="translate(371.128906 43) scale(0.1 -0.1)">
+    <g style="fill: #ffffff" transform="translate(371.128906 43) scale(0.1 -0.1)">
      <defs>
       <path id="Jost-Medium-34" d="M 115 858 
 L 3802 858 
@@ -827,7 +827,7 @@ z
    </g>
    <g id="text_8">
     <!-- total budget -->
-    <g style="fill: #c4c4c4" transform="translate(362.922344 189) scale(0.095 -0.095)">
+    <g style="fill: #ffffff" transform="translate(362.922344 189) scale(0.095 -0.095)">
      <defs>
       <path id="Jost-Regular-6c" d="M 480 4992 
 L 480 0 
@@ -1005,7 +1005,7 @@ z
    </g>
    <g id="text_9">
     <!-- 2027–2030 -->
-    <g style="fill: #c4c4c4" transform="translate(361.538906 201) scale(0.095 -0.095)">
+    <g style="fill: #ffffff" transform="translate(361.538906 201) scale(0.095 -0.095)">
      <defs>
       <path id="Jost-Regular-37" d="M 192 3968 
 L 2515 3968 

@@ -45,7 +45,7 @@ L 125.979888 205.688
 L 125.979888 126.411525 
 L 37.963636 126.411525 
 z
-" clip-path="url(#pbae72c6344)" style="fill: #c4c4c4"/>
+" clip-path="url(#pbae72c6344)" style="fill: #ffffff"/>
    </g>
    <g id="patch_4">
     <path d="M 189.715795 126.411525 
@@ -53,7 +53,7 @@ L 277.732047 126.411525
 L 277.732047 52.089831 
 L 189.715795 52.089831 
 z
-" clip-path="url(#pbae72c6344)" style="fill: #c4c4c4"/>
+" clip-path="url(#pbae72c6344)" style="fill: #ffffff"/>
    </g>
    <g id="patch_5">
     <path d="M 341.467953 205.688 
@@ -944,11 +944,11 @@ L 341.467953 52.089831
    <g id="line2d_3">
     <path d="M 10.8 205.688 
 L 608.4 205.688 
-" clip-path="url(#pbae72c6344)" style="fill: none; stroke: #c4c4c4; stroke-width: 1.2; stroke-linecap: square"/>
+" clip-path="url(#pbae72c6344)" style="fill: none; stroke: #ffffff; stroke-width: 1.2; stroke-linecap: square"/>
    </g>
    <g id="text_5">
     <!-- 240 -->
-    <g style="fill: #c4c4c4" transform="translate(70.823012 119.807702) scale(0.12 -0.12)">
+    <g style="fill: #ffffff" transform="translate(70.823012 119.807702) scale(0.12 -0.12)">
      <defs>
       <path id="Jost-Medium-32" d="M 128 0 
 L 2202 2182 
@@ -1030,7 +1030,7 @@ z
    </g>
    <g id="text_6">
     <!-- +225 -->
-    <g style="fill: #c4c4c4" transform="translate(219.058608 45.486007) scale(0.12 -0.12)">
+    <g style="fill: #ffffff" transform="translate(219.058608 45.486007) scale(0.12 -0.12)">
      <defs>
       <path id="Jost-Medium-2b" d="M 416 1331 
 L 416 2010 
@@ -1170,7 +1170,7 @@ z
    </g>
    <g id="text_8">
     <!-- 500 -->
-    <g style="fill: #c4c4c4" transform="translate(526.14605 33.924854) scale(0.12 -0.12)">
+    <g style="fill: #ffffff" transform="translate(526.14605 33.924854) scale(0.12 -0.12)">
      <use xlink:href="#Jost-Medium-35"/>
      <use xlink:href="#Jost-Medium-30" transform="translate(59.699997 0)"/>
      <use xlink:href="#Jost-Medium-30" transform="translate(122.199982 0)"/>

@@ -26,13 +26,13 @@ L 460.8 262
 L 460.8 0 
 L 0 0 
 z
-" style="fill: #161616"/>
+" style="fill: #111111"/>
   </g>
   <g id="axes_1">
    <g id="line2d_1">
     <path d="M 112 18 
 L 112 216 
-" clip-path="url(#p2e6a481a0f)" style="fill: none; stroke: #c4c4c4; stroke-width: 1.2"/>
+" clip-path="url(#p2e6a481a0f)" style="fill: none; stroke: #ffffff; stroke-width: 1.2"/>
    </g>
    <g id="PathCollection_1">
     <defs>
@@ -46,10 +46,10 @@ C -2.450055 -1.422928 -2.738613 -0.726289 -2.738613 0
 C -2.738613 0.726289 -2.450055 1.422928 -1.936492 1.936492 
 C -1.422928 2.450055 -0.726289 2.738613 0 2.738613 
 z
-" style="stroke: #c4c4c4"/>
+" style="stroke: #ffffff"/>
     </defs>
     <g clip-path="url(#p2e6a481a0f)">
-     <use xlink:href="#m54dee21354" x="112" y="18" style="fill: #c4c4c4; stroke: #c4c4c4"/>
+     <use xlink:href="#m54dee21354" x="112" y="18" style="fill: #ffffff; stroke: #ffffff"/>
     </g>
    </g>
    <g id="text_1">
@@ -313,7 +313,7 @@ z
    </g>
    <g id="text_3">
     <!-- wahl in zürich; formel an die delegierten: „das geld der fifa gehört ihnen“ -->
-    <g style="fill: #c4c4c4" transform="translate(124 21) scale(0.085 -0.085)">
+    <g style="fill: #ffffff" transform="translate(124 21) scale(0.085 -0.085)">
      <defs>
       <path id="Jost-Medium-77" d="M 0 2944 
 L 1376 -205 
@@ -990,7 +990,7 @@ z
    </g>
    <g id="PathCollection_2">
     <g clip-path="url(#p2e6a481a0f)">
-     <use xlink:href="#m54dee21354" x="112" y="40" style="fill: #c4c4c4; stroke: #c4c4c4"/>
+     <use xlink:href="#m54dee21354" x="112" y="40" style="fill: #ffffff; stroke: #ffffff"/>
     </g>
    </g>
    <g id="text_4">
@@ -1142,7 +1142,7 @@ z
    </g>
    <g id="text_6">
     <!-- rat darf kontrollorgane selbst ernennen und entlassen; audit-chef scala tritt zurück -->
-    <g style="fill: #c4c4c4" transform="translate(124 43) scale(0.085 -0.085)">
+    <g style="fill: #ffffff" transform="translate(124 43) scale(0.085 -0.085)">
      <defs>
       <path id="Jost-Medium-6b" d="M 416 4992 
 L 416 0 
@@ -1310,7 +1310,7 @@ z
    </g>
    <g id="PathCollection_3">
     <g clip-path="url(#p2e6a481a0f)">
-     <use xlink:href="#m54dee21354" x="112" y="62" style="fill: #c4c4c4; stroke: #c4c4c4"/>
+     <use xlink:href="#m54dee21354" x="112" y="62" style="fill: #ffffff; stroke: #ffffff"/>
     </g>
    </g>
    <g id="text_7">
@@ -1402,7 +1402,7 @@ z
    </g>
    <g id="text_9">
     <!-- drei treffen mit bundesanwalt lauber, unprotokolliert; an eines erinnert sich niemand -->
-    <g style="fill: #c4c4c4" transform="translate(124 65) scale(0.085 -0.085)">
+    <g style="fill: #ffffff" transform="translate(124 65) scale(0.085 -0.085)">
      <defs>
       <path id="Jost-Medium-2c" d="M 877 704 
 L 314 -954 
@@ -1536,7 +1536,7 @@ z
    </g>
    <g id="PathCollection_4">
     <g clip-path="url(#p2e6a481a0f)">
-     <use xlink:href="#m54dee21354" x="112" y="84" style="fill: #c4c4c4; stroke: #c4c4c4"/>
+     <use xlink:href="#m54dee21354" x="112" y="84" style="fill: #ffffff; stroke: #ffffff"/>
     </g>
    </g>
    <g id="text_10">
@@ -1561,7 +1561,7 @@ z
    </g>
    <g id="text_12">
     <!-- ethik-chefs borbély und eckert nicht wiedernominiert, ohne begründung -->
-    <g style="fill: #c4c4c4" transform="translate(124 87) scale(0.085 -0.085)">
+    <g style="fill: #ffffff" transform="translate(124 87) scale(0.085 -0.085)">
      <defs>
       <path id="Jost-Medium-e9" d="M 634 1312 
 L 3219 1312 
@@ -1691,7 +1691,7 @@ z
    </g>
    <g id="PathCollection_5">
     <g clip-path="url(#p2e6a481a0f)">
-     <use xlink:href="#m54dee21354" x="112" y="106" style="fill: #c4c4c4; stroke: #c4c4c4"/>
+     <use xlink:href="#m54dee21354" x="112" y="106" style="fill: #ffffff; stroke: #ffffff"/>
     </g>
    </g>
    <g id="text_13">
@@ -1767,7 +1767,7 @@ z
    </g>
    <g id="text_15">
     <!-- wiederwahl per akklamation, ohne gegenkandidat -->
-    <g style="fill: #c4c4c4" transform="translate(124 109) scale(0.085 -0.085)">
+    <g style="fill: #ffffff" transform="translate(124 109) scale(0.085 -0.085)">
      <use xlink:href="#Jost-Medium-77"/>
      <use xlink:href="#Jost-Medium-69" transform="translate(71.299988 0)"/>
      <use xlink:href="#Jost-Medium-65" transform="translate(97.999985 0)"/>
@@ -1818,7 +1818,7 @@ z
    </g>
    <g id="PathCollection_6">
     <g clip-path="url(#p2e6a481a0f)">
-     <use xlink:href="#m54dee21354" x="112" y="128" style="fill: #c4c4c4; stroke: #c4c4c4"/>
+     <use xlink:href="#m54dee21354" x="112" y="128" style="fill: #ffffff; stroke: #ffffff"/>
     </g>
    </g>
    <g id="text_16">
@@ -1874,7 +1874,7 @@ z
    </g>
    <g id="text_18">
     <!-- strafverfahren gegen infantino, u. a. anstiftung zum amtsmissbrauch -->
-    <g style="fill: #c4c4c4" transform="translate(124 131) scale(0.085 -0.085)">
+    <g style="fill: #ffffff" transform="translate(124 131) scale(0.085 -0.085)">
      <defs>
       <path id="Jost-Medium-76" d="M -6 2944 
 L 1523 -269 
@@ -1968,7 +1968,7 @@ z
    </g>
    <g id="PathCollection_7">
     <g clip-path="url(#p2e6a481a0f)">
-     <use xlink:href="#m54dee21354" x="112" y="150" style="fill: #c4c4c4; stroke: #c4c4c4"/>
+     <use xlink:href="#m54dee21354" x="112" y="150" style="fill: #ffffff; stroke: #ffffff"/>
     </g>
    </g>
    <g id="text_19">
@@ -1989,7 +1989,7 @@ z
    </g>
    <g id="text_21">
     <!-- rat erklärt die erste amtszeit für „unvollständig“; sie zählt nicht -->
-    <g style="fill: #c4c4c4" transform="translate(124 153) scale(0.085 -0.085)">
+    <g style="fill: #ffffff" transform="translate(124 153) scale(0.085 -0.085)">
      <defs>
       <path id="Jost-Medium-e4" d="M 877 870 
 Q 877 1024 953 1136 
@@ -2127,7 +2127,7 @@ z
    </g>
    <g id="PathCollection_8">
     <g clip-path="url(#p2e6a481a0f)">
-     <use xlink:href="#m54dee21354" x="112" y="172" style="fill: #c4c4c4; stroke: #c4c4c4"/>
+     <use xlink:href="#m54dee21354" x="112" y="172" style="fill: #ffffff; stroke: #ffffff"/>
     </g>
    </g>
    <g id="text_22">
@@ -2198,7 +2198,7 @@ z
    </g>
    <g id="text_24">
     <!-- verfahren eingestellt trotz „klandestinem und konspirativem charakter“ -->
-    <g style="fill: #c4c4c4" transform="translate(124 175) scale(0.085 -0.085)">
+    <g style="fill: #ffffff" transform="translate(124 175) scale(0.085 -0.085)">
      <use xlink:href="#Jost-Medium-76"/>
      <use xlink:href="#Jost-Medium-65" transform="translate(47.499985 0)"/>
      <use xlink:href="#Jost-Medium-72" transform="translate(101.399979 0)"/>
@@ -2273,7 +2273,7 @@ z
    </g>
    <g id="PathCollection_9">
     <g clip-path="url(#p2e6a481a0f)">
-     <use xlink:href="#m54dee21354" x="112" y="194" style="fill: #c4c4c4; stroke: #c4c4c4"/>
+     <use xlink:href="#m54dee21354" x="112" y="194" style="fill: #ffffff; stroke: #ffffff"/>
     </g>
    </g>
    <g id="text_25">
@@ -2294,7 +2294,7 @@ z
    </g>
    <g id="text_27">
     <!-- zweite wiederwahl per akklamation -->
-    <g style="fill: #c4c4c4" transform="translate(124 197) scale(0.085 -0.085)">
+    <g style="fill: #ffffff" transform="translate(124 197) scale(0.085 -0.085)">
      <use xlink:href="#Jost-Medium-7a"/>
      <use xlink:href="#Jost-Medium-77" transform="translate(48.499985 0)"/>
      <use xlink:href="#Jost-Medium-65" transform="translate(119.799973 0)"/>
@@ -2332,7 +2332,7 @@ z
    </g>
    <g id="PathCollection_10">
     <g clip-path="url(#p2e6a481a0f)">
-     <use xlink:href="#m54dee21354" x="112" y="216" style="fill: #c4c4c4; stroke: #c4c4c4"/>
+     <use xlink:href="#m54dee21354" x="112" y="216" style="fill: #ffffff; stroke: #ffffff"/>
     </g>
    </g>
    <g id="text_28">
@@ -2428,7 +2428,7 @@ z
    </g>
    <g id="text_30">
     <!-- platini erstattet strafanzeige in frankreich (ungeprüft) -->
-    <g style="fill: #c4c4c4" transform="translate(124 219) scale(0.085 -0.085)">
+    <g style="fill: #ffffff" transform="translate(124 219) scale(0.085 -0.085)">
      <defs>
       <path id="Jost-Medium-28" d="M 1274 4992 
 Q 890 4275 704 3475 

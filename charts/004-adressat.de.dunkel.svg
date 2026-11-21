@@ -53,7 +53,7 @@ L 271.1088 76.213091
 L 271.1088 54.940364 
 L 175.104 54.940364 
 z
-" clip-path="url(#pe141290fbd)" style="fill: #c4c4c4"/>
+" clip-path="url(#pe141290fbd)" style="fill: #ffffff"/>
    </g>
    <g id="patch_5">
     <path d="M 175.104 111.667636 
@@ -76,7 +76,7 @@ z
     <g id="ytick_1">
      <g id="text_1">
       <!-- unbestimmt, kein weg benannt -->
-      <g style="fill: #c4c4c4" transform="translate(30.387203 35.739682) scale(0.105 -0.105)">
+      <g style="fill: #ffffff" transform="translate(30.387203 35.739682) scale(0.105 -0.105)">
        <defs>
         <path id="Jost-Medium-102" d="M 1152 1152 
 Q 1152 838 1286 665 
@@ -400,7 +400,7 @@ z
     <g id="ytick_2">
      <g id="text_2">
       <!-- bund / eu -->
-      <g style="fill: #c4c4c4" transform="translate(124.299859 71.194227) scale(0.105 -0.105)">
+      <g style="fill: #ffffff" transform="translate(124.299859 71.194227) scale(0.105 -0.105)">
        <defs>
         <path id="Jost-Medium-bd" d="M 218 1472 
 Q 218 1958 416 2300 
@@ -455,7 +455,7 @@ z
     <g id="ytick_3">
      <g id="text_3">
       <!-- kommunen -->
-      <g style="fill: #c4c4c4" transform="translate(121.099 106.648773) scale(0.105 -0.105)">
+      <g style="fill: #ffffff" transform="translate(121.099 106.648773) scale(0.105 -0.105)">
        <defs>
         <path id="Jost-Medium-e8" d="M 218 1472 
 Q 218 1926 426 2272 
@@ -497,7 +497,7 @@ z
     <g id="ytick_4">
      <g id="text_4">
       <!-- selbstverwaltung / dritte -->
-      <g style="fill: #c4c4c4" transform="translate(58.582984 142.103318) scale(0.105 -0.105)">
+      <g style="fill: #ffffff" transform="translate(58.582984 142.103318) scale(0.105 -0.105)">
        <defs>
         <path id="Jost-Medium-de" d="M 442 4992 
 L 1139 4992 
@@ -565,11 +565,11 @@ z
    <g id="patch_7">
     <path d="M 175.104 153.504 
 L 175.104 13.104 
-" style="fill: none; stroke: #c4c4c4; stroke-width: 2; stroke-linejoin: miter; stroke-linecap: square"/>
+" style="fill: none; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_5">
     <!-- 26,6 % -->
-    <g style="fill: #c4c4c4" transform="translate(405.3456 33.770932) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(405.3456 33.770932) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Medium-16b" d="M 128 0 
 L 2202 2182 
@@ -691,7 +691,7 @@ z
    </g>
    <g id="text_6">
     <!-- 11,3 % -->
-    <g style="fill: #c4c4c4" transform="translate(275.3568 69.225477) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(275.3568 69.225477) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Medium-16a" d="M 480 3430 
 L 480 4147 
@@ -747,7 +747,7 @@ z
    </g>
    <g id="text_7">
     <!-- 0,7 % -->
-    <g style="fill: #c4c4c4" transform="translate(185.2992 104.680023) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(185.2992 104.680023) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Medium-169" d="M 256 2240 
 Q 256 2931 477 3452 
@@ -797,7 +797,7 @@ z
    </g>
    <g id="text_8">
     <!-- 0,6 % -->
-    <g style="fill: #c4c4c4" transform="translate(184.4496 140.134568) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(184.4496 140.134568) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Medium-169"/>
      <use xlink:href="#Jost-Medium-1c3" transform="translate(62.5 0)"/>
      <use xlink:href="#Jost-Medium-16f" transform="translate(93.90625 0)"/>
@@ -1656,7 +1656,7 @@ z
  </defs>
  <defs>
   <pattern id="hd628d94960" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
-   <rect x="0" y="0" width="73" height="73" fill="#161616"/>
+   <rect x="0" y="0" width="73" height="73" fill="#111111"/>
    <path d="M 0 72.3 
 C 0.079561 72.3 0.155874 72.26839 0.212132 72.212132 
 C 0.26839 72.155874 0.3 72.079561 0.3 72 

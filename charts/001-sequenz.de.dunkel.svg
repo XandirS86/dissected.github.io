@@ -26,7 +26,7 @@ L 460.8 204
 L 460.8 0 
 L 0 0 
 z
-" style="fill: #161616"/>
+" style="fill: #111111"/>
   </g>
   <g id="axes_1">
    <g id="patch_2">
@@ -35,7 +35,7 @@ L 146 22
 L 146 106 
 L 14 106 
 z
-" clip-path="url(#p0a2b7effdb)" style="fill: #161616; stroke: #c4c4c4; stroke-width: 1.5; stroke-linejoin: miter"/>
+" clip-path="url(#p0a2b7effdb)" style="fill: #111111; stroke: #ffffff; stroke-width: 1.5; stroke-linejoin: miter"/>
    </g>
    <g id="patch_3">
     <path d="M 14 22 
@@ -48,12 +48,12 @@ z
    <g id="patch_4">
     <path d="M 149.999512 64 
 Q 154.999227 64 158.545498 64 
-" clip-path="url(#p0a2b7effdb)" style="fill: none; stroke: #c4c4c4; stroke-width: 1.3; stroke-linecap: round"/>
+" clip-path="url(#p0a2b7effdb)" style="fill: none; stroke: #ffffff; stroke-width: 1.3; stroke-linecap: round"/>
     <path d="M 154.945498 62.2 
 L 158.545498 64 
 L 154.945498 65.8 
 z
-" clip-path="url(#p0a2b7effdb)" style="fill: #c4c4c4; stroke: #c4c4c4; stroke-width: 1.3; stroke-linecap: round"/>
+" clip-path="url(#p0a2b7effdb)" style="fill: #ffffff; stroke: #ffffff; stroke-width: 1.3; stroke-linecap: round"/>
    </g>
    <g id="patch_5">
     <path d="M 164 22 
@@ -61,7 +61,7 @@ L 296 22
 L 296 106 
 L 164 106 
 z
-" clip-path="url(#p0a2b7effdb)" style="fill: #161616; stroke: #c4c4c4; stroke-width: 1.5; stroke-linejoin: miter"/>
+" clip-path="url(#p0a2b7effdb)" style="fill: #111111; stroke: #ffffff; stroke-width: 1.5; stroke-linejoin: miter"/>
    </g>
    <g id="patch_6">
     <path d="M 164 22 
@@ -69,17 +69,17 @@ L 296 22
 L 296 44 
 L 164 44 
 z
-" clip-path="url(#p0a2b7effdb)" style="fill: #c4c4c4"/>
+" clip-path="url(#p0a2b7effdb)" style="fill: #ffffff"/>
    </g>
    <g id="patch_7">
     <path d="M 299.999512 64 
 Q 304.999227 64 308.545498 64 
-" clip-path="url(#p0a2b7effdb)" style="fill: none; stroke: #c4c4c4; stroke-width: 1.3; stroke-linecap: round"/>
+" clip-path="url(#p0a2b7effdb)" style="fill: none; stroke: #ffffff; stroke-width: 1.3; stroke-linecap: round"/>
     <path d="M 304.945498 62.2 
 L 308.545498 64 
 L 304.945498 65.8 
 z
-" clip-path="url(#p0a2b7effdb)" style="fill: #c4c4c4; stroke: #c4c4c4; stroke-width: 1.3; stroke-linecap: round"/>
+" clip-path="url(#p0a2b7effdb)" style="fill: #ffffff; stroke: #ffffff; stroke-width: 1.3; stroke-linecap: round"/>
    </g>
    <g id="patch_8">
     <path d="M 314 22 
@@ -87,7 +87,7 @@ L 446 22
 L 446 106 
 L 314 106 
 z
-" clip-path="url(#p0a2b7effdb)" style="fill: #161616; stroke: #c4c4c4; stroke-width: 1.5; stroke-linejoin: miter"/>
+" clip-path="url(#p0a2b7effdb)" style="fill: #111111; stroke: #ffffff; stroke-width: 1.5; stroke-linejoin: miter"/>
    </g>
    <g id="patch_9">
     <path d="M 314 22 
@@ -95,21 +95,21 @@ L 446 22
 L 446 44 
 L 314 44 
 z
-" clip-path="url(#p0a2b7effdb)" style="fill: #c4c4c4"/>
+" clip-path="url(#p0a2b7effdb)" style="fill: #ffffff"/>
    </g>
    <g id="line2d_1">
     <path d="M 14 149 
 L 24 149 
-" clip-path="url(#p0a2b7effdb)" style="fill: none; stroke: #c4c4c4; stroke-width: 1.5; stroke-linecap: square"/>
+" clip-path="url(#p0a2b7effdb)" style="fill: none; stroke: #ffffff; stroke-width: 1.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_2">
     <path d="M 14 169 
 L 24 169 
-" clip-path="url(#p0a2b7effdb)" style="fill: none; stroke: #c4c4c4; stroke-width: 1.5; stroke-linecap: square"/>
+" clip-path="url(#p0a2b7effdb)" style="fill: none; stroke: #ffffff; stroke-width: 1.5; stroke-linecap: square"/>
    </g>
    <g id="text_1">
     <!-- 1  justiziable schwelle senken -->
-    <g style="fill: #161616" transform="translate(22 37) scale(0.085 -0.085)">
+    <g style="fill: #111111" transform="translate(22 37) scale(0.085 -0.085)">
      <defs>
       <path id="Jost-Medium-31" d="M 480 3430 
 L 1523 3718 
@@ -502,7 +502,7 @@ z
    </g>
    <g id="text_2">
     <!-- eugh 2023: monopol an transparenz -->
-    <g style="fill: #c4c4c4" transform="translate(22 58) scale(0.072 -0.072)">
+    <g style="fill: #ffffff" transform="translate(22 58) scale(0.072 -0.072)">
      <defs>
       <path id="Jost-Regular-65" d="M 1619 -64 
 Q 2093 -64 2441 125 
@@ -1050,7 +1050,7 @@ z
    </g>
    <g id="text_3">
     <!-- und verhältnismäßigkeit gebunden -->
-    <g style="fill: #c4c4c4" transform="translate(22 68.5) scale(0.072 -0.072)">
+    <g style="fill: #ffffff" transform="translate(22 68.5) scale(0.072 -0.072)">
      <defs>
       <path id="Jost-Regular-64" d="M 2688 4992 
 L 2688 0 
@@ -1318,7 +1318,7 @@ z
    </g>
    <g id="text_4">
     <!-- lex fifa 2015 (bern), nachschärfbar -->
-    <g style="fill: #c4c4c4" transform="translate(22 79) scale(0.072 -0.072)">
+    <g style="fill: #ffffff" transform="translate(22 79) scale(0.072 -0.072)">
      <defs>
       <path id="Jost-Regular-78" d="M 2048 2944 
 L 1344 1920 
@@ -1700,7 +1700,7 @@ z
    </g>
    <g id="text_6">
     <!-- 2  aufsicht externalisieren -->
-    <g style="fill: #161616" transform="translate(172 37) scale(0.085 -0.085)">
+    <g style="fill: #111111" transform="translate(172 37) scale(0.085 -0.085)">
      <defs>
       <path id="Jost-Medium-32" d="M 128 0 
 L 3546 0 
@@ -1801,7 +1801,7 @@ z
    </g>
    <g id="text_7">
     <!-- modell athletics integrity unit: -->
-    <g style="fill: #c4c4c4" transform="translate(172 58) scale(0.072 -0.072)">
+    <g style="fill: #ffffff" transform="translate(172 58) scale(0.072 -0.072)">
      <defs>
       <path id="Jost-Regular-79" d="M 2816 2944 
 L 2240 2944 
@@ -1852,7 +1852,7 @@ z
    </g>
    <g id="text_8">
     <!-- ernennung, budget und berichtslinie -->
-    <g style="fill: #c4c4c4" transform="translate(172 68.5) scale(0.072 -0.072)">
+    <g style="fill: #ffffff" transform="translate(172 68.5) scale(0.072 -0.072)">
      <use xlink:href="#Jost-Regular-65"/>
      <use xlink:href="#Jost-Regular-72" transform="translate(51.499985 0)"/>
      <use xlink:href="#Jost-Regular-6e" transform="translate(85.799973 0)"/>
@@ -1892,7 +1892,7 @@ z
    </g>
    <g id="text_9">
     <!-- außerhalb von rat und kongress -->
-    <g style="fill: #c4c4c4" transform="translate(172 79) scale(0.072 -0.072)">
+    <g style="fill: #ffffff" transform="translate(172 79) scale(0.072 -0.072)">
      <use xlink:href="#Jost-Regular-61"/>
      <use xlink:href="#Jost-Regular-75" transform="translate(48.099991 0)"/>
      <use xlink:href="#Jost-Regular-df" transform="translate(100.599976 0)"/>
@@ -2026,7 +2026,7 @@ z
    </g>
    <g id="text_11">
     <!-- 3  ausschüttungen entkoppeln -->
-    <g style="fill: #161616" transform="translate(322 37) scale(0.085 -0.085)">
+    <g style="fill: #111111" transform="translate(322 37) scale(0.085 -0.085)">
      <defs>
       <path id="Jost-Medium-33" d="M 1677 2195 
 Q 2150 2195 2518 2336 
@@ -2187,7 +2187,7 @@ z
    </g>
    <g id="text_12">
     <!-- formelgebunden, mehrjährig fixiert, -->
-    <g style="fill: #c4c4c4" transform="translate(322 58) scale(0.072 -0.072)">
+    <g style="fill: #ffffff" transform="translate(322 58) scale(0.072 -0.072)">
      <defs>
       <path id="Jost-Regular-6a" d="M 397 4160 
 Q 397 4019 499 3916 
@@ -2257,7 +2257,7 @@ z
    </g>
    <g id="text_13">
     <!-- unabhängig geprüft -->
-    <g style="fill: #c4c4c4" transform="translate(322 68.5) scale(0.072 -0.072)">
+    <g style="fill: #ffffff" transform="translate(322 68.5) scale(0.072 -0.072)">
      <defs>
       <path id="Jost-Regular-fc" d="M 2368 0 
 L 2880 0 
@@ -2325,7 +2325,7 @@ z
    </g>
    <g id="text_14">
     <!-- löst die patronage an der wurzel -->
-    <g style="fill: #c4c4c4" transform="translate(322 79) scale(0.072 -0.072)">
+    <g style="fill: #ffffff" transform="translate(322 79) scale(0.072 -0.072)">
      <defs>
       <path id="Jost-Regular-f6" d="M 224 1472 
 Q 224 1030 425 681 
@@ -2518,7 +2518,7 @@ z
    </g>
    <g id="text_17">
     <!-- geld zuerst (mit 3 beginnen) -->
-    <g style="fill: #c4c4c4" transform="translate(30 152) scale(0.08 -0.08)">
+    <g style="fill: #ffffff" transform="translate(30 152) scale(0.08 -0.08)">
      <defs>
       <path id="Jost-Medium-64" d="M 2656 4992 
 L 2656 0 
@@ -2662,7 +2662,7 @@ z
    </g>
    <g id="text_19">
     <!-- transparenz zuerst (mit 2 beginnen) -->
-    <g style="fill: #c4c4c4" transform="translate(30 172) scale(0.08 -0.08)">
+    <g style="fill: #ffffff" transform="translate(30 172) scale(0.08 -0.08)">
      <use xlink:href="#Jost-Medium-74"/>
      <use xlink:href="#Jost-Medium-72" transform="translate(27.099991 0)"/>
      <use xlink:href="#Jost-Medium-61" transform="translate(64.199982 0)"/>

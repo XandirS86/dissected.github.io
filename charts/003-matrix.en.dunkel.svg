@@ -26,7 +26,7 @@ L 460.8 310
 L 460.8 0 
 L 0 0 
 z
-" style="fill: #161616"/>
+" style="fill: #111111"/>
   </g>
   <g id="axes_1">
    <g id="patch_2">
@@ -35,7 +35,7 @@ L 252 40
 L 252 118 
 L 48 118 
 z
-" clip-path="url(#p816830b039)" style="fill: #161616; stroke: #c4c4c4; stroke-width: 1.2; stroke-linejoin: miter"/>
+" clip-path="url(#p816830b039)" style="fill: #111111; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_3">
     <path d="M 252 40 
@@ -43,7 +43,7 @@ L 456 40
 L 456 118 
 L 252 118 
 z
-" clip-path="url(#p816830b039)" style="fill: #86aefc; stroke: #c4c4c4; stroke-width: 1.2; stroke-linejoin: miter"/>
+" clip-path="url(#p816830b039)" style="fill: #86aefc; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_4">
     <path d="M 48 118 
@@ -51,7 +51,7 @@ L 252 118
 L 252 266 
 L 48 266 
 z
-" clip-path="url(#p816830b039)" style="fill: #161616; stroke: #c4c4c4; stroke-width: 1.2; stroke-linejoin: miter"/>
+" clip-path="url(#p816830b039)" style="fill: #111111; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_5">
     <path d="M 252 118 
@@ -59,11 +59,11 @@ L 456 118
 L 456 266 
 L 252 266 
 z
-" clip-path="url(#p816830b039)" style="fill: #161616; stroke: #c4c4c4; stroke-width: 1.2; stroke-linejoin: miter"/>
+" clip-path="url(#p816830b039)" style="fill: #111111; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
    </g>
    <g id="text_1">
     <!-- opposition where it cost nothing -->
-    <g style="fill: #c4c4c4" transform="translate(56 54) scale(0.08 -0.08)">
+    <g style="fill: #ffffff" transform="translate(56 54) scale(0.08 -0.08)">
      <defs>
       <path id="Jost-Medium-6f" d="M 218 1472 
 Q 218 1024 426 675 
@@ -640,7 +640,7 @@ z
    </g>
    <g id="text_5">
     <!-- kigali: non-endorsement of infantino -->
-    <g style="fill: #c4c4c4" transform="translate(100 72) scale(0.07 -0.07)">
+    <g style="fill: #ffffff" transform="translate(100 72) scale(0.07 -0.07)">
      <defs>
       <path id="Jost-Regular-6b" d="M 448 4992 
 L 448 0 
@@ -1143,7 +1143,7 @@ z
    </g>
    <g id="text_8">
     <!-- rhetoric against russia’s return -->
-    <g style="fill: #c4c4c4" transform="translate(100 85) scale(0.07 -0.07)">
+    <g style="fill: #ffffff" transform="translate(100 85) scale(0.07 -0.07)">
      <defs>
       <path id="Jost-Regular-68" d="M 992 4992 
 L 480 4992 
@@ -1324,7 +1324,7 @@ z
    </g>
    <g id="text_11">
     <!-- refused to sign the re-election letter -->
-    <g style="fill: #c4c4c4" transform="translate(100 98) scale(0.07 -0.07)">
+    <g style="fill: #ffffff" transform="translate(100 98) scale(0.07 -0.07)">
      <use xlink:href="#Jost-Regular-72"/>
      <use xlink:href="#Jost-Regular-65" transform="translate(34.299988 0)"/>
      <use xlink:href="#Jost-Regular-66" transform="translate(85.799973 0)"/>
@@ -1367,7 +1367,7 @@ z
    </g>
    <g id="text_12">
     <!-- opposition with real consequences -->
-    <g style="fill: #161616" transform="translate(260 54) scale(0.08 -0.08)">
+    <g style="fill: #111111" transform="translate(260 54) scale(0.08 -0.08)">
      <defs>
       <path id="Jost-Medium-61" d="M 877 915 
 Q 877 1056 944 1152 
@@ -1514,7 +1514,7 @@ z
    </g>
    <g id="text_13">
     <!-- 1 -->
-    <g style="fill: #161616" transform="translate(442.909375 54) scale(0.1 -0.1)">
+    <g style="fill: #111111" transform="translate(442.909375 54) scale(0.1 -0.1)">
      <defs>
       <path id="Jost-Bold-31" d="M 435 3187 
 L 1542 3462 
@@ -1531,13 +1531,13 @@ z
    </g>
    <g id="text_14">
     <!-- E -->
-    <g style="fill: #161616" transform="translate(260 72) scale(0.07 -0.07)">
+    <g style="fill: #111111" transform="translate(260 72) scale(0.07 -0.07)">
      <use xlink:href="#Jost-Medium-45"/>
     </g>
    </g>
    <g id="text_15">
     <!-- 07/2026 -->
-    <g style="fill: #161616" transform="translate(270 72) scale(0.07 -0.07)">
+    <g style="fill: #111111" transform="translate(270 72) scale(0.07 -0.07)">
      <use xlink:href="#Jost-Regular-30"/>
      <use xlink:href="#Jost-Regular-37" transform="translate(59.999985 0)"/>
      <use xlink:href="#Jost-Regular-2f" transform="translate(112.499969 0)"/>
@@ -1549,7 +1549,7 @@ z
    </g>
    <g id="text_16">
     <!-- investor plan “forward enterprise” stopped -->
-    <g style="fill: #161616" transform="translate(304 72) scale(0.07 -0.07)">
+    <g style="fill: #111111" transform="translate(304 72) scale(0.07 -0.07)">
      <defs>
       <path id="Jost-Regular-76" d="M 0 2944 
 L 1408 -224 
@@ -1681,7 +1681,7 @@ z
    </g>
    <g id="text_17">
     <!-- assent where it would have cost nothing -->
-    <g style="fill: #c4c4c4" transform="translate(56 132) scale(0.08 -0.08)">
+    <g style="fill: #ffffff" transform="translate(56 132) scale(0.08 -0.08)">
      <defs>
       <path id="Jost-Medium-64" d="M 2656 4992 
 L 2656 0 
@@ -1824,7 +1824,7 @@ z
    </g>
    <g id="text_20">
     <!-- assent where the vote counted -->
-    <g style="fill: #c4c4c4" transform="translate(260 132) scale(0.08 -0.08)">
+    <g style="fill: #ffffff" transform="translate(260 132) scale(0.08 -0.08)">
      <use xlink:href="#Jost-Medium-61"/>
      <use xlink:href="#Jost-Medium-73" transform="translate(50.399994 0)"/>
      <use xlink:href="#Jost-Medium-73" transform="translate(92.799988 0)"/>
@@ -1930,7 +1930,7 @@ z
    </g>
    <g id="text_24">
     <!-- u17 readmission of russia (12-nation front) -->
-    <g style="fill: #c4c4c4" transform="translate(304 150) scale(0.07 -0.07)">
+    <g style="fill: #ffffff" transform="translate(304 150) scale(0.07 -0.07)">
      <defs>
       <path id="Jost-Regular-28" d="M 1312 4992 
 Q 928 4275 752 3475 
@@ -2042,7 +2042,7 @@ z
    </g>
    <g id="text_27">
     <!-- 2030/2034 awards in council -->
-    <g style="fill: #c4c4c4" transform="translate(304 163) scale(0.07 -0.07)">
+    <g style="fill: #ffffff" transform="translate(304 163) scale(0.07 -0.07)">
      <use xlink:href="#Jost-Regular-32"/>
      <use xlink:href="#Jost-Regular-30" transform="translate(56.899994 0)"/>
      <use xlink:href="#Jost-Regular-33" transform="translate(116.899979 0)"/>
@@ -2092,7 +2092,7 @@ z
    </g>
    <g id="text_30">
     <!-- ceferin statutes (england voted against) -->
-    <g style="fill: #c4c4c4" transform="translate(304 176) scale(0.07 -0.07)">
+    <g style="fill: #ffffff" transform="translate(304 176) scale(0.07 -0.07)">
      <use xlink:href="#Jost-Regular-63"/>
      <use xlink:href="#Jost-Regular-65" transform="translate(47.799988 0)"/>
      <use xlink:href="#Jost-Regular-66" transform="translate(99.299973 0)"/>
@@ -2155,7 +2155,7 @@ z
    </g>
    <g id="text_33">
     <!-- saudi acclamation (norway refused) -->
-    <g style="fill: #c4c4c4" transform="translate(304 189) scale(0.07 -0.07)">
+    <g style="fill: #ffffff" transform="translate(304 189) scale(0.07 -0.07)">
      <defs>
       <path id="Jost-Regular-79" d="M 2816 2944 
 L 2240 2944 
@@ -2254,7 +2254,7 @@ z
    </g>
    <g id="text_36">
     <!-- koch system: no commitment -->
-    <g style="fill: #c4c4c4" transform="translate(304 202) scale(0.07 -0.07)">
+    <g style="fill: #ffffff" transform="translate(304 202) scale(0.07 -0.07)">
      <use xlink:href="#Jost-Regular-6b"/>
      <use xlink:href="#Jost-Regular-6f" transform="translate(43.999985 0)"/>
      <use xlink:href="#Jost-Regular-63" transform="translate(98.599976 0)"/>
@@ -2303,7 +2303,7 @@ z
    </g>
    <g id="text_39">
     <!-- bierhoff: “amicable” split, task force -->
-    <g style="fill: #c4c4c4" transform="translate(304 215) scale(0.07 -0.07)">
+    <g style="fill: #ffffff" transform="translate(304 215) scale(0.07 -0.07)">
      <defs>
       <path id="Jost-Regular-62" d="M 960 4992 
 L 448 4992 
@@ -2408,7 +2408,7 @@ z
    </g>
    <g id="text_42">
     <!-- private-jet inquiry: minimum confirmed -->
-    <g style="fill: #c4c4c4" transform="translate(304 228) scale(0.07 -0.07)">
+    <g style="fill: #ffffff" transform="translate(304 228) scale(0.07 -0.07)">
      <defs>
       <path id="Jost-Regular-6a" d="M 397 4160 
 Q 397 4019 499 3916 
@@ -2534,7 +2534,7 @@ z
    </g>
    <g id="text_45">
     <!-- sommermärchen trial: nobody appeared -->
-    <g style="fill: #c4c4c4" transform="translate(304 241) scale(0.07 -0.07)">
+    <g style="fill: #ffffff" transform="translate(304 241) scale(0.07 -0.07)">
      <defs>
       <path id="Jost-Regular-e4" d="M 710 864 
 Q 710 1043 793 1171 
@@ -2659,7 +2659,7 @@ z
    </g>
    <g id="text_48">
     <!-- women’s bundesliga: retreat plus cheque -->
-    <g style="fill: #c4c4c4" transform="translate(304 254) scale(0.07 -0.07)">
+    <g style="fill: #ffffff" transform="translate(304 254) scale(0.07 -0.07)">
      <use xlink:href="#Jost-Regular-77"/>
      <use xlink:href="#Jost-Regular-6f" transform="translate(67.999985 0)"/>
      <use xlink:href="#Jost-Regular-6d" transform="translate(122.599976 0)"/>

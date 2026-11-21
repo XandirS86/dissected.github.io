@@ -145,6 +145,9 @@ h2.rubrik-archiv__titel { margin: 0; }
 h1.archiv-zaehler { font-weight: 400; }
 
 /* ---- Dunkelmodus (Mockup 18.10.2026) ---- */
+/* seit 22.11.2026 eine Regel: Weiß und Schwarz tauschen überall, auch in den Rubrikköpfen */
+[data-theme="dark"] :is(.rubrik--sport,.rubrik--gesellschaft,.rubrik--welt){--rubrik-kopf-text:#111111}
+[data-theme="dark"] :is(.rk--linie-h,.rk--linie-v){background:#ffffff}
 [data-theme="dark"] .rubrik--gesellschaft{--rubrik-akzent:var(--gelb)}
 [data-theme="dark"] .rubrik--sport{--rubrik-akzent:#86aefc}
 [data-theme="dark"] .rubrik--welt{--rubrik-akzent:#ff8a80}

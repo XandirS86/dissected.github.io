@@ -44,7 +44,7 @@ z
     <g id="ytick_1">
      <g id="text_1">
       <!-- Baden-Württemberg -->
-      <g style="fill: #c4c4c4" transform="translate(23.110656 40.3935) scale(0.105 -0.105)">
+      <g style="fill: #ffffff" transform="translate(23.110656 40.3935) scale(0.105 -0.105)">
        <defs>
         <path id="Jost-Medium-d" d="M 3539 1293 
 Q 3539 845 3334 560 
@@ -393,7 +393,7 @@ z
     <g id="ytick_2">
      <g id="text_2">
       <!-- Hamburg -->
-      <g style="fill: #c4c4c4" transform="translate(73.048 64.1535) scale(0.105 -0.105)">
+      <g style="fill: #ffffff" transform="translate(73.048 64.1535) scale(0.105 -0.105)">
        <defs>
         <path id="Jost-Medium-26" d="M 499 4480 
 L 1254 4480 
@@ -442,7 +442,7 @@ z
     <g id="ytick_3">
      <g id="text_3">
       <!-- Rheinland-Pfalz -->
-      <g style="fill: #c4c4c4" transform="translate(45.851359 87.9135) scale(0.105 -0.105)">
+      <g style="fill: #ffffff" transform="translate(45.851359 87.9135) scale(0.105 -0.105)">
        <defs>
         <path id="Jost-Medium-4b" d="M 499 4480 
 L 1882 4480 
@@ -590,7 +590,7 @@ z
     <g id="ytick_4">
      <g id="text_4">
       <!-- Sachsen -->
-      <g style="fill: #c4c4c4" transform="translate(78.316047 111.6735) scale(0.105 -0.105)">
+      <g style="fill: #ffffff" transform="translate(78.316047 111.6735) scale(0.105 -0.105)">
        <defs>
         <path id="Jost-Medium-50" d="M 794 1446 
 Q 1011 1050 1289 816 
@@ -699,7 +699,7 @@ z
     <g id="ytick_5">
      <g id="text_5">
       <!-- Brandenburg -->
-      <g style="fill: #c4c4c4" transform="translate(55.723 135.4335) scale(0.105 -0.105)">
+      <g style="fill: #ffffff" transform="translate(55.723 135.4335) scale(0.105 -0.105)">
        <use xlink:href="#Jost-Medium-d"/>
        <use xlink:href="#Jost-Medium-f3" transform="translate(60.09375 0)"/>
        <use xlink:href="#Jost-Medium-ac" transform="translate(97.1875 0)"/>
@@ -717,7 +717,7 @@ z
     <g id="ytick_6">
      <g id="text_6">
       <!-- Berlin -->
-      <g style="fill: #c4c4c4" transform="translate(89.334484 159.1935) scale(0.105 -0.105)">
+      <g style="fill: #ffffff" transform="translate(89.334484 159.1935) scale(0.105 -0.105)">
        <use xlink:href="#Jost-Medium-d"/>
        <use xlink:href="#Jost-Medium-bf" transform="translate(60.09375 0)"/>
        <use xlink:href="#Jost-Medium-f3" transform="translate(114 0)"/>
@@ -730,7 +730,7 @@ z
     <g id="ytick_7">
      <g id="text_7">
       <!-- Sachsen-Anhalt -->
-      <g style="fill: #c4c4c4" transform="translate(46.670031 182.9535) scale(0.105 -0.105)">
+      <g style="fill: #ffffff" transform="translate(46.670031 182.9535) scale(0.105 -0.105)">
        <defs>
         <path id="Jost-Medium-3" d="M 3546 0 
 L 3027 1152 
@@ -768,7 +768,7 @@ z
     <g id="ytick_8">
      <g id="text_8">
       <!-- Thüringen -->
-      <g style="fill: #c4c4c4" transform="translate(69.6355 206.7135) scale(0.105 -0.105)">
+      <g style="fill: #ffffff" transform="translate(69.6355 206.7135) scale(0.105 -0.105)">
        <defs>
         <path id="Jost-Medium-56" d="M 51 3782 
 L 51 4480 
@@ -838,7 +838,7 @@ L 295.64928 201.096
    <g id="patch_3">
     <path d="M 119.808 217.728 
 L 119.808 18.144 
-" style="fill: none; stroke: #c4c4c4; stroke-width: 2; stroke-linejoin: miter; stroke-linecap: square"/>
+" style="fill: none; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="PathCollection_1">
     <defs>
@@ -855,17 +855,17 @@ z
 "/>
     </defs>
     <g clip-path="url(#peb2c24d50a)">
-     <use xlink:href="#mfeccb345c1" x="181.897509" y="34.776" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="183.793371" y="34.776" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="188.059063" y="34.776" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="273.372891" y="34.776" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="276.690651" y="34.776" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="339.728091" y="34.776" style="fill: #c4c4c4"/>
+     <use xlink:href="#mfeccb345c1" x="181.897509" y="34.776" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="183.793371" y="34.776" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="188.059063" y="34.776" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="273.372891" y="34.776" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="276.690651" y="34.776" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="339.728091" y="34.776" style="fill: #ffffff"/>
     </g>
    </g>
    <g id="text_9">
     <!-- 57 % -->
-    <g style="fill: #c4c4c4" transform="translate(240.112515 51.8896) scale(0.08 -0.08)">
+    <g style="fill: #ffffff" transform="translate(240.112515 51.8896) scale(0.08 -0.08)">
      <defs>
       <path id="Jost-Medium-16e" d="M 3565 1459 
 Q 3565 941 3328 601 
@@ -1291,17 +1291,17 @@ z
    </g>
    <g id="PathCollection_2">
     <g clip-path="url(#peb2c24d50a)">
-     <use xlink:href="#mfeccb345c1" x="215.549074" y="58.536" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="252.044434" y="58.536" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="283.800137" y="58.536" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="325.983086" y="58.536" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="330.722743" y="58.536" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="335.936366" y="58.536" style="fill: #c4c4c4"/>
+     <use xlink:href="#mfeccb345c1" x="215.549074" y="58.536" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="252.044434" y="58.536" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="283.800137" y="58.536" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="325.983086" y="58.536" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="330.722743" y="58.536" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="335.936366" y="58.536" style="fill: #ffffff"/>
     </g>
    </g>
    <g id="text_12">
     <!-- 69 % -->
-    <g style="fill: #c4c4c4" transform="translate(296.687776 75.6496) scale(0.08 -0.08)">
+    <g style="fill: #ffffff" transform="translate(296.687776 75.6496) scale(0.08 -0.08)">
      <defs>
       <path id="Jost-Medium-16f" d="M 2118 4474 
 L 3078 4474 
@@ -1523,17 +1523,17 @@ z
    </g>
    <g id="PathCollection_3">
     <g clip-path="url(#peb2c24d50a)">
-     <use xlink:href="#mfeccb345c1" x="183.319406" y="82.296" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="204.173897" y="82.296" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="261.049783" y="82.296" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="277.164617" y="82.296" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="290.435657" y="82.296" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="300.862903" y="82.296" style="fill: #c4c4c4"/>
+     <use xlink:href="#mfeccb345c1" x="183.319406" y="82.296" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="204.173897" y="82.296" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="261.049783" y="82.296" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="277.164617" y="82.296" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="290.435657" y="82.296" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="300.862903" y="82.296" style="fill: #ffffff"/>
     </g>
    </g>
    <g id="text_15">
     <!-- 59 % -->
-    <g style="fill: #c4c4c4" transform="translate(248.411398 99.4096) scale(0.08 -0.08)">
+    <g style="fill: #ffffff" transform="translate(248.411398 99.4096) scale(0.08 -0.08)">
      <use xlink:href="#Jost-Medium-16e"/>
      <use xlink:href="#Jost-Medium-172" transform="translate(59.703125 0)"/>
      <use xlink:href="#Jost-Medium-1" transform="translate(121.109375 0)"/>
@@ -1621,17 +1621,17 @@ z
    </g>
    <g id="PathCollection_4">
     <g clip-path="url(#peb2c24d50a)">
-     <use xlink:href="#mfeccb345c1" x="173.366126" y="106.056" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="193.746651" y="106.056" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="224.080457" y="106.056" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="229.768046" y="106.056" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="279.06048" y="106.056" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="289.961691" y="106.056" style="fill: #c4c4c4"/>
+     <use xlink:href="#mfeccb345c1" x="173.366126" y="106.056" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="193.746651" y="106.056" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="224.080457" y="106.056" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="229.768046" y="106.056" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="279.06048" y="106.056" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="289.961691" y="106.056" style="fill: #ffffff"/>
     </g>
    </g>
    <g id="text_18">
     <!-- 56 % -->
-    <g style="fill: #c4c4c4" transform="translate(233.244495 123.1696) scale(0.08 -0.08)">
+    <g style="fill: #ffffff" transform="translate(233.244495 123.1696) scale(0.08 -0.08)">
      <use xlink:href="#Jost-Medium-16e"/>
      <use xlink:href="#Jost-Medium-16f" transform="translate(59.703125 0)"/>
      <use xlink:href="#Jost-Medium-1" transform="translate(121.109375 0)"/>
@@ -1794,17 +1794,17 @@ z
    </g>
    <g id="PathCollection_5">
     <g clip-path="url(#peb2c24d50a)">
-     <use xlink:href="#mfeccb345c1" x="199.43424" y="129.816" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="215.075109" y="129.816" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="238.773394" y="129.816" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="287.117897" y="129.816" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="298.96704" y="129.816" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="305.60256" y="129.816" style="fill: #c4c4c4"/>
+     <use xlink:href="#mfeccb345c1" x="199.43424" y="129.816" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="215.075109" y="129.816" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="238.773394" y="129.816" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="287.117897" y="129.816" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="298.96704" y="129.816" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="305.60256" y="129.816" style="fill: #ffffff"/>
     </g>
    </g>
    <g id="text_21">
     <!-- 60 % -->
-    <g style="fill: #c4c4c4" transform="translate(253.03918 146.9296) scale(0.08 -0.08)">
+    <g style="fill: #ffffff" transform="translate(253.03918 146.9296) scale(0.08 -0.08)">
      <defs>
       <path id="Jost-Medium-169" d="M 256 2240 
 Q 256 2931 477 3452 
@@ -1922,17 +1922,17 @@ z
    </g>
    <g id="PathCollection_6">
     <g clip-path="url(#peb2c24d50a)">
-     <use xlink:href="#mfeccb345c1" x="230.715977" y="153.576" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="274.794789" y="153.576" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="288.539794" y="153.576" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="297.071177" y="153.576" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="314.133943" y="153.576" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="328.352914" y="153.576" style="fill: #c4c4c4"/>
+     <use xlink:href="#mfeccb345c1" x="230.715977" y="153.576" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="274.794789" y="153.576" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="288.539794" y="153.576" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="297.071177" y="153.576" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="314.133943" y="153.576" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="328.352914" y="153.576" style="fill: #ffffff"/>
     </g>
    </g>
    <g id="text_24">
     <!-- 67 % -->
-    <g style="fill: #c4c4c4" transform="translate(284.597167 170.6896) scale(0.08 -0.08)">
+    <g style="fill: #ffffff" transform="translate(284.597167 170.6896) scale(0.08 -0.08)">
      <use xlink:href="#Jost-Medium-16f"/>
      <use xlink:href="#Jost-Medium-170" transform="translate(61.40625 0)"/>
      <use xlink:href="#Jost-Medium-1" transform="translate(117 0)"/>
@@ -2002,17 +2002,17 @@ z
    </g>
    <g id="PathCollection_7">
     <g clip-path="url(#peb2c24d50a)">
-     <use xlink:href="#mfeccb345c1" x="181.897509" y="177.336" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="223.132526" y="177.336" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="225.97632" y="177.336" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="235.455634" y="177.336" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="245.88288" y="177.336" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="275.268754" y="177.336" style="fill: #c4c4c4"/>
+     <use xlink:href="#mfeccb345c1" x="181.897509" y="177.336" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="223.132526" y="177.336" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="225.97632" y="177.336" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="235.455634" y="177.336" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="245.88288" y="177.336" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="275.268754" y="177.336" style="fill: #ffffff"/>
     </g>
    </g>
    <g id="text_27">
     <!-- 54 % -->
-    <g style="fill: #c4c4c4" transform="translate(221.809318 194.4496) scale(0.08 -0.08)">
+    <g style="fill: #ffffff" transform="translate(221.809318 194.4496) scale(0.08 -0.08)">
      <defs>
       <path id="Jost-Medium-16d" d="M 115 858 
 L 2643 4480 
@@ -2162,17 +2162,17 @@ z
    </g>
    <g id="PathCollection_8">
     <g clip-path="url(#peb2c24d50a)">
-     <use xlink:href="#mfeccb345c1" x="243.039086" y="201.096" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="267.211337" y="201.096" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="270.529097" y="201.096" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="276.216686" y="201.096" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="276.216686" y="201.096" style="fill: #c4c4c4"/>
-     <use xlink:href="#mfeccb345c1" x="295.64928" y="201.096" style="fill: #c4c4c4"/>
+     <use xlink:href="#mfeccb345c1" x="243.039086" y="201.096" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="267.211337" y="201.096" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="270.529097" y="201.096" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="276.216686" y="201.096" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="276.216686" y="201.096" style="fill: #ffffff"/>
+     <use xlink:href="#mfeccb345c1" x="295.64928" y="201.096" style="fill: #ffffff"/>
     </g>
    </g>
    <g id="text_30">
     <!-- 63 % -->
-    <g style="fill: #c4c4c4" transform="translate(265.084573 218.2096) scale(0.08 -0.08)">
+    <g style="fill: #ffffff" transform="translate(265.084573 218.2096) scale(0.08 -0.08)">
      <defs>
       <path id="Jost-Medium-16c" d="M 1901 -77 
 Q 1421 -77 1075 108 
@@ -2248,42 +2248,42 @@ z
    <g id="line2d_9">
     <path d="M 249.20064 41.4288 
 L 249.20064 28.1232 
-" clip-path="url(#peb2c24d50a)" style="fill: none; stroke: #c4c4c4; stroke-width: 2; stroke-linecap: square"/>
+" clip-path="url(#peb2c24d50a)" style="fill: none; stroke: #ffffff; stroke-width: 2; stroke-linecap: square"/>
    </g>
    <g id="line2d_10">
     <path d="M 306.076526 65.1888 
 L 306.076526 51.8832 
-" clip-path="url(#peb2c24d50a)" style="fill: none; stroke: #c4c4c4; stroke-width: 2; stroke-linecap: square"/>
+" clip-path="url(#peb2c24d50a)" style="fill: none; stroke: #ffffff; stroke-width: 2; stroke-linecap: square"/>
    </g>
    <g id="line2d_11">
     <path d="M 257.732023 88.9488 
 L 257.732023 75.6432 
-" clip-path="url(#peb2c24d50a)" style="fill: none; stroke: #c4c4c4; stroke-width: 2; stroke-linecap: square"/>
+" clip-path="url(#peb2c24d50a)" style="fill: none; stroke: #ffffff; stroke-width: 2; stroke-linecap: square"/>
    </g>
    <g id="line2d_12">
     <path d="M 242.56512 112.7088 
 L 242.56512 99.4032 
-" clip-path="url(#peb2c24d50a)" style="fill: none; stroke: #c4c4c4; stroke-width: 2; stroke-linecap: square"/>
+" clip-path="url(#peb2c24d50a)" style="fill: none; stroke: #ffffff; stroke-width: 2; stroke-linecap: square"/>
    </g>
    <g id="line2d_13">
     <path d="M 262.47168 136.4688 
 L 262.47168 123.1632 
-" clip-path="url(#peb2c24d50a)" style="fill: none; stroke: #c4c4c4; stroke-width: 2; stroke-linecap: square"/>
+" clip-path="url(#peb2c24d50a)" style="fill: none; stroke: #ffffff; stroke-width: 2; stroke-linecap: square"/>
    </g>
    <g id="line2d_14">
     <path d="M 293.753417 160.2288 
 L 293.753417 146.9232 
-" clip-path="url(#peb2c24d50a)" style="fill: none; stroke: #c4c4c4; stroke-width: 2; stroke-linecap: square"/>
+" clip-path="url(#peb2c24d50a)" style="fill: none; stroke: #ffffff; stroke-width: 2; stroke-linecap: square"/>
    </g>
    <g id="line2d_15">
     <path d="M 231.189943 183.9888 
 L 231.189943 170.6832 
-" clip-path="url(#peb2c24d50a)" style="fill: none; stroke: #c4c4c4; stroke-width: 2; stroke-linecap: square"/>
+" clip-path="url(#peb2c24d50a)" style="fill: none; stroke: #ffffff; stroke-width: 2; stroke-linecap: square"/>
    </g>
    <g id="line2d_16">
     <path d="M 274.320823 207.7488 
 L 274.320823 194.4432 
-" clip-path="url(#peb2c24d50a)" style="fill: none; stroke: #c4c4c4; stroke-width: 2; stroke-linecap: square"/>
+" clip-path="url(#peb2c24d50a)" style="fill: none; stroke: #ffffff; stroke-width: 2; stroke-linecap: square"/>
    </g>
   </g>
   <g id="text_33">

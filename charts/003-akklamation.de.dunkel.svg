@@ -33,7 +33,7 @@ z
    <g id="line2d_1">
     <path d="M 90.708712 219.312 
 L 90.708712 10.8 
-" clip-path="url(#pf698f528d8)" style="fill: none; stroke: #c4c4c4; stroke-width: 1.2; stroke-linecap: square"/>
+" clip-path="url(#pf698f528d8)" style="fill: none; stroke: #ffffff; stroke-width: 1.2; stroke-linecap: square"/>
    </g>
    <g id="patch_2">
     <path d="M 90.708712 44.956251 
@@ -41,11 +41,11 @@ L 529.430143 44.956251
 L 529.430143 24.303634 
 L 90.708712 24.303634 
 z
-" clip-path="url(#pf698f528d8)" style="fill: #c4c4c4"/>
+" clip-path="url(#pf698f528d8)" style="fill: #ffffff"/>
    </g>
    <g id="text_1">
     <!-- fvm ’19 -->
-    <g style="fill: #c4c4c4" transform="translate(47.640299 33.598286) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(47.640299 33.598286) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Medium-66" d="M 198 2944 
 L 518 2944 
@@ -368,7 +368,7 @@ z
    </g>
    <g id="text_3">
     <!-- dfb ’22 -->
-    <g style="fill: #c4c4c4" transform="translate(47.354831 73.314857) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(47.354831 73.314857) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Medium-64" d="M 218 1472 
 Q 218 1958 416 2300 
@@ -649,11 +649,11 @@ L 529.430143 124.389394
 L 529.430143 103.736777 
 L 90.708712 103.736777 
 z
-" clip-path="url(#pf698f528d8)" style="fill: #161616; stroke: #c4c4c4; stroke-width: 1.4; stroke-linejoin: miter"/>
+" clip-path="url(#pf698f528d8)" style="fill: #111111; stroke: #ffffff; stroke-width: 1.4; stroke-linejoin: miter"/>
    </g>
    <g id="text_5">
     <!-- council ’23 -->
-    <g style="fill: #c4c4c4" transform="translate(30.346471 113.031429) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(30.346471 113.031429) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Medium-63" d="M 902 1472 
 Q 902 1056 1164 793 
@@ -940,11 +940,11 @@ L 529.430143 164.105966
 L 529.430143 143.453349 
 L 90.708712 143.453349 
 z
-" clip-path="url(#pf698f528d8)" style="fill: #161616; stroke: #c4c4c4; stroke-width: 1.4; stroke-linejoin: miter"/>
+" clip-path="url(#pf698f528d8)" style="fill: #111111; stroke: #ffffff; stroke-width: 1.4; stroke-linejoin: miter"/>
    </g>
    <g id="text_7">
     <!-- council ’25 -->
-    <g style="fill: #c4c4c4" transform="translate(30.124987 152.748) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(30.124987 152.748) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Medium-35" d="M 3565 1459 
 Q 3565 941 3328 601 
@@ -1011,11 +1011,11 @@ L 529.430143 203.822537
 L 529.430143 183.16992 
 L 90.708712 183.16992 
 z
-" clip-path="url(#pf698f528d8)" style="fill: #c4c4c4"/>
+" clip-path="url(#pf698f528d8)" style="fill: #ffffff"/>
    </g>
    <g id="text_9">
     <!-- dfb ’25 -->
-    <g style="fill: #c4c4c4" transform="translate(47.428659 192.464571) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(47.428659 192.464571) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Medium-64"/>
      <use xlink:href="#Jost-Medium-66" transform="translate(58.899994 0)"/>
      <use xlink:href="#Jost-Medium-62" transform="translate(89.799988 0)"/>
@@ -1240,7 +1240,7 @@ z
    </g>
    <g id="text_12">
     <!-- 100 % -->
-    <g style="fill: #c4c4c4" transform="translate(536.010964 37.709943) scale(0.11 -0.11)">
+    <g style="fill: #ffffff" transform="translate(536.010964 37.709943) scale(0.11 -0.11)">
      <defs>
       <path id="Jost-Medium-30" d="M 256 2240 
 Q 256 2931 477 3452 
@@ -1468,7 +1468,7 @@ z
    </g>
    <g id="text_14">
     <!-- 100 % -->
-    <g style="fill: #c4c4c4" transform="translate(536.010964 117.143086) scale(0.11 -0.11)">
+    <g style="fill: #ffffff" transform="translate(536.010964 117.143086) scale(0.11 -0.11)">
      <use xlink:href="#Jost-Medium-31"/>
      <use xlink:href="#Jost-Medium-30" transform="translate(47.399994 0)"/>
      <use xlink:href="#Jost-Medium-30" transform="translate(109.899979 0)"/>
@@ -1478,7 +1478,7 @@ z
    </g>
    <g id="text_15">
     <!-- 100 % -->
-    <g style="fill: #c4c4c4" transform="translate(536.010964 156.859657) scale(0.11 -0.11)">
+    <g style="fill: #ffffff" transform="translate(536.010964 156.859657) scale(0.11 -0.11)">
      <use xlink:href="#Jost-Medium-31"/>
      <use xlink:href="#Jost-Medium-30" transform="translate(47.399994 0)"/>
      <use xlink:href="#Jost-Medium-30" transform="translate(109.899979 0)"/>
@@ -1488,7 +1488,7 @@ z
    </g>
    <g id="text_16">
     <!-- 100 % -->
-    <g style="fill: #c4c4c4" transform="translate(536.010964 196.576229) scale(0.11 -0.11)">
+    <g style="fill: #ffffff" transform="translate(536.010964 196.576229) scale(0.11 -0.11)">
      <use xlink:href="#Jost-Medium-31"/>
      <use xlink:href="#Jost-Medium-30" transform="translate(47.399994 0)"/>
      <use xlink:href="#Jost-Medium-30" transform="translate(109.899979 0)"/>

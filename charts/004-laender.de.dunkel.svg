@@ -108,7 +108,7 @@ z
     <g id="ytick_1">
      <g id="text_1">
       <!-- Hamburg -->
-      <g style="fill: #c4c4c4" transform="translate(73.048 33.662741) scale(0.105 -0.105)">
+      <g style="fill: #ffffff" transform="translate(73.048 33.662741) scale(0.105 -0.105)">
        <defs>
         <path id="Jost-Medium-26" d="M 499 4480 
 L 1254 4480 
@@ -302,7 +302,7 @@ z
     <g id="ytick_2">
      <g id="text_2">
       <!-- Berlin -->
-      <g style="fill: #c4c4c4" transform="translate(89.334484 53.52481) scale(0.105 -0.105)">
+      <g style="fill: #ffffff" transform="translate(89.334484 53.52481) scale(0.105 -0.105)">
        <defs>
         <path id="Jost-Medium-d" d="M 3539 1293 
 Q 3539 845 3334 560 
@@ -416,7 +416,7 @@ z
     <g id="ytick_3">
      <g id="text_3">
       <!-- Thüringen -->
-      <g style="fill: #c4c4c4" transform="translate(69.6355 73.386879) scale(0.105 -0.105)">
+      <g style="fill: #ffffff" transform="translate(69.6355 73.386879) scale(0.105 -0.105)">
        <defs>
         <path id="Jost-Medium-56" d="M 51 3782 
 L 51 4480 
@@ -501,7 +501,7 @@ z
     <g id="ytick_4">
      <g id="text_4">
       <!-- Brandenburg -->
-      <g style="fill: #c4c4c4" transform="translate(55.723 93.248948) scale(0.105 -0.105)">
+      <g style="fill: #ffffff" transform="translate(55.723 93.248948) scale(0.105 -0.105)">
        <defs>
         <path id="Jost-Medium-bd" d="M 218 1472 
 Q 218 1958 416 2300 
@@ -551,7 +551,7 @@ z
     <g id="ytick_5">
      <g id="text_5">
       <!-- Rheinland-Pfalz -->
-      <g style="fill: #c4c4c4" transform="translate(45.851359 113.111017) scale(0.105 -0.105)">
+      <g style="fill: #ffffff" transform="translate(45.851359 113.111017) scale(0.105 -0.105)">
        <defs>
         <path id="Jost-Medium-4b" d="M 499 4480 
 L 1882 4480 
@@ -664,7 +664,7 @@ z
     <g id="ytick_6">
      <g id="text_6">
       <!-- Baden-Württemberg -->
-      <g style="fill: #c4c4c4" transform="translate(23.110656 132.973086) scale(0.105 -0.105)">
+      <g style="fill: #ffffff" transform="translate(23.110656 132.973086) scale(0.105 -0.105)">
        <defs>
         <path id="Jost-Medium-66" d="M 4557 1485 
 L 5600 4480 
@@ -718,7 +718,7 @@ z
     <g id="ytick_7">
      <g id="text_7">
       <!-- Sachsen -->
-      <g style="fill: #c4c4c4" transform="translate(78.316047 152.835155) scale(0.105 -0.105)">
+      <g style="fill: #ffffff" transform="translate(78.316047 152.835155) scale(0.105 -0.105)">
        <defs>
         <path id="Jost-Medium-50" d="M 794 1446 
 Q 1011 1050 1289 816 
@@ -827,7 +827,7 @@ z
     <g id="ytick_8">
      <g id="text_8">
       <!-- Sachsen-Anhalt -->
-      <g style="fill: #c4c4c4" transform="translate(46.670031 172.697224) scale(0.105 -0.105)">
+      <g style="fill: #ffffff" transform="translate(46.670031 172.697224) scale(0.105 -0.105)">
        <defs>
         <path id="Jost-Medium-3" d="M 3546 0 
 L 3027 1152 
@@ -866,16 +866,16 @@ z
    <g id="line2d_1">
     <path d="M 368.45568 188.928 
 L 368.45568 16.128 
-" clip-path="url(#p394a4163b4)" style="fill: none; stroke-dasharray: 3,3; stroke-dashoffset: 0; stroke: #c4c4c4"/>
+" clip-path="url(#p394a4163b4)" style="fill: none; stroke-dasharray: 3,3; stroke-dashoffset: 0; stroke: #ffffff"/>
    </g>
    <g id="patch_11">
     <path d="M 119.808 188.928 
 L 119.808 16.128 
-" style="fill: none; stroke: #c4c4c4; stroke-width: 2; stroke-linejoin: miter; stroke-linecap: square"/>
+" style="fill: none; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_9">
     <!-- 69,3 % -->
-    <g style="fill: #c4c4c4" transform="translate(406.08 31.693991) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(406.08 31.693991) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Medium-16f" d="M 2118 4474 
 L 3078 4474 
@@ -1043,7 +1043,7 @@ z
    </g>
    <g id="text_10">
     <!-- 66,7 % -->
-    <g style="fill: #c4c4c4" transform="translate(395.44704 51.55606) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(395.44704 51.55606) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Medium-170" d="M 192 3770 
 L 192 4480 
@@ -1065,7 +1065,7 @@ z
    </g>
    <g id="text_11">
     <!-- 62,6 % -->
-    <g style="fill: #c4c4c4" transform="translate(378.67968 71.418129) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(378.67968 71.418129) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Medium-16b" d="M 128 0 
 L 2202 2182 
@@ -1103,7 +1103,7 @@ z
    </g>
    <g id="text_12">
     <!-- 60,1 % -->
-    <g style="fill: #c4c4c4" transform="translate(368.45568 91.280198) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(368.45568 91.280198) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Medium-169" d="M 256 2240 
 Q 256 2931 477 3452 
@@ -1154,7 +1154,7 @@ z
    </g>
    <g id="text_13">
     <!-- 59,1 % -->
-    <g style="fill: #c4c4c4" transform="translate(364.36608 111.142267) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(364.36608 111.142267) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Medium-16e" d="M 3565 1459 
 Q 3565 941 3328 601 
@@ -1195,7 +1195,7 @@ z
    </g>
    <g id="text_14">
     <!-- 57,3 % -->
-    <g style="fill: #c4c4c4" transform="translate(357.0048 131.004336) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(357.0048 131.004336) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Medium-16e"/>
      <use xlink:href="#Jost-Medium-170" transform="translate(59.703125 0)"/>
      <use xlink:href="#Jost-Medium-1c3" transform="translate(105.296875 0)"/>
@@ -1206,7 +1206,7 @@ z
    </g>
    <g id="text_15">
     <!-- 55,9 % -->
-    <g style="fill: #c4c4c4" transform="translate(351.27936 150.866405) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(351.27936 150.866405) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Medium-16e"/>
      <use xlink:href="#Jost-Medium-16e" transform="translate(59.703125 0)"/>
      <use xlink:href="#Jost-Medium-1c3" transform="translate(119.40625 0)"/>
@@ -1217,7 +1217,7 @@ z
    </g>
    <g id="text_16">
     <!-- 53,5 % -->
-    <g style="fill: #c4c4c4" transform="translate(341.46432 170.728474) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(341.46432 170.728474) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Medium-16e"/>
      <use xlink:href="#Jost-Medium-16c" transform="translate(59.703125 0)"/>
      <use xlink:href="#Jost-Medium-1c3" transform="translate(115.796875 0)"/>

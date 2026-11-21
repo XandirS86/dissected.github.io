@@ -320,7 +320,7 @@ L 192.234918 131.372308
 L 242.109741 138.904615 
 L 291.984565 144.553846 
 L 341.859388 148.32 
-" clip-path="url(#p6190f1decc)" style="fill: none; stroke: #c4c4c4; stroke-width: 2.5; stroke-linecap: round"/>
+" clip-path="url(#p6190f1decc)" style="fill: none; stroke: #ffffff; stroke-width: 2.5; stroke-linecap: round"/>
    </g>
    <g id="line2d_9">
     <path d="M 42.610447 50.4 
@@ -335,11 +335,11 @@ L 341.859388 89.944615
    <g id="patch_3">
     <path d="M 27.648 172.8 
 L 451.584 172.8 
-" style="fill: none; stroke: #c4c4c4; stroke-width: 2; stroke-linejoin: miter; stroke-linecap: square"/>
+" style="fill: none; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_8">
     <!-- grammar school  2,10 -->
-    <g style="fill: #c4c4c4" transform="translate(349.340612 151.186172) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(349.340612 151.186172) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Medium-67" d="M 275 -198 
 L 966 -198 

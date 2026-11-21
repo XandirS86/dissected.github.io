@@ -45,7 +45,7 @@ L 122.13265 115.414829
 L 122.13265 190.139707 
 L 37.963636 190.139707 
 z
-" clip-path="url(#p527064c2c4)" style="fill: #c4c4c4"/>
+" clip-path="url(#p527064c2c4)" style="fill: #ffffff"/>
    </g>
    <g id="patch_4">
     <path d="M 190.998207 115.414829 
@@ -53,7 +53,7 @@ L 275.167222 115.414829
 L 275.167222 125.876312 
 L 190.998207 125.876312 
 z
-" clip-path="url(#p527064c2c4)" style="fill: #c4c4c4"/>
+" clip-path="url(#p527064c2c4)" style="fill: #ffffff"/>
    </g>
    <g id="patch_5">
     <path d="M 344.032778 115.414829 
@@ -61,7 +61,7 @@ L 428.201793 115.414829
 L 428.201793 103.209766 
 L 344.032778 103.209766 
 z
-" clip-path="url(#p527064c2c4)" style="fill: #c4c4c4"/>
+" clip-path="url(#p527064c2c4)" style="fill: #ffffff"/>
    </g>
    <g id="patch_6">
     <path d="M 497.06735 115.414829 
@@ -252,11 +252,11 @@ z
    <g id="line2d_1">
     <path d="M 10.8 115.414829 
 L 608.4 115.414829 
-" clip-path="url(#p527064c2c4)" style="fill: none; stroke: #c4c4c4; stroke-width: 1.2; stroke-linecap: square"/>
+" clip-path="url(#p527064c2c4)" style="fill: none; stroke: #ffffff; stroke-width: 1.2; stroke-linecap: square"/>
    </g>
    <g id="text_5">
     <!-- -30,0 -->
-    <g style="fill: #c4c4c4" transform="translate(65.918143 203.485034) scale(0.12 -0.12)">
+    <g style="fill: #ffffff" transform="translate(65.918143 203.485034) scale(0.12 -0.12)">
      <defs>
       <path id="Jost-Medium-2d" d="M 32 1210 
 L 32 1830 
@@ -345,7 +345,7 @@ z
    </g>
    <g id="text_6">
     <!-- -4,2 -->
-    <g style="fill: #c4c4c4" transform="translate(222.509589 139.221639) scale(0.12 -0.12)">
+    <g style="fill: #ffffff" transform="translate(222.509589 139.221639) scale(0.12 -0.12)">
      <defs>
       <path id="Jost-Medium-34" d="M 115 858 
 L 2643 4480 
@@ -399,7 +399,7 @@ z
    </g>
    <g id="text_7">
     <!-- +4,9 -->
-    <g style="fill: #c4c4c4" transform="translate(372.939786 96.584439) scale(0.12 -0.12)">
+    <g style="fill: #ffffff" transform="translate(372.939786 96.584439) scale(0.12 -0.12)">
      <defs>
       <path id="Jost-Medium-2b" d="M 416 1331 
 L 416 2010 

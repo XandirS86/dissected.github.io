@@ -39,7 +39,7 @@ L 446 94
 L 446 116 
 L 35.6 116 
 z
-" clip-path="url(#pdb2855ef7c)" style="fill: #c4c4c4"/>
+" clip-path="url(#pdb2855ef7c)" style="fill: #ffffff"/>
    </g>
    <g id="patch_3">
     <path d="M 35.6 142 
@@ -78,77 +78,77 @@ z
    <g id="line2d_1">
     <path d="M 14 40 
 L 446 40 
-" clip-path="url(#pdb2855ef7c)" style="fill: none; stroke: #c4c4c4; stroke-width: 2"/>
+" clip-path="url(#pdb2855ef7c)" style="fill: none; stroke: #ffffff; stroke-width: 2"/>
    </g>
    <g id="line2d_2">
     <path d="M 14 36 
 L 14 40 
-" clip-path="url(#pdb2855ef7c)" style="fill: none; stroke: #c4c4c4"/>
+" clip-path="url(#pdb2855ef7c)" style="fill: none; stroke: #ffffff"/>
    </g>
    <g id="line2d_3">
     <path d="M 57.2 36 
 L 57.2 40 
-" clip-path="url(#pdb2855ef7c)" style="fill: none; stroke: #c4c4c4"/>
+" clip-path="url(#pdb2855ef7c)" style="fill: none; stroke: #ffffff"/>
    </g>
    <g id="line2d_4">
     <path d="M 100.4 36 
 L 100.4 40 
-" clip-path="url(#pdb2855ef7c)" style="fill: none; stroke: #c4c4c4"/>
+" clip-path="url(#pdb2855ef7c)" style="fill: none; stroke: #ffffff"/>
    </g>
    <g id="line2d_5">
     <path d="M 143.6 36 
 L 143.6 40 
-" clip-path="url(#pdb2855ef7c)" style="fill: none; stroke: #c4c4c4"/>
+" clip-path="url(#pdb2855ef7c)" style="fill: none; stroke: #ffffff"/>
    </g>
    <g id="line2d_6">
     <path d="M 186.8 36 
 L 186.8 40 
-" clip-path="url(#pdb2855ef7c)" style="fill: none; stroke: #c4c4c4"/>
+" clip-path="url(#pdb2855ef7c)" style="fill: none; stroke: #ffffff"/>
    </g>
    <g id="line2d_7">
     <path d="M 230 36 
 L 230 40 
-" clip-path="url(#pdb2855ef7c)" style="fill: none; stroke: #c4c4c4"/>
+" clip-path="url(#pdb2855ef7c)" style="fill: none; stroke: #ffffff"/>
    </g>
    <g id="line2d_8">
     <path d="M 273.2 36 
 L 273.2 40 
-" clip-path="url(#pdb2855ef7c)" style="fill: none; stroke: #c4c4c4"/>
+" clip-path="url(#pdb2855ef7c)" style="fill: none; stroke: #ffffff"/>
    </g>
    <g id="line2d_9">
     <path d="M 316.4 36 
 L 316.4 40 
-" clip-path="url(#pdb2855ef7c)" style="fill: none; stroke: #c4c4c4"/>
+" clip-path="url(#pdb2855ef7c)" style="fill: none; stroke: #ffffff"/>
    </g>
    <g id="line2d_10">
     <path d="M 359.6 36 
 L 359.6 40 
-" clip-path="url(#pdb2855ef7c)" style="fill: none; stroke: #c4c4c4"/>
+" clip-path="url(#pdb2855ef7c)" style="fill: none; stroke: #ffffff"/>
    </g>
    <g id="line2d_11">
     <path d="M 402.8 36 
 L 402.8 40 
-" clip-path="url(#pdb2855ef7c)" style="fill: none; stroke: #c4c4c4"/>
+" clip-path="url(#pdb2855ef7c)" style="fill: none; stroke: #ffffff"/>
    </g>
    <g id="line2d_12">
     <path d="M 446 36 
 L 446 40 
-" clip-path="url(#pdb2855ef7c)" style="fill: none; stroke: #c4c4c4"/>
+" clip-path="url(#pdb2855ef7c)" style="fill: none; stroke: #ffffff"/>
    </g>
    <g id="line2d_13">
     <path d="M 35.6 240 
 L 35.6 245 
-" clip-path="url(#pdb2855ef7c)" style="fill: none; stroke: #c4c4c4; stroke-width: 1.4"/>
+" clip-path="url(#pdb2855ef7c)" style="fill: none; stroke: #ffffff; stroke-width: 1.4"/>
    </g>
    <g id="line2d_14">
     <path d="M 273.2 240 
 L 273.2 245 
-" clip-path="url(#pdb2855ef7c)" style="fill: none; stroke: #c4c4c4; stroke-width: 1.4"/>
+" clip-path="url(#pdb2855ef7c)" style="fill: none; stroke: #ffffff; stroke-width: 1.4"/>
    </g>
    <g id="line2d_15">
     <path d="M 446 240 
 L 446 245 
-" clip-path="url(#pdb2855ef7c)" style="fill: none; stroke: #c4c4c4; stroke-width: 1.4"/>
+" clip-path="url(#pdb2855ef7c)" style="fill: none; stroke: #ffffff; stroke-width: 1.4"/>
    </g>
    <g id="line2d_16">
     <path d="M 35.6 271 
@@ -947,7 +947,7 @@ z
    </g>
    <g id="text_13">
     <!-- erste frage -->
-    <g style="fill: #c4c4c4" transform="translate(14 68) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(14 68) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Bold-bf" d="M 1875 -64 
 Q 1363 -64 985 125 
@@ -1301,7 +1301,7 @@ z
    </g>
    <g id="text_15">
     <!-- pol befruchtung -->
-    <g style="fill: #c4c4c4" transform="translate(35.6 88) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(35.6 88) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Medium-f1" d="M 1114 -1408 
 L 416 -1408 
@@ -1648,7 +1648,7 @@ z
    </g>
    <g id="text_17">
     <!-- mitte -->
-    <g style="fill: #c4c4c4" transform="translate(35.6 136) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(35.6 136) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Medium-e2" d="M 4659 1875 
 L 4659 0 
@@ -1855,7 +1855,7 @@ z
    </g>
    <g id="text_19">
     <!-- zweite frage -->
-    <g style="fill: #c4c4c4" transform="translate(14 192) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(14 192) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Bold-11b" d="M 1645 2067 
 L 365 2067 
@@ -2043,7 +2043,7 @@ z
    </g>
    <g id="text_21">
     <!-- pol geburt -->
-    <g style="fill: #c4c4c4" transform="translate(35.6 212) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(35.6 212) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Medium-f1"/>
      <use xlink:href="#Jost-Medium-e8" transform="translate(58.90625 0)"/>
      <use xlink:href="#Jost-Medium-de" transform="translate(115.3125 0)"/>
@@ -2152,10 +2152,10 @@ L 405.905 238.89625
 L 405.905 219.10375 
 L 313.295 219.10375 
 z
-" style="fill: #161616"/>
+" style="fill: #111111"/>
     </g>
     <!-- trennung, nicht tod -->
-    <g style="fill: #c4c4c4" transform="translate(315.605 232.64875) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(315.605 232.64875) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Medium-1c3" d="M 877 704 
 L 1574 506 
@@ -2218,7 +2218,7 @@ z
    </g>
    <g id="text_24">
     <!-- befruchtung -->
-    <g style="fill: #c4c4c4" transform="translate(35.6 258) scale(0.1 -0.1)">
+    <g style="fill: #ffffff" transform="translate(35.6 258) scale(0.1 -0.1)">
      <use xlink:href="#Jost-Medium-b6"/>
      <use xlink:href="#Jost-Medium-bf" transform="translate(58.90625 0)"/>
      <use xlink:href="#Jost-Medium-c9" transform="translate(112.8125 0)"/>
@@ -2263,7 +2263,7 @@ z
    </g>
    <g id="text_26">
     <!-- geburt -->
-    <g style="fill: #c4c4c4" transform="translate(416.990625 258) scale(0.1 -0.1)">
+    <g style="fill: #ffffff" transform="translate(416.990625 258) scale(0.1 -0.1)">
      <use xlink:href="#Jost-Medium-ca"/>
      <use xlink:href="#Jost-Medium-bf" transform="translate(58.59375 0)"/>
      <use xlink:href="#Jost-Medium-b6" transform="translate(112.5 0)"/>

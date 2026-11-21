@@ -45,7 +45,7 @@ L 70.779132 172.8
 L 70.779132 56.812327 
 L 46.917818 56.812327 
 z
-" clip-path="url(#p6447f2aac5)" style="fill: #c4c4c4"/>
+" clip-path="url(#p6447f2aac5)" style="fill: #ffffff"/>
    </g>
    <g id="patch_4">
     <path d="M 83.071323 172.8 
@@ -53,7 +53,7 @@ L 106.932637 172.8
 L 106.932637 62.470262 
 L 83.071323 62.470262 
 z
-" clip-path="url(#p6447f2aac5)" style="fill: #c4c4c4"/>
+" clip-path="url(#p6447f2aac5)" style="fill: #ffffff"/>
    </g>
    <g id="patch_5">
     <path d="M 119.224828 172.8 
@@ -61,7 +61,7 @@ L 143.086142 172.8
 L 143.086142 68.128197 
 L 119.224828 68.128197 
 z
-" clip-path="url(#p6447f2aac5)" style="fill: #c4c4c4"/>
+" clip-path="url(#p6447f2aac5)" style="fill: #ffffff"/>
    </g>
    <g id="patch_6">
     <path d="M 155.378333 172.8 
@@ -69,7 +69,7 @@ L 179.239647 172.8
 L 179.239647 70.957165 
 L 155.378333 70.957165 
 z
-" clip-path="url(#p6447f2aac5)" style="fill: #c4c4c4"/>
+" clip-path="url(#p6447f2aac5)" style="fill: #ffffff"/>
    </g>
    <g id="patch_7">
     <path d="M 191.531838 172.8 
@@ -77,7 +77,7 @@ L 215.393152 172.8
 L 215.393152 73.786133 
 L 191.531838 73.786133 
 z
-" clip-path="url(#p6447f2aac5)" style="fill: #c4c4c4"/>
+" clip-path="url(#p6447f2aac5)" style="fill: #ffffff"/>
    </g>
    <g id="patch_8">
     <path d="M 227.685343 172.8 
@@ -85,7 +85,7 @@ L 251.546657 172.8
 L 251.546657 70.957165 
 L 227.685343 70.957165 
 z
-" clip-path="url(#p6447f2aac5)" style="fill: #c4c4c4"/>
+" clip-path="url(#p6447f2aac5)" style="fill: #ffffff"/>
    </g>
    <g id="patch_9">
     <path d="M 263.838848 172.8 
@@ -93,7 +93,7 @@ L 287.700162 172.8
 L 287.700162 65.29923 
 L 263.838848 65.29923 
 z
-" clip-path="url(#p6447f2aac5)" style="fill: #c4c4c4"/>
+" clip-path="url(#p6447f2aac5)" style="fill: #ffffff"/>
    </g>
    <g id="patch_10">
     <path d="M 299.992353 172.8 
@@ -101,7 +101,7 @@ L 323.853667 172.8
 L 323.853667 59.641294 
 L 299.992353 59.641294 
 z
-" clip-path="url(#p6447f2aac5)" style="fill: #c4c4c4"/>
+" clip-path="url(#p6447f2aac5)" style="fill: #ffffff"/>
    </g>
    <g id="patch_11">
     <path d="M 336.145858 172.8 
@@ -109,7 +109,7 @@ L 360.007172 172.8
 L 360.007172 53.983359 
 L 336.145858 53.983359 
 z
-" clip-path="url(#p6447f2aac5)" style="fill: #c4c4c4"/>
+" clip-path="url(#p6447f2aac5)" style="fill: #ffffff"/>
    </g>
    <g id="patch_12">
     <path d="M 372.299363 172.8 
@@ -117,7 +117,7 @@ L 396.160677 172.8
 L 396.160677 51.154391 
 L 372.299363 51.154391 
 z
-" clip-path="url(#p6447f2aac5)" style="fill: #c4c4c4"/>
+" clip-path="url(#p6447f2aac5)" style="fill: #ffffff"/>
    </g>
    <g id="patch_13">
     <path d="M 408.452868 172.8 
@@ -569,11 +569,11 @@ L 203.462495 28.409492
    <g id="patch_14">
     <path d="M 27.648 172.8 
 L 451.584 172.8 
-" style="fill: none; stroke: #c4c4c4; stroke-width: 2; stroke-linejoin: miter; stroke-linecap: square"/>
+" style="fill: none; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_12">
     <!-- 41 -->
-    <g style="fill: #c4c4c4" transform="translate(53.057069 52.012835) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(53.057069 52.012835) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Medium-34" d="M 115 858 
 L 2643 4480 
@@ -609,7 +609,7 @@ z
    </g>
    <g id="text_13">
     <!-- 39 -->
-    <g style="fill: #c4c4c4" transform="translate(88.75448 57.67077) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(88.75448 57.67077) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Medium-33" d="M 1901 -77 
 Q 1421 -77 1075 108 
@@ -681,7 +681,7 @@ z
    </g>
    <g id="text_14">
     <!-- 37 -->
-    <g style="fill: #c4c4c4" transform="translate(125.213141 63.328706) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(125.213141 63.328706) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Medium-37" d="M 192 3770 
 L 192 4480 
@@ -699,7 +699,7 @@ z
    </g>
    <g id="text_15">
     <!-- 36 -->
-    <g style="fill: #c4c4c4" transform="translate(161.06149 66.157673) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(161.06149 66.157673) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Medium-36" d="M 2118 4474 
 L 3078 4474 
@@ -737,7 +737,7 @@ z
    </g>
    <g id="text_16">
     <!-- 35 -->
-    <g style="fill: #c4c4c4" transform="translate(197.304409 68.986641) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(197.304409 68.986641) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Medium-35" d="M 3565 1459 
 Q 3565 941 3328 601 
@@ -774,14 +774,14 @@ z
    </g>
    <g id="text_17">
     <!-- 36 -->
-    <g style="fill: #c4c4c4" transform="translate(233.3685 66.157673) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(233.3685 66.157673) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Medium-33"/>
      <use xlink:href="#Jost-Medium-36" transform="translate(57.599991 0)"/>
     </g>
    </g>
    <g id="text_18">
     <!-- 38 -->
-    <g style="fill: #c4c4c4" transform="translate(269.705755 60.499738) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(269.705755 60.499738) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Medium-38" d="M 346 1216 
 Q 346 1664 579 1952 
@@ -835,7 +835,7 @@ z
    </g>
    <g id="text_19">
     <!-- 40 -->
-    <g style="fill: #c4c4c4" transform="translate(305.339182 54.841803) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(305.339182 54.841803) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Medium-30" d="M 256 2240 
 Q 256 2931 477 3452 
@@ -873,7 +873,7 @@ z
    </g>
    <g id="text_20">
     <!-- 42 -->
-    <g style="fill: #c4c4c4" transform="translate(341.602609 49.183867) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(341.602609 49.183867) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Medium-32" d="M 128 0 
 L 2202 2182 
@@ -907,7 +907,7 @@ z
    </g>
    <g id="text_21">
     <!-- 43 -->
-    <g style="fill: #c4c4c4" transform="translate(377.90377 46.3549) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(377.90377 46.3549) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Medium-34"/>
      <use xlink:href="#Jost-Medium-33" transform="translate(62.899994 0)"/>
     </g>

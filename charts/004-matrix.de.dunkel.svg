@@ -428,7 +428,7 @@ z
     <g id="ytick_1">
      <g id="text_1">
       <!-- Hamburg -->
-      <g style="fill: #c4c4c4" transform="translate(56.202484 64.503682) scale(0.105 -0.105)">
+      <g style="fill: #ffffff" transform="translate(56.202484 64.503682) scale(0.105 -0.105)">
        <defs>
         <path id="Jost-Book-26" d="M 512 4480 
 L 1056 4480 
@@ -634,7 +634,7 @@ z
     <g id="ytick_2">
      <g id="text_2">
       <!-- Berlin -->
-      <g style="fill: #c4c4c4" transform="translate(72.351156 88.754591) scale(0.105 -0.105)">
+      <g style="fill: #ffffff" transform="translate(72.351156 88.754591) scale(0.105 -0.105)">
        <defs>
         <path id="Jost-Book-d" d="M 3251 1312 
 Q 3251 870 3049 579 
@@ -749,7 +749,7 @@ z
     <g id="ytick_3">
      <g id="text_3">
       <!-- Thüringen -->
-      <g style="fill: #c4c4c4" transform="translate(53.219828 113.0055) scale(0.105 -0.105)">
+      <g style="fill: #ffffff" transform="translate(53.219828 113.0055) scale(0.105 -0.105)">
        <defs>
         <path id="Jost-Book-56" d="M 64 3968 
 L 64 4480 
@@ -834,7 +834,7 @@ z
     <g id="ytick_4">
      <g id="text_4">
       <!-- Brandenburg -->
-      <g style="fill: #c4c4c4" transform="translate(40.022641 137.256409) scale(0.105 -0.105)">
+      <g style="fill: #ffffff" transform="translate(40.022641 137.256409) scale(0.105 -0.105)">
        <defs>
         <path id="Jost-Book-bd" d="M 224 1472 
 Q 224 1952 422 2294 
@@ -886,7 +886,7 @@ z
     <g id="ytick_5">
      <g id="text_5">
       <!-- Rheinland-Pfalz -->
-      <g style="fill: #c4c4c4" transform="translate(30.615297 161.507318) scale(0.105 -0.105)">
+      <g style="fill: #ffffff" transform="translate(30.615297 161.507318) scale(0.105 -0.105)">
        <defs>
         <path id="Jost-Book-4b" d="M 512 4480 
 L 1728 4480 
@@ -999,7 +999,7 @@ z
     <g id="ytick_6">
      <g id="text_6">
       <!-- Baden-Württemberg -->
-      <g style="fill: #c4c4c4" transform="translate(8.890141 185.758227) scale(0.105 -0.105)">
+      <g style="fill: #ffffff" transform="translate(8.890141 185.758227) scale(0.105 -0.105)">
        <defs>
         <path id="Jost-Book-66" d="M 4499 1184 
 L 5664 4480 
@@ -1053,7 +1053,7 @@ z
     <g id="ytick_7">
      <g id="text_7">
       <!-- Sachsen -->
-      <g style="fill: #c4c4c4" transform="translate(61.390141 210.009136) scale(0.105 -0.105)">
+      <g style="fill: #ffffff" transform="translate(61.390141 210.009136) scale(0.105 -0.105)">
        <defs>
         <path id="Jost-Book-50" d="M 678 1357 
 Q 902 947 1180 697 
@@ -1167,7 +1167,7 @@ z
     <g id="ytick_8">
      <g id="text_8">
       <!-- Sachsen-Anhalt -->
-      <g style="fill: #c4c4c4" transform="translate(31.245297 234.260045) scale(0.105 -0.105)">
+      <g style="fill: #ffffff" transform="translate(31.245297 234.260045) scale(0.105 -0.105)">
        <defs>
         <path id="Jost-Book-3" d="M 3584 0 
 L 3014 1344 
@@ -1205,7 +1205,7 @@ z
    </g>
    <g id="text_9">
     <!-- 75,6 -->
-    <g style="fill: #c4c4c4" transform="translate(119.178258 62.534932) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(119.178258 62.534932) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Bold-170" d="M 192 3469 
 L 192 4480 
@@ -1290,7 +1290,7 @@ z
    </g>
    <g id="text_10">
     <!-- 74,5 -->
-    <g style="fill: #c4c4c4" transform="translate(179.685 62.534932) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(179.685 62.534932) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Book-170" d="M 192 3968 
 L 192 4480 
@@ -1365,7 +1365,7 @@ z
    </g>
    <g id="text_11">
     <!-- 73,5 -->
-    <g style="fill: #c4c4c4" transform="translate(239.094164 62.534932) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(239.094164 62.534932) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Book-16c" d="M 1811 -64 
 Q 1382 -64 1059 102 
@@ -1410,7 +1410,7 @@ z
    </g>
    <g id="text_12">
     <!-- 64,6 -->
-    <g style="fill: #c4c4c4" transform="translate(297.627234 62.534932) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(297.627234 62.534932) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Book-16f" d="M 2112 4480 
 L 2797 4480 
@@ -1454,7 +1454,7 @@ z
    </g>
    <g id="text_13">
     <!-- 57,9 -->
-    <g style="fill: #c4c4c4" transform="translate(357.654914 62.534932) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(357.654914 62.534932) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Book-172" d="M 1574 0 
 L 890 0 
@@ -1563,7 +1563,7 @@ z
    </g>
    <g id="text_15">
     <!-- 74,0 -->
-    <g style="fill: #c4c4c4" transform="translate(118.937086 86.785841) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(118.937086 86.785841) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Bold-16d" d="M 90 794 
 L 2688 4480 
@@ -1617,7 +1617,7 @@ z
    </g>
    <g id="text_16">
     <!-- 67,4 -->
-    <g style="fill: #c4c4c4" transform="translate(180.147656 86.785841) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(180.147656 86.785841) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Book-16f"/>
      <use xlink:href="#Jost-Book-170" transform="translate(57.59375 0)"/>
      <use xlink:href="#Jost-Book-1c3" transform="translate(100.09375 0)"/>
@@ -1626,7 +1626,7 @@ z
    </g>
    <g id="text_17">
     <!-- 71,0 -->
-    <g style="fill: #c4c4c4" transform="translate(239.330414 86.785841) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(239.330414 86.785841) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Book-16a" d="M 512 3597 
 L 512 4160 
@@ -1646,7 +1646,7 @@ z
    </g>
    <g id="text_18">
     <!-- 62,7 -->
-    <g style="fill: #c4c4c4" transform="translate(297.967664 86.785841) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(297.967664 86.785841) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Book-16f"/>
      <use xlink:href="#Jost-Book-16b" transform="translate(57.59375 0)"/>
      <use xlink:href="#Jost-Book-1c3" transform="translate(114.5 0)"/>
@@ -1655,7 +1655,7 @@ z
    </g>
    <g id="text_19">
     <!-- 65,6 -->
-    <g style="fill: #c4c4c4" transform="translate(356.862492 86.785841) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(356.862492 86.785841) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Book-16f"/>
      <use xlink:href="#Jost-Book-16e" transform="translate(57.59375 0)"/>
      <use xlink:href="#Jost-Book-1c3" transform="translate(114 0)"/>
@@ -1673,7 +1673,7 @@ z
    </g>
    <g id="text_21">
     <!-- 67,1 -->
-    <g style="fill: #c4c4c4" transform="translate(120.41693 111.03675) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(120.41693 111.03675) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Bold-16a" d="M 435 3187 
 L 435 4128 
@@ -1693,7 +1693,7 @@ z
    </g>
    <g id="text_22">
     <!-- 63,0 -->
-    <g style="fill: #c4c4c4" transform="translate(179.50207 111.03675) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(179.50207 111.03675) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Book-16f"/>
      <use xlink:href="#Jost-Book-16c" transform="translate(57.59375 0)"/>
      <use xlink:href="#Jost-Book-1c3" transform="translate(110.6875 0)"/>
@@ -1702,7 +1702,7 @@ z
    </g>
    <g id="text_23">
     <!-- 61,8 -->
-    <g style="fill: #c4c4c4" transform="translate(239.34682 111.03675) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(239.34682 111.03675) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Book-171" d="M 352 1216 
 Q 352 1658 579 1955 
@@ -1760,7 +1760,7 @@ z
    </g>
    <g id="text_24">
     <!-- 63,0 -->
-    <g style="fill: #c4c4c4" transform="translate(297.77407 111.03675) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(297.77407 111.03675) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Book-16f"/>
      <use xlink:href="#Jost-Book-16c" transform="translate(57.59375 0)"/>
      <use xlink:href="#Jost-Book-1c3" transform="translate(110.6875 0)"/>
@@ -1769,7 +1769,7 @@ z
    </g>
    <g id="text_25">
     <!-- 61,1 -->
-    <g style="fill: #c4c4c4" transform="translate(358.122492 111.03675) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(358.122492 111.03675) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Book-16f"/>
      <use xlink:href="#Jost-Book-16a" transform="translate(57.59375 0)"/>
      <use xlink:href="#Jost-Book-1c3" transform="translate(102.59375 0)"/>
@@ -1787,7 +1787,7 @@ z
    </g>
    <g id="text_27">
     <!-- 69,2 -->
-    <g style="fill: #c4c4c4" transform="translate(119.141344 135.287659) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(119.141344 135.287659) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Bold-172" d="M 2150 19 
 L 781 19 
@@ -1851,7 +1851,7 @@ z
    </g>
    <g id="text_28">
     <!-- 67,8 -->
-    <g style="fill: #c4c4c4" transform="translate(180.34207 135.287659) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(180.34207 135.287659) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Book-16f"/>
      <use xlink:href="#Jost-Book-170" transform="translate(57.59375 0)"/>
      <use xlink:href="#Jost-Book-1c3" transform="translate(100.09375 0)"/>
@@ -1869,7 +1869,7 @@ z
    </g>
    <g id="text_30">
     <!-- 50,1 -->
-    <g style="fill: #c4c4c4" transform="translate(298.261336 135.287659) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(298.261336 135.287659) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Book-16e"/>
      <use xlink:href="#Jost-Book-169" transform="translate(56.40625 0)"/>
      <use xlink:href="#Jost-Book-1c3" transform="translate(116.40625 0)"/>
@@ -1878,7 +1878,7 @@ z
    </g>
    <g id="text_31">
     <!-- 65,3 -->
-    <g style="fill: #c4c4c4" transform="translate(357.019992 135.287659) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(357.019992 135.287659) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Book-16f"/>
      <use xlink:href="#Jost-Book-16e" transform="translate(57.59375 0)"/>
      <use xlink:href="#Jost-Book-1c3" transform="translate(114 0)"/>
@@ -1887,7 +1887,7 @@ z
    </g>
    <g id="text_32">
     <!-- 55,1 -->
-    <g style="fill: #c4c4c4" transform="translate(416.722008 135.287659) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(416.722008 135.287659) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Book-16e"/>
      <use xlink:href="#Jost-Book-16e" transform="translate(56.40625 0)"/>
      <use xlink:href="#Jost-Book-1c3" transform="translate(112.8125 0)"/>
@@ -1896,7 +1896,7 @@ z
    </g>
    <g id="text_33">
     <!-- 68,2 -->
-    <g style="fill: #c4c4c4" transform="translate(119.073258 159.538568) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(119.073258 159.538568) scale(0.105 -0.105)">
      <defs>
       <path id="Jost-Bold-171" d="M 333 1216 
 Q 333 1664 579 1949 
@@ -1950,7 +1950,7 @@ z
    </g>
    <g id="text_34">
     <!-- 59,8 -->
-    <g style="fill: #c4c4c4" transform="translate(179.979492 159.538568) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(179.979492 159.538568) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Book-16e"/>
      <use xlink:href="#Jost-Book-172" transform="translate(56.40625 0)"/>
      <use xlink:href="#Jost-Book-1c3" transform="translate(107 0)"/>
@@ -1959,7 +1959,7 @@ z
    </g>
    <g id="text_35">
     <!-- 66,0 -->
-    <g style="fill: #c4c4c4" transform="translate(238.40182 159.538568) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(238.40182 159.538568) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Book-16f"/>
      <use xlink:href="#Jost-Book-16f" transform="translate(57.59375 0)"/>
      <use xlink:href="#Jost-Book-1c3" transform="translate(115.1875 0)"/>
@@ -1968,7 +1968,7 @@ z
    </g>
    <g id="text_36">
     <!-- 63,2 -->
-    <g style="fill: #c4c4c4" transform="translate(297.936492 159.538568) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(297.936492 159.538568) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Book-16f"/>
      <use xlink:href="#Jost-Book-16c" transform="translate(57.59375 0)"/>
      <use xlink:href="#Jost-Book-1c3" transform="translate(110.6875 0)"/>
@@ -1977,7 +1977,7 @@ z
    </g>
    <g id="text_37">
     <!-- 47,8 -->
-    <g style="fill: #c4c4c4" transform="translate(357.713156 159.538568) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(357.713156 159.538568) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Book-16d"/>
      <use xlink:href="#Jost-Book-170" transform="translate(58.296875 0)"/>
      <use xlink:href="#Jost-Book-1c3" transform="translate(100.796875 0)"/>
@@ -1995,7 +1995,7 @@ z
    </g>
    <g id="text_39">
     <!-- 76,4 -->
-    <g style="fill: #c4c4c4" transform="translate(118.900172 183.789477) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(118.900172 183.789477) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Bold-170"/>
      <use xlink:href="#Jost-Bold-16f" transform="translate(60.296875 0)"/>
      <use xlink:href="#Jost-Bold-1c3" transform="translate(127.203125 0)"/>
@@ -2004,7 +2004,7 @@ z
    </g>
    <g id="text_40">
     <!-- 63,1 -->
-    <g style="fill: #c4c4c4" transform="translate(180.28957 183.789477) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(180.28957 183.789477) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Book-16f"/>
      <use xlink:href="#Jost-Book-16c" transform="translate(57.59375 0)"/>
      <use xlink:href="#Jost-Book-1c3" transform="translate(110.6875 0)"/>
@@ -2013,7 +2013,7 @@ z
    </g>
    <g id="text_41">
     <!-- 62,4 -->
-    <g style="fill: #c4c4c4" transform="translate(238.527328 183.789477) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(238.527328 183.789477) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Book-16f"/>
      <use xlink:href="#Jost-Book-16b" transform="translate(57.59375 0)"/>
      <use xlink:href="#Jost-Book-1c3" transform="translate(114.5 0)"/>
@@ -2022,7 +2022,7 @@ z
    </g>
    <g id="text_42">
     <!-- 44,4 -->
-    <g style="fill: #c4c4c4" transform="translate(297.553406 183.789477) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(297.553406 183.789477) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Book-16d"/>
      <use xlink:href="#Jost-Book-16d" transform="translate(58.296875 0)"/>
      <use xlink:href="#Jost-Book-1c3" transform="translate(116.59375 0)"/>
@@ -2040,7 +2040,7 @@ z
    </g>
    <g id="text_44">
     <!-- 43,5 -->
-    <g style="fill: #c4c4c4" transform="translate(416.197828 183.789477) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(416.197828 183.789477) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Book-16d"/>
      <use xlink:href="#Jost-Book-16c" transform="translate(58.296875 0)"/>
      <use xlink:href="#Jost-Book-1c3" transform="translate(111.390625 0)"/>
@@ -2049,7 +2049,7 @@ z
    </g>
    <g id="text_45">
     <!-- 63,6 -->
-    <g style="fill: #c4c4c4" transform="translate(120.492398 208.040386) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(120.492398 208.040386) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Book-16f"/>
      <use xlink:href="#Jost-Book-16c" transform="translate(57.59375 0)"/>
      <use xlink:href="#Jost-Book-1c3" transform="translate(110.6875 0)"/>
@@ -2058,7 +2058,7 @@ z
    </g>
    <g id="text_46">
     <!-- 65,9 -->
-    <g style="fill: #c4c4c4" transform="translate(177.967266 208.040386) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(177.967266 208.040386) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Bold-16f"/>
      <use xlink:href="#Jost-Bold-16e" transform="translate(66.90625 0)"/>
      <use xlink:href="#Jost-Bold-1c3" transform="translate(131.40625 0)"/>
@@ -2067,7 +2067,7 @@ z
    </g>
    <g id="text_47">
     <!-- 53,2 -->
-    <g style="fill: #c4c4c4" transform="translate(238.862836 208.040386) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(238.862836 208.040386) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Book-16e"/>
      <use xlink:href="#Jost-Book-16c" transform="translate(56.40625 0)"/>
      <use xlink:href="#Jost-Book-1c3" transform="translate(109.5 0)"/>
@@ -2076,7 +2076,7 @@ z
    </g>
    <g id="text_48">
     <!-- 45,6 -->
-    <g style="fill: #c4c4c4" transform="translate(297.689578 208.040386) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(297.689578 208.040386) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Book-16d"/>
      <use xlink:href="#Jost-Book-16e" transform="translate(58.296875 0)"/>
      <use xlink:href="#Jost-Book-1c3" transform="translate(114.703125 0)"/>
@@ -2085,7 +2085,7 @@ z
    </g>
    <g id="text_49">
     <!-- 52,0 -->
-    <g style="fill: #c4c4c4" transform="translate(356.772258 208.040386) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(356.772258 208.040386) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Book-16e"/>
      <use xlink:href="#Jost-Book-16b" transform="translate(56.40625 0)"/>
      <use xlink:href="#Jost-Book-1c3" transform="translate(113.3125 0)"/>
@@ -2103,7 +2103,7 @@ z
    </g>
    <g id="text_51">
     <!-- 52,4 -->
-    <g style="fill: #c4c4c4" transform="translate(120.317672 232.291295) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(120.317672 232.291295) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Book-16e"/>
      <use xlink:href="#Jost-Book-16b" transform="translate(56.40625 0)"/>
      <use xlink:href="#Jost-Book-1c3" transform="translate(113.3125 0)"/>
@@ -2112,7 +2112,7 @@ z
    </g>
    <g id="text_52">
     <!-- 56,6 -->
-    <g style="fill: #c4c4c4" transform="translate(179.454492 232.291295) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(179.454492 232.291295) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Book-16e"/>
      <use xlink:href="#Jost-Book-16f" transform="translate(56.40625 0)"/>
      <use xlink:href="#Jost-Book-1c3" transform="translate(114 0)"/>
@@ -2121,7 +2121,7 @@ z
    </g>
    <g id="text_53">
     <!-- 54,4 -->
-    <g style="fill: #c4c4c4" transform="translate(238.516664 232.291295) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(238.516664 232.291295) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Book-16e"/>
      <use xlink:href="#Jost-Book-16d" transform="translate(56.40625 0)"/>
      <use xlink:href="#Jost-Book-1c3" transform="translate(114.703125 0)"/>
@@ -2130,7 +2130,7 @@ z
    </g>
    <g id="text_54">
     <!-- 62,8 -->
-    <g style="fill: #c4c4c4" transform="translate(296.402508 232.291295) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(296.402508 232.291295) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Bold-16f"/>
      <use xlink:href="#Jost-Bold-16b" transform="translate(66.90625 0)"/>
      <use xlink:href="#Jost-Bold-1c3" transform="translate(132.5 0)"/>
@@ -2139,7 +2139,7 @@ z
    </g>
    <g id="text_55">
     <!-- 51,8 -->
-    <g style="fill: #c4c4c4" transform="translate(357.681164 232.291295) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(357.681164 232.291295) scale(0.105 -0.105)">
      <use xlink:href="#Jost-Book-16e"/>
      <use xlink:href="#Jost-Book-16a" transform="translate(56.40625 0)"/>
      <use xlink:href="#Jost-Book-1c3" transform="translate(101.40625 0)"/>
@@ -2157,7 +2157,7 @@ z
    </g>
    <g id="text_57">
     <!-- SPD -->
-    <g style="fill: #c4c4c4" transform="translate(121.654156 39.373091) scale(0.1 -0.1)">
+    <g style="fill: #ffffff" transform="translate(121.654156 39.373091) scale(0.1 -0.1)">
      <defs>
       <path id="Jost-Medium-50" d="M 794 1446 
 Q 1011 1050 1289 816 
@@ -2250,7 +2250,7 @@ z
    </g>
    <g id="text_58">
     <!-- Grüne -->
-    <g style="fill: #c4c4c4" transform="translate(176.125313 39.373091) scale(0.1 -0.1)">
+    <g style="fill: #ffffff" transform="translate(176.125313 39.373091) scale(0.1 -0.1)">
      <defs>
       <path id="Jost-Medium-21" d="M 2630 1702 
 L 2630 2342 
@@ -2391,7 +2391,7 @@ z
    </g>
    <g id="text_59">
     <!-- CDU -->
-    <g style="fill: #c4c4c4" transform="translate(238.976938 39.373091) scale(0.1 -0.1)">
+    <g style="fill: #ffffff" transform="translate(238.976938 39.373091) scale(0.1 -0.1)">
      <defs>
       <path id="Jost-Medium-e" d="M 1062 2240 
 Q 1062 1760 1273 1405 
@@ -2447,7 +2447,7 @@ z
    </g>
    <g id="text_60">
     <!-- AfD -->
-    <g style="fill: #c4c4c4" transform="translate(299.852 39.373091) scale(0.1 -0.1)">
+    <g style="fill: #ffffff" transform="translate(299.852 39.373091) scale(0.1 -0.1)">
      <defs>
       <path id="Jost-Medium-3" d="M 3546 0 
 L 3027 1152 
@@ -2495,7 +2495,7 @@ z
    </g>
    <g id="text_61">
     <!-- Linke -->
-    <g style="fill: #c4c4c4" transform="translate(355.927844 39.373091) scale(0.1 -0.1)">
+    <g style="fill: #ffffff" transform="translate(355.927844 39.373091) scale(0.1 -0.1)">
      <defs>
       <path id="Jost-Medium-36" d="M 499 4480 
 L 1254 4480 
@@ -2547,7 +2547,7 @@ z
    </g>
    <g id="text_62">
     <!-- BSW -->
-    <g style="fill: #c4c4c4" transform="translate(415.624 39.373091) scale(0.1 -0.1)">
+    <g style="fill: #ffffff" transform="translate(415.624 39.373091) scale(0.1 -0.1)">
      <defs>
       <path id="Jost-Medium-d" d="M 3539 1293 
 Q 3539 845 3334 560 

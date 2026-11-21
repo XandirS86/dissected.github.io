@@ -25,7 +25,7 @@ ein Änderungswunsch am System – nicht am Stück.
 ### Farbe
 | Token      | Hex       | Rolle                                                  |
 |------------|-----------|--------------------------------------------------------|
-| `--weiss`  | `#ffffff` | Grund. Immer (im Dunkelmodus `#161616`, siehe Abschnitt Dunkelmodus). |
+| `--weiss`  | `#ffffff` | Grund. Immer (im Dunkelmodus `#111111`, siehe Abschnitt Dunkelmodus). |
 | `--schwarz`| `#111111` | Text, Linien, Balken. Nie reines `#000`.               |
 | `--rot`    | `#d7261e` | Akzent 1                                               |
 | `--gelb`   | `#f2c200` | Akzent 2. Als Schrift auf Weiß nur für Nummern und Meta-Labels gelber Stücke (Plakate, Rubrikblock, Archiv), Entscheidung des Autors 14.11.2026 trotz 1,7:1; nie für Lesetext|
@@ -204,10 +204,13 @@ Schalter (`button.modus`, `role="switch"`) rechts in der Kopfzeile jeder Seite. 
 Sie fragt nach der Laune und bietet den jeweils anderen Modus an (hell: „laune: düster?“, dunkel: „laune: heiter?“, englisch „mood: dark?“ / „mood: bright?“).
 Der Text steht nur in `styles.css` (`.modus::before`, je Sprache über `:lang`), nicht im HTML der Seiten. Die Wahl liegt in `localStorage` (`modus` = `hell`/`dunkel`);
 ohne Wahl gilt `prefers-color-scheme`. Ein Vorab-Skript im `<head>` setzt `data-theme="dark"` vor dem ersten Rendern.
-Farbsatz in `styles.css` unter `:root[data-theme="dark"]`: Grund `#161616`, Schrift und Linien `#c4c4c4` (10,4:1),
+Seit 22.11.2026 gilt eine einzige Regel: Weiß und Schwarz tauschen exakt und überall, ohne Ausnahme für Plakate, Köpfe oder Diagramme
+(Nutzerentscheidung, ersetzt die gedämpfte Schrift `#c4c4c4` auf `#161616` vom 18.10.2026).
+Farbsatz in `styles.css` unter `:root[data-theme="dark"]`: Grund `#111111`, Schrift, Linien und Formen `#ffffff`,
 Sekundärtext `#9a9a9a`, Metadaten `#777`, Ocker → Gelb. Textakzente werden per `color-mix` zu 40 % mit Weiß aufgehellt,
 die Farbflächen der Plakate und Rubrikköpfe behalten Rot, Gelb, Blau.
-Bewusste Ausnahme: schwarze Balken und Quadrate der Plakate bleiben schwarz. Statische Grafiken haben dunkle Zwillinge
+Schwarze Balken, Quadrate und Linien der Plakate und Köpfe werden weiß, weiße Schrift auf Farbe oder auf Balken wird schwarz
+(Rubriknamen, „im entwurf“, Titel in blauen und roten Köpfen); Titel in gelben Köpfen werden weiß. Statische Grafiken haben dunkle Zwillinge
 (`charts/dunkel.py` schreibt zu jeder `*.svg` eine `*.dunkel.svg` nach fester Farbtabelle); das Bild trägt `data-dunkel="…dunkel.svg"`,
 das Schalter-Skript tauscht die Quelle. Bilder ohne Zwilling liegen auf weißen Kacheln. Neue Grafik: `dunkel.py` laufen lassen, Attribut setzen.
 Das Dashboard № 04 hat ein eigenes dunkles Farbsystem (Etappe 3).

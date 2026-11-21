@@ -274,12 +274,12 @@ tr.hervor td{font-weight:500}
 
 /* ---- Dunkelmodus (Mockup 18.10.2026): Schalter in der Kopfzeile, Wahl im Browser gemerkt, sonst Systemeinstellung ---- */
 :root[data-theme="dark"]{
-  --weiss:#161616; --schwarz:#c4c4c4; --linie:#c4c4c4;   /* Schrift gedämpft (10,4:1), Nutzerentscheidung 18.10.2026 */
+  --weiss:#111111; --schwarz:#ffffff; --linie:#ffffff;   /* exakter Tausch der hellen Werte, eine Regel für alles (Nutzerentscheidung 22.11.2026, ersetzt die gedämpfte Schrift vom 18.10.2026) */
   --grau:#9a9a9a; --grau-hell:#777777;
   --ocker:#f2c200;            /* auf Schwarz darf das Gelb selbst Schrift sein (11:1) */
   color-scheme:dark;
 }
-[data-theme="dark"] .schwarz{background:#111111}   /* bewusste Ausnahme: Balken und Quadrate der Plakate bleiben schwarz */
+[data-theme="dark"] .schwarz{color:var(--weiss)!important}   /* seit 22.11.2026 keine Ausnahme mehr: schwarze Formen der Plakate tauschen mit (Fläche über --schwarz), weiße Schrift darauf wird schwarz */
 [data-theme="dark"] a:hover{color:color-mix(in srgb,var(--akzent) 60%,#fff)}
 [data-theme="dark"] .meta{color:color-mix(in srgb,var(--akzent) 60%,#fff)}   /* bewusst schwach (0,2,0), damit Rubrikeinträge in rubriken.css gewinnen */
 [data-theme="dark"] :is(.artikel__text h2 .nr,.konfidenz,.marginalie .nr,sup.ref,.einspruch__kopf h2){color:color-mix(in srgb,var(--akzent) 60%,#fff)}

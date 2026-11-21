@@ -35,7 +35,7 @@ L 134 55.6
 L 134 174 
 L 38 174 
 z
-" clip-path="url(#p5c528986d0)" style="fill: #c4c4c4"/>
+" clip-path="url(#p5c528986d0)" style="fill: #ffffff"/>
    </g>
    <g id="patch_3">
     <path d="M 182 90.8 
@@ -43,7 +43,7 @@ L 278 90.8
 L 278 174 
 L 182 174 
 z
-" clip-path="url(#p5c528986d0)" style="fill: #c4c4c4"/>
+" clip-path="url(#p5c528986d0)" style="fill: #ffffff"/>
    </g>
    <g id="patch_4">
     <path d="M 326 134 
@@ -51,12 +51,12 @@ L 422 134
 L 422 174 
 L 326 174 
 z
-" clip-path="url(#p5c528986d0)" style="fill: #c4c4c4"/>
+" clip-path="url(#p5c528986d0)" style="fill: #ffffff"/>
    </g>
    <g id="line2d_1">
     <path d="M 14 174 
 L 446 174 
-" clip-path="url(#p5c528986d0)" style="fill: none; stroke: #c4c4c4; stroke-width: 2"/>
+" clip-path="url(#p5c528986d0)" style="fill: none; stroke: #ffffff; stroke-width: 2"/>
    </g>
    <g id="text_1">
     <!-- legal „für jede frau in den ersten … wochen“ · anteil „ja“ -->
@@ -626,7 +626,7 @@ z
    </g>
    <g id="text_2">
     <!-- 74 % -->
-    <g style="fill: #c4c4c4" transform="translate(72.751641 49.6) scale(0.115 -0.115)">
+    <g style="fill: #ffffff" transform="translate(72.751641 49.6) scale(0.115 -0.115)">
      <defs>
       <path id="Jost-Medium-170" d="M 192 3770 
 L 192 4480 
@@ -774,7 +774,7 @@ z
    </g>
    <g id="text_4">
     <!-- 52 % -->
-    <g style="fill: #c4c4c4" transform="translate(216.659102 84.8) scale(0.115 -0.115)">
+    <g style="fill: #ffffff" transform="translate(216.659102 84.8) scale(0.115 -0.115)">
      <defs>
       <path id="Jost-Medium-16e" d="M 3565 1459 
 Q 3565 941 3328 601 
@@ -887,7 +887,7 @@ z
    </g>
    <g id="text_6">
     <!-- 25 % -->
-    <g style="fill: #c4c4c4" transform="translate(360.659102 128) scale(0.115 -0.115)">
+    <g style="fill: #ffffff" transform="translate(360.659102 128) scale(0.115 -0.115)">
      <use xlink:href="#Jost-Medium-16b"/>
      <use xlink:href="#Jost-Medium-16e" transform="translate(60.40625 0)"/>
      <use xlink:href="#Jost-Medium-1" transform="translate(120.109375 0)"/>

@@ -26,7 +26,7 @@ L 460.8 236
 L 460.8 0 
 L 0 0 
 z
-" style="fill: #161616"/>
+" style="fill: #111111"/>
   </g>
   <g id="axes_1">
    <g id="patch_2">
@@ -35,7 +35,7 @@ L 114 82
 L 114 116 
 L 14 116 
 z
-" clip-path="url(#p58412ec411)" style="fill: #c4c4c4; stroke: #c4c4c4; stroke-linejoin: miter"/>
+" clip-path="url(#p58412ec411)" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter"/>
    </g>
    <g id="patch_3">
     <path d="M 180 82 
@@ -43,7 +43,7 @@ L 280 82
 L 280 116 
 L 180 116 
 z
-" clip-path="url(#p58412ec411)" style="fill: #c4c4c4; stroke: #c4c4c4; stroke-linejoin: miter"/>
+" clip-path="url(#p58412ec411)" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter"/>
    </g>
    <g id="patch_4">
     <path d="M 346 82 
@@ -51,7 +51,7 @@ L 446 82
 L 446 116 
 L 346 116 
 z
-" clip-path="url(#p58412ec411)" style="fill: #c4c4c4; stroke: #c4c4c4; stroke-linejoin: miter"/>
+" clip-path="url(#p58412ec411)" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter"/>
    </g>
    <g id="patch_5">
     <path d="M 346 168 
@@ -59,7 +59,7 @@ L 446 168
 L 446 202 
 L 346 202 
 z
-" clip-path="url(#p58412ec411)" style="fill: #c4c4c4; stroke: #c4c4c4; stroke-linejoin: miter"/>
+" clip-path="url(#p58412ec411)" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter"/>
    </g>
    <g id="patch_6">
     <path d="M 180 92 
@@ -137,7 +137,7 @@ L 230 185
    </g>
    <g id="text_1">
     <!-- 211 verbände -->
-    <g style="fill: #161616" transform="translate(35.459922 98) scale(0.095 -0.095)">
+    <g style="fill: #111111" transform="translate(35.459922 98) scale(0.095 -0.095)">
      <defs>
       <path id="Jost-Medium-32" d="M 128 0 
 L 3546 0 
@@ -412,7 +412,7 @@ z
    </g>
    <g id="text_2">
     <!-- je eine stimme -->
-    <g style="fill: #161616" transform="translate(40.907617 109) scale(0.075 -0.075)">
+    <g style="fill: #111111" transform="translate(40.907617 109) scale(0.075 -0.075)">
      <defs>
       <path id="Jost-Regular-6a" d="M 397 4160 
 Q 397 4019 499 3916 
@@ -616,7 +616,7 @@ z
    </g>
    <g id="text_3">
     <!-- präsident -->
-    <g style="fill: #161616" transform="translate(210.504961 102.5) scale(0.095 -0.095)">
+    <g style="fill: #111111" transform="translate(210.504961 102.5) scale(0.095 -0.095)">
      <defs>
       <path id="Jost-Medium-70" d="M 1114 -1408 
 L 1114 2944 
@@ -734,7 +734,7 @@ z
    </g>
    <g id="text_4">
     <!-- rat -->
-    <g style="fill: #161616" transform="translate(390.556797 98) scale(0.095 -0.095)">
+    <g style="fill: #111111" transform="translate(390.556797 98) scale(0.095 -0.095)">
      <defs>
       <path id="Jost-Medium-61" d="M 877 915 
 Q 877 1056 944 1152 
@@ -789,7 +789,7 @@ z
    </g>
    <g id="text_5">
     <!-- fifa council -->
-    <g style="fill: #161616" transform="translate(378.544922 109) scale(0.075 -0.075)">
+    <g style="fill: #111111" transform="translate(378.544922 109) scale(0.075 -0.075)">
      <defs>
       <path id="Jost-Regular-66" d="M 256 2944 
 L 256 2464 
@@ -960,7 +960,7 @@ z
    </g>
    <g id="text_6">
     <!-- kontrollorgane -->
-    <g style="fill: #161616" transform="translate(365.548047 184) scale(0.095 -0.095)">
+    <g style="fill: #111111" transform="translate(365.548047 184) scale(0.095 -0.095)">
      <defs>
       <path id="Jost-Medium-6b" d="M 416 4992 
 L 416 0 
@@ -1080,7 +1080,7 @@ z
    </g>
    <g id="text_7">
     <!-- ethik, audit, compliance -->
-    <g style="fill: #161616" transform="translate(357.994922 195) scale(0.075 -0.075)">
+    <g style="fill: #111111" transform="translate(357.994922 195) scale(0.075 -0.075)">
      <defs>
       <path id="Jost-Regular-68" d="M 992 4992 
 L 480 4992 
