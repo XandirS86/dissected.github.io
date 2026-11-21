@@ -292,8 +292,17 @@ tr.hervor td{font-weight:500}
   [data-theme="dark"] .vorgaenger a{border-bottom-color:#333}
   [data-theme="dark"] .marginalie{border-left-color:#333}
 }
-/* Schalter */
-.kopfzeile .modus{margin-left:28px;width:40px;height:22px;border-radius:11px;border:2px solid var(--schwarz);background:transparent;position:relative;cursor:pointer;padding:0;vertical-align:middle;flex:none}
-.kopfzeile .modus__knopf{position:absolute;top:3px;left:3px;width:12px;height:12px;border-radius:50%;background:var(--schwarz);transition:transform .2s}
-[data-theme="dark"] .kopfzeile .modus__knopf{transform:translateX(18px)}
+/* Schalter: der Button trägt Beschriftung und Schiene, .modus__knopf ist die Schiene, ihr ::after der Knopf.
+   Die Beschriftung (seit 22.11.2026) fragt nach der Laune und bietet den jeweils anderen Modus an;
+   Text je Sprache und Modus hier im CSS, nicht im HTML der Seiten. */
+.kopfzeile .modus{margin-left:28px;display:inline-flex;align-items:center;gap:10px;border:0;background:transparent;cursor:pointer;padding:0;vertical-align:middle;flex:none;font:inherit;letter-spacing:inherit;text-transform:inherit;color:var(--grau)}
+.kopfzeile .modus::before{content:"laune: düster?";white-space:nowrap}
+[data-theme="dark"] .kopfzeile .modus::before{content:"laune: heiter?"}
+:root:lang(en) .kopfzeile .modus::before{content:"mood: dark?"}
+:root[data-theme="dark"]:lang(en) .kopfzeile .modus::before{content:"mood: bright?"}
+.kopfzeile .modus:hover::before{color:var(--schwarz)}
+.kopfzeile .modus__knopf{position:relative;display:block;width:40px;height:22px;border-radius:11px;border:2px solid var(--schwarz);flex:none}
+.kopfzeile .modus__knopf::after{content:"";position:absolute;top:3px;left:3px;width:12px;height:12px;border-radius:50%;background:var(--schwarz);transition:transform .2s}
+[data-theme="dark"] .kopfzeile .modus__knopf::after{transform:translateX(18px)}
 .kopfzeile .modus:focus-visible{outline:2px solid var(--akzent);outline-offset:3px}
+@media (max-width:760px){.kopfzeile .modus{margin-left:0}}

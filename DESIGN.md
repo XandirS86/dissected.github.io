@@ -200,7 +200,9 @@ Impressum und Datenschutz als statische Seiten – Pflicht bei regelmäßig reda
 
 ## Dunkelmodus (seit 18.10.2026)
 
-Schalter (`button.modus`, `role="switch"`) rechts in der Kopfzeile jeder Seite. Die Wahl liegt in `localStorage` (`modus` = `hell`/`dunkel`);
+Schalter (`button.modus`, `role="switch"`) rechts in der Kopfzeile jeder Seite. Seit 22.11.2026 mit Beschriftung links der Schiene:
+Sie fragt nach der Laune und bietet den jeweils anderen Modus an (hell: „laune: düster?“, dunkel: „laune: heiter?“, englisch „mood: dark?“ / „mood: bright?“).
+Der Text steht nur in `styles.css` (`.modus::before`, je Sprache über `:lang`), nicht im HTML der Seiten. Die Wahl liegt in `localStorage` (`modus` = `hell`/`dunkel`);
 ohne Wahl gilt `prefers-color-scheme`. Ein Vorab-Skript im `<head>` setzt `data-theme="dark"` vor dem ersten Rendern.
 Farbsatz in `styles.css` unter `:root[data-theme="dark"]`: Grund `#161616`, Schrift und Linien `#c4c4c4` (10,4:1),
 Sekundärtext `#9a9a9a`, Metadaten `#777`, Ocker → Gelb. Textakzente werden per `color-mix` zu 40 % mit Weiß aufgehellt,
