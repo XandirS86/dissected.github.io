@@ -219,7 +219,7 @@ Das Dashboard № 04 hat ein eigenes dunkles Farbsystem (Etappe 3).
 
 Die dritte Laune. Sie stellt sich von selbst ein, wenn nichts passiert: Bleibt die Seite ohne Regung (Maus, Scrollen, Tippen, Taste),
 lässt `graupel.js` nach 15 Sekunden (Startseite, Archiv) oder 90 Sekunden (alle anderen Seiten, vor allem Artikel) langsam einen
-Graupelschauer aufziehen, in Stufen und sehr allmählich über etwa sechzehn Sekunden: erst einzelne Körner, dann wird die Seite grau (ab dann `data-wetter="grau"`
+Graupelschauer aufziehen, in Stufen und sehr allmählich über gut vierzig Sekunden: erst einzelne Körner, dann wird die Seite grau (ab dann `data-wetter="grau"`
 auf `<html>`), dann wird der Graupel dicht, zuletzt erscheint das Schild. Eine Decke (`.graupel`) nimmt der Seite Farbe und Kontrast:
 Hell wird dunkler, Dunkel wird heller, die Seite wandert also auf die Laune zu, die gerade nicht gilt, und bleibt in der Mitte stehen.
 Graupel zieht im 45-Grad-Winkel über den Bildschirm, der Knopf gleitet in die Mitte, die Beschriftung heißt „laune: alltagsgrau“
