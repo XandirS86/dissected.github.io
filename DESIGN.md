@@ -218,13 +218,14 @@ Das Dashboard № 04 hat ein eigenes dunkles Farbsystem (Etappe 3).
 ### Alltagsgrau (seit 22.11.2026)
 
 Die dritte Laune. Sie stellt sich von selbst ein, wenn nichts passiert: Bleibt die Seite ohne Regung (Maus, Scrollen, Tippen, Taste),
-blendet `graupel.js` nach 15 Sekunden (Startseite, Archiv) oder 90 Sekunden (alle anderen Seiten, vor allem Artikel) in 2,5 Sekunden
-einen Graupelschauer ein und setzt `data-wetter="grau"` auf `<html>`. Eine Decke (`.graupel`) nimmt der Seite Farbe und Kontrast:
+lässt `graupel.js` nach 15 Sekunden (Startseite, Archiv) oder 90 Sekunden (alle anderen Seiten, vor allem Artikel) langsam einen
+Graupelschauer aufziehen, in Stufen über etwa acht Sekunden: erst einzelne Körner, dann wird die Seite grau (ab dann `data-wetter="grau"`
+auf `<html>`), dann wird der Graupel dicht, zuletzt erscheint das Schild. Eine Decke (`.graupel`) nimmt der Seite Farbe und Kontrast:
 Hell wird dunkler, Dunkel wird heller, die Seite wandert also auf die Laune zu, die gerade nicht gilt, und bleibt in der Mitte stehen.
 Graupel zieht im 45-Grad-Winkel über den Bildschirm, der Knopf gleitet in die Mitte, die Beschriftung heißt „laune: alltagsgrau“
 (englisch „mood: everyday grey“), in der Mitte steht „graupelschauer. mag ja keiner.“ Die erste Regung blendet alles in 0,8 Sekunden
 wieder aus, die Seite kehrt in ihre Laune zurück. Zweiter Weg hinein: den Schalter innerhalb von 3,5 Sekunden dreimal umlegen
-(danach zählt 2,5 Sekunden lang keine Regung). Gespeichert wird nichts, die Farbwerte der Seite und die gewählte Laune (`modus`)
+(dann zieht der Schauer zügig in 2,5 Sekunden auf, und 3,5 Sekunden lang zählt keine Regung). Gespeichert wird nichts, die Farbwerte der Seite und die gewählte Laune (`modus`)
 bleiben unberührt. Mit „weniger Bewegung“ im System gibt es keinen Schauer aus der Ruhe, nur den Weg über die drei Klicks, ohne Animation.
 Aussehen in `styles.css` (Block „Alltagsgrau“), Wartezeiten und Auslöser in `graupel.js`; eingebunden auf jeder Seite mit Schalter,
 direkt nach dem Zähler.

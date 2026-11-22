@@ -309,18 +309,27 @@ tr.hervor td{font-weight:500}
 
 /* ---- Alltagsgrau (seit 22.11.2026): die dritte Laune, sie stellt sich von selbst ein. graupel.js legt nach einer Weile ohne Regung
    (oder nach drei schnellen Klicks auf den Schalter) eine Decke über die Seite und setzt data-wetter="grau".
-   Die Decke nimmt der Seite Farbe und Kontrast: Hell wird dunkler, Dunkel wird heller, beide bleiben in der Mitte stehen.
-   Die erste Regung blendet sie wieder aus. An den Farbwerten der Seite ändert sich nichts, gespeichert wird nichts. ---- */
+   Der Schauer zieht in Stufen auf, über etwa acht Sekunden: erst einzelne Körner (::after), dann wird die Seite grau (.graupel__grau),
+   dann wird der Graupel dicht (::before), zuletzt erscheint das Schild. Das Grau nimmt der Seite Farbe und Kontrast:
+   Hell wird dunkler, Dunkel wird heller, beide bleiben in der Mitte stehen. Die erste Regung blendet alles schnell wieder aus.
+   Nach drei Klicks (.schnell) geht das Aufziehen zügig. An den Farbwerten der Seite ändert sich nichts, gespeichert wird nichts. ---- */
 :root[data-wetter="grau"] .kopfzeile .modus::before{content:"laune: alltagsgrau"}
 :root[data-wetter="grau"]:lang(en) .kopfzeile .modus::before{content:"mood: everyday grey"}
-:root[data-wetter="grau"] .kopfzeile .modus__knopf::after{transform:translateX(9px);transition-duration:2.5s}
-.graupel{position:fixed;inset:0;z-index:1000;overflow:hidden;cursor:not-allowed;opacity:0;transition:opacity 2.5s ease;
+:root[data-wetter="grau"] .kopfzeile .modus__knopf::after{transform:translateX(9px);transition-duration:4s}
+.graupel{position:fixed;inset:0;z-index:1000;overflow:hidden;cursor:not-allowed}
+.graupel__grau{position:absolute;inset:0;z-index:0;opacity:0;transition:opacity 4s ease 2.5s;
   background:rgba(128,128,128,.34);-webkit-backdrop-filter:grayscale(1) contrast(.42);backdrop-filter:grayscale(1) contrast(.42)}
-.graupel.an{opacity:1}
-.graupel.ab{opacity:0;transition-duration:.8s;pointer-events:none}
-.graupel::before,.graupel::after{content:"";position:absolute;inset:-160px;background-repeat:repeat;animation:graupel linear infinite}
-.graupel::before{--kachel:90px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='90' height='90'%3E%3Cpath d='M72 8l-9 9M28 34l-9 9M58 60l-9 9M16 76l-9 9' stroke='%23f4f4f4' stroke-width='2.2' stroke-linecap='round'/%3E%3C/svg%3E");background-size:90px 90px;animation-duration:.5s}
-.graupel::after{--kachel:140px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cpath d='M118 14l-13 13M52 40l-13 13M96 84l-13 13M30 108l-13 13' stroke='%23e2e2e2' stroke-width='1.4' stroke-linecap='round'/%3E%3C/svg%3E");background-size:140px 140px;animation-duration:.95s}
+.graupel::before,.graupel::after{content:"";position:absolute;z-index:1;inset:-200px;background-repeat:repeat;opacity:0;animation:graupel linear infinite}
+.graupel::after{--kachel:180px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cg stroke-linecap='round' fill='none'%3E%3Cpath d='M150 20l-13 13M62 78l-13 13M118 140l-13 13' stroke='%23000' stroke-opacity='.3' stroke-width='3.4'/%3E%3Cpath d='M150 20l-13 13M62 78l-13 13M118 140l-13 13' stroke='%23f6f6f6' stroke-width='1.9'/%3E%3C/g%3E%3C/svg%3E");background-size:180px 180px;animation-duration:.9s;transition:opacity 3s ease 0s}
+.graupel::before{--kachel:90px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='90' height='90'%3E%3Cg stroke-linecap='round' fill='none'%3E%3Cpath d='M72 8l-9 9M28 34l-9 9M58 60l-9 9M16 76l-9 9' stroke='%23000' stroke-opacity='.28' stroke-width='3.8'/%3E%3Cpath d='M72 8l-9 9M28 34l-9 9M58 60l-9 9M16 76l-9 9' stroke='%23f6f6f6' stroke-width='2.2'/%3E%3C/g%3E%3C/svg%3E");background-size:90px 90px;animation-duration:.5s;transition:opacity 3s ease 5s}
 @keyframes graupel{to{transform:translate(calc(-1 * var(--kachel)),var(--kachel))}}
-.graupel__wort{position:absolute;z-index:1;left:50%;top:44%;transform:translate(-50%,-50%);padding:11px 20px;background:#5a5a5a;color:#e6e6e6;font-size:13px;letter-spacing:.25em;text-transform:lowercase;white-space:nowrap}
+.graupel__wort{position:absolute;z-index:2;left:50%;top:44%;transform:translate(-50%,-50%);padding:11px 20px;background:#5a5a5a;color:#e6e6e6;font-size:13px;letter-spacing:.25em;text-transform:lowercase;white-space:nowrap;opacity:0;transition:opacity 1s ease 7s}
+.graupel.an .graupel__grau,.graupel.an::before,.graupel.an .graupel__wort{opacity:1}
+.graupel.an::after{opacity:.9}
+.graupel.schnell .graupel__grau{transition:opacity 2.5s ease 0s}
+.graupel.schnell::after{transition:opacity 1.2s ease 0s}
+.graupel.schnell::before{transition:opacity 2s ease .5s}
+.graupel.schnell .graupel__wort{transition:opacity .6s ease 2s}
+.graupel.ab{pointer-events:none}
+.graupel.ab .graupel__grau,.graupel.ab::before,.graupel.ab::after,.graupel.ab .graupel__wort{opacity:0;transition:opacity .8s ease 0s}
 @media (prefers-reduced-motion:reduce){.graupel::before,.graupel::after{animation:none}}
