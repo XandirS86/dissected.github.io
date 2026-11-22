@@ -1,5 +1,5 @@
 /* Alltagsgrau (seit 22.11.2026): die dritte Laune neben düster und heiter. Sie stellt sich von selbst ein, wenn nichts passiert.
-   Bleibt die Seite eine Weile unberührt, zieht langsam ein Graupelschauer auf (etwa acht Sekunden, in Stufen): erst einzelne
+   Bleibt die Seite eine Weile unberührt, zieht sehr allmählich ein Graupelschauer auf (etwa sechzehn Sekunden, in Stufen): erst einzelne
    Körner, dann wird die Seite grau, dann wird der Graupel dicht. Die Seite wandert dabei auf die Laune zu, die gerade nicht gilt,
    und bleibt in der Mitte stehen. Der Knopf am Schalter gleitet in die Mitte.
    Die erste Regung (Maus, Scrollen, Tippen, Taste) blendet den Schauer wieder aus, die Seite kehrt in ihre Laune zurück.
@@ -12,7 +12,7 @@
   var WARTEN_LANG = 90000;   // alle anderen Seiten, vor allem Artikel: Lesen heißt stillhalten
   var FENSTER = 3500;        // drei Klicks auf den Schalter in dieser Zeit lösen den Schauer sofort aus
   var SCHONFRIST = 3500;     // nach den drei Klicks zählt so lange keine Regung, sonst wäre der Schauer sofort vorbei
-  var GRAU_AB = 2500;        // aus der Ruhe: erst nach den ersten Körnern wird es grau (passt zur Verzögerung in styles.css)
+  var GRAU_AB = 4000;        // aus der Ruhe: erst nach den ersten Körnern wird es grau (passt zur Verzögerung in styles.css)
   var SCHONFRIST_RUHE = 400; // nach dem Einblenden aus der Ruhe: fängt Scheinbewegungen des Browsers ab
   var AUSBLENDEN = 800;      // muss zur Dauer in styles.css passen (.graupel.ab)
 
