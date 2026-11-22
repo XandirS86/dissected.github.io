@@ -215,36 +215,16 @@ Schwarze Balken, Quadrate und Linien der Plakate und Köpfe werden weiß, weiße
 das Schalter-Skript tauscht die Quelle. Bilder ohne Zwilling liegen auf weißen Kacheln. Neue Grafik: `dunkel.py` laufen lassen, Attribut setzen.
 Das Dashboard № 04 hat ein eigenes dunkles Farbsystem (Etappe 3).
 
-## SEO (seit 14.11.2026)
+### Alltagsgrau (seit 22.11.2026)
 
-Was jede Seite im `<head>` trägt (Reihenfolge wie in № 04/05): `title` (Schlagzeile – Zusatz | dissected, bis ~70 Zeichen),
-`description` (bis 160 Zeichen), `robots: max-image-preview:large`, Favicon-Links und Schrift-Preload (400, 700), `canonical`,
-`hreflang` (de, en wenn vorhanden, x-default = de), RSS-Link, Open Graph mit `og:image` (1200 × 630) samt `og:image:alt`,
-`og:locale` und `og:locale:alternate`, Twitter-Card `summary_large_image` mit Titel, Text und Bild.
-
-Zusätzlich je Analyse: `author`, `article:author`, `article:published_time`, `article:modified_time` (= „stand“), `article:section`,
-drei `article:tag`, JSON-LD `Article` (headline, description, image, datePublished, dateModified, keywords, author, publisher)
-und `BreadcrumbList` (Start → Rubrik im Archiv → Analyse). Jedes `<img>` trägt `alt`, `width`/`height` als Pixelgröße der Grafik (SVG-Attribute `width`/`height`; Punkt mal 4/3,
-460,8 pt = 614 px, nicht die viewBox-Zahlen) und ab dem zweiten Bild `loading="lazy" decoding="async"`.
-
-Seiten ohne eigenes Bild (Start, Archiv, Über, Impressum, Datenschutz) nutzen `og/dissected.<sprache>.png` aus `charts/og_seite.py`.
-Favicon-Satz aus `charts/favicon.py` (plus `favicon.svg` von Hand). Sitemap und `lastBuildDate` erzeugt die Automatik (unten).
-Englische Listen führen deutsche Analysen mit dem Vermerk „in german“, damit nichts verwaist.
-
-## Veröffentlichungsautomatik (seit 14.11.2026)
-
-Bei jedem Push auf `main` läuft `.github/workflows/veroeffentlichen.yml`, Skripte in `werkzeug/`, nur Standardbibliothek:
-
-1. `pruefen.py` prüft alle Seiten: Köpfe nach der SEO-Checkliste oben, hreflang-Paare symmetrisch, Beschreibung an allen Stellen gleich,
-   JSON-LD lesbar, kein Streutext im `<head>`, Bilder mit `alt`, `width`, `height` und vorhandenen Dateien, interne Links erreichbar,
-   jede indexierbare Seite in der Sitemap, jede Analyse im Feed. Fehler machen den Lauf rot (GitHub schickt eine Mail), Warnungen nur Protokoll.
-   Lokal vor jedem Push: `python werkzeug/pruefen.py`; als Hook einschalten mit `git config core.hooksPath werkzeug/hooks`.
-2. `sitemap_bauen.py` erzeugt `sitemap.xml` aus den Seiten (Canonical, hreflang, `lastmod` = letzter Commit der Datei). Nicht von Hand pflegen.
-3. `feed_datum.py` setzt `lastBuildDate` auf das jüngste `pubDate`. Die Einträge der Feeds bleiben Handarbeit: Der Feed ist die Sendeliste.
-4. `indexnow.py` meldet geänderte Adressen an Bing (IndexNow). Der Schlüssel ist der Name der Schlüsseldatei im Wurzelverzeichnis; Google kennt das nicht.
-5. `posten.py` postet auf Mastodon und Bluesky, ausgelöst allein durch den Feed: neuer `<item>` = neue Analyse, geänderter `<item>` (Titel, Text, Datum) = „Nachtrag“.
-   Text = Titel, Teasersatz, Link; Bluesky mit Linkkarte und Vorschaubild. Konten stehen öffentlich in `werkzeug/konten.json`, Schlüssel nur in den
-   Repo-Secrets `MASTODON_TOKEN` und `BLUESKY_APP_PASSWORD`. Ohne Schlüssel Trockenlauf ins Protokoll. Gepostetes merkt `werkzeug/gepostet.json`.
-6. Erzeugtes (Sitemap, Feed-Datum, Post-Protokoll) schreibt der Bot als eigenen Commit mit `[skip ci]` zurück; vor dem eigenen Push also `git fetch`.
-
-Was die Automatik nicht tut: Texte verändern, Fehler stillschweigend reparieren, die Veröffentlichung blockieren (GitHub Pages baut weiter aus dem Branch).
+Die dritte Laune. Sie stellt sich von selbst ein, wenn nichts passiert: Bleibt die Seite ohne Regung (Maus, Scrollen, Tippen, Taste),
+blendet `graupel.js` nach 15 Sekunden (Startseite, Archiv) oder 90 Sekunden (alle anderen Seiten, vor allem Artikel) in 2,5 Sekunden
+einen Graupelschauer ein und setzt `data-wetter="grau"` auf `<html>`. Eine Decke (`.graupel`) nimmt der Seite Farbe und Kontrast:
+Hell wird dunkler, Dunkel wird heller, die Seite wandert also auf die Laune zu, die gerade nicht gilt, und bleibt in der Mitte stehen.
+Graupel zieht im 45-Grad-Winkel über den Bildschirm, der Knopf gleitet in die Mitte, die Beschriftung heißt „laune: alltagsgrau“
+(englisch „mood: everyday grey“), in der Mitte steht „graupelschauer. mag ja keiner.“ Die erste Regung blendet alles in 0,8 Sekunden
+wieder aus, die Seite kehrt in ihre Laune zurück. Zweiter Weg hinein: den Schalter innerhalb von 3,5 Sekunden dreimal umlegen
+(danach zählt 2,5 Sekunden lang keine Regung). Gespeichert wird nichts, die Farbwerte der Seite und die gewählte Laune (`modus`)
+bleiben unberührt. Mit „weniger Bewegung“ im System gibt es keinen Schauer aus der Ruhe, nur den Weg über die drei Klicks, ohne Animation.
+Aussehen in `styles.css` (Block „Alltagsgrau“), Wartezeiten und Auslöser in `graupel.js`; eingebunden auf jeder Seite mit Schalter,
+direkt nach dem Zähler.
