@@ -1,5 +1,5 @@
-/* Alltagsgrau (seit 22.11.2026): die dritte Laune neben düster und heiter. Sie stellt sich von selbst ein, wenn nichts passiert.
-   Bleibt die Seite eine Weile unberührt, zieht sehr allmählich ein Graupelschauer auf (gut vierzig Sekunden, in Stufen): erst einzelne
+/* Alltagsgrau (seit 22.11.2026): die dritte Laune neben düster und heiter. Sie kommt nicht von allein, sondern vom Stillhalten:
+   Liegt die Maus auf der Seite und wird eine Weile nicht bewegt (am Handy: nach der letzten Berührung), zieht sehr allmählich ein Graupelschauer auf (gut vierzig Sekunden, in Stufen): erst einzelne
    Körner, dann wird die Seite grau, dann wird der Graupel dicht. Die Seite wandert dabei auf die Laune zu, die gerade nicht gilt,
    und bleibt in der Mitte stehen. Der Knopf am Schalter gleitet in die Mitte.
    Die erste Regung (Maus, Scrollen, Tippen, Taste) blendet den Schauer wieder aus, die Seite kehrt in ihre Laune zurück.
@@ -27,6 +27,7 @@
     var warten = uebersicht ? WARTEN_KURZ : WARTEN_LANG;
 
     var letzteRegung = Date.now();
+    var da = false;   // die Maus liegt auf der Seite (am Handy: es gab schon eine Berührung); ohne das kein Schauer aus der Ruhe
     var decke = null, seit = 0, frist = 0;
     var mausX = null, mausY = null;
     var klicks = [];
@@ -38,23 +39,30 @@
     function maus(e) {
       if (mausX === null) {                       // erste bekannte Position: merken, aber nicht als Regung werten, wenn es gerade graupelt
         mausX = e.clientX; mausY = e.clientY;
-        if (!decke) regung();
+        if (!decke) { da = true; regung(); }
         return;
       }
       if (Math.abs(e.clientX - mausX) + Math.abs(e.clientY - mausY) < 4) return;   // Zittern und Scheinbewegungen
       mausX = e.clientX; mausY = e.clientY;
+      da = true;
       regung();
     }
     window.addEventListener('mousemove', maus, { passive: true, capture: true });
-    ['mousedown', 'wheel', 'keydown', 'touchstart', 'scroll'].forEach(function (name) {
+    ['mousedown', 'wheel', 'touchstart'].forEach(function (name) {            // Regungen, bei denen Maus oder Finger auf der Seite sind
+      window.addEventListener(name, function () { da = true; regung(); }, { passive: true, capture: true });
+    });
+    ['keydown', 'scroll'].forEach(function (name) {
       window.addEventListener(name, regung, { passive: true, capture: true });
     });
+    // Maus verlässt die Seite oder das Fenster verliert den Fokus: dann liegt nichts mehr still, also kein Schauer
+    document.documentElement.addEventListener('mouseleave', function () { da = false; mausX = null; mausY = null; });
+    window.addEventListener('blur', function () { da = false; mausX = null; mausY = null; });
     document.addEventListener('visibilitychange', function () { letzteRegung = Date.now(); });
 
     // Aus der Ruhe: nur ohne die Systemeinstellung „weniger Bewegung“
     if (!ruhig) {
       setInterval(function () {
-        if (!decke && document.visibilityState === 'visible' && Date.now() - letzteRegung >= warten) schauer(SCHONFRIST_RUHE, false);
+        if (!decke && da && document.visibilityState === 'visible' && document.hasFocus() && Date.now() - letzteRegung >= warten) schauer(SCHONFRIST_RUHE, false);
       }, 1000);
     }
 
